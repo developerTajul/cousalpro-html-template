@@ -1,0 +1,42 @@
+# Generated files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# SASS/SCSS cache files
+.sass-cache/
+# *.css.map
+*.scssc
+
+# Temporary files
+*.~*
+~$*
+
+# Optional: Ignore config files if required
+.env
+.env.local
+
+# Git files
+.git/
+
+# Miscellaneous
+*.bak
+*.orig
+*.lock
