@@ -101,3 +101,9 @@ Footer
 @import "./layouts/header";
 @import"./layouts/blog-news-section";
 @import "./layouts/footer";
+
+
+// blog and blog details page
+@import "./unit_test/blog";
+@import "./unit_test/blog-sidebar";
+@import "./unit_test/pagination";
