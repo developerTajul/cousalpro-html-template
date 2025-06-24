@@ -211,6 +211,20 @@
                   max-width: 100%; 
                   height: auto;     
                   display: block;   
+
+                  @include xl{
+                    max-width: 45%;
+                  }
+                  @include lg{
+                    max-width: 45%;
+                  }
+                  @include md{
+                    max-width: 45%;
+                  }
+                  @include sm{
+                    max-width: 45%;
+                  }
+                   
                 }
               }
               img{
@@ -959,7 +973,7 @@
           
           .blog-post-tag{
             @include xs {
-              margin-top: 40px;
+              margin-top: 25px;
             }
             span{
               font-size: 32px;
@@ -1652,6 +1666,10 @@
             @include  xl{
               font-size: 18px;
             }
+            @include  lg{
+              font-size: 18px;
+            }
+
             @include  md{
               font-size: 18px;
             }
@@ -1682,6 +1700,13 @@
           width: 1px;
           height: 200px;
           background: rgb(204, 204, 204);
+
+          @include xs{
+            height: 150px;
+          }
+          @include xxs{
+            height: 95px;
+          }
         }
       }
 
@@ -1805,7 +1830,10 @@
   }
   .comment-form-cookies-consent{
     margin-top: 10px;
+    display: flex;
+    gap: 5px;
   }
+
   p{
     margin-top: 20px;
 
@@ -1841,6 +1869,7 @@
     border: none;
     width: fit-content;
     margin-top: 30px;
+    margin-left: 15px;
     padding: 15px 20px;
     font-weight: 500;
     transition: all 0.3s;

@@ -20134,6 +20134,26 @@ html {
   height: auto;
   display: block;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p.blog-imgs img {
+    max-width: 45%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p.blog-imgs img {
+    max-width: 45%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p.blog-imgs img {
+    max-width: 45%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p.blog-imgs img {
+    max-width: 45%;
+  }
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p img {
   border-radius: 20px;
   margin-top: 20px;
@@ -20677,7 +20697,7 @@ html {
 }
 @media only screen and (max-width: 575px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag {
-    margin-top: 40px;
+    margin-top: 25px;
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag span {
@@ -21380,6 +21400,11 @@ html {
     font-size: 18px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blog-area .blog-details-wrapper .blog-post-nav .post-navigation .text h4 {
+    font-size: 18px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area .blog-details-wrapper .blog-post-nav .post-navigation .text h4 {
     font-size: 18px;
@@ -21411,6 +21436,16 @@ html {
   width: 1px;
   height: 200px;
   background: rgb(204, 204, 204);
+}
+@media only screen and (max-width: 575px) {
+  .blog-area .blog-details-wrapper .blog-post-nav .divider {
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .blog-area .blog-details-wrapper .blog-post-nav .divider {
+    height: 95px;
+  }
 }
 .blog-area .blog-details-wrapper .author-info {
   background-color: #EDBC5A;
@@ -21531,6 +21566,8 @@ html {
 }
 .comment-form .comment-form-cookies-consent {
   margin-top: 10px;
+  display: flex;
+  gap: 5px;
 }
 .comment-form p {
   margin-top: 20px;
@@ -21564,6 +21601,7 @@ html {
   width: -moz-fit-content;
   width: fit-content;
   margin-top: 30px;
+  margin-left: 15px;
   padding: 15px 20px;
   font-weight: 500;
   transition: all 0.3s;
