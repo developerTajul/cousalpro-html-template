@@ -189,34 +189,38 @@
 
 
     &.style-2{
-      ul{
-        &.main-menu{
-          margin-left: 0;
-        }
-        li{
-          @include rmaxwd(1700){
-            margin-left: 70px;
-          }
-          @include xml{
-            margin-left: 48px;
-          }
-          @include xl{
-            margin-left: 40px;
-          }
-          @include lg{
-            margin-left: 20px;
-            padding: 40px 0;
-          }
-          a{
+
+      .main-menu{
+
+        ul{
+          margin-left: 50px;
+  
+          li{
+            @include rmaxwd(1700){
+              margin-left: 70px;
+            }
+            @include xml{
+              margin-left: 48px;
+            }
             @include xl{
-              font-size: 16px;
+              margin-left: 40px;
             }
             @include lg{
-              font-size: 14px;
+              margin-left: 20px;
+              padding: 40px 0;
+            }
+            a{
+              @include xl{
+                font-size: 16px;
+              }
+              @include lg{
+                font-size: 14px;
+              }
             }
           }
         }
       }
+
     }
   }
   &-menu-icon {

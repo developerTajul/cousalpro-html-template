@@ -38,10 +38,17 @@
             }
         }
 
+        
+
         &:hover{
             a{
                 color: $primary-color;
+                
+                &.home-2{
+                   color: white;
+                }
             }
+
         }
     }
 }

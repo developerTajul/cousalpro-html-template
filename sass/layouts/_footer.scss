@@ -209,6 +209,7 @@
     }
     &-sand-messege{
         margin: 42px 0 0 110px;
+        animation: anime 3s linear infinite;
         @include xl{
             margin: 38px 0 0 24px;
         }

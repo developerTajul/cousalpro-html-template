@@ -28,6 +28,8 @@
   }
 
   &-card {
+    @include transition;
+
     &:hover {
       .pricing-area-card-wrapper {
         @include md {
@@ -72,6 +74,7 @@
     border: 1px solid #292929;
     transition: all 0.3s ease 0s;
     background: #1a1717;
+    @include transition;
 
     @include xl {
       padding: 40px 27px 40px 27px;
