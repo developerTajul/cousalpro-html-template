@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="./css/font-main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/magnific-popup.min.css" />
@@ -45,99 +44,36 @@
     <!-- Preloader End  -->
 
     <!-- Header Start -->
-    <header>
-        <div class="header-area body-black ">
-            <div class="menu-bar fixed-menu ">
-                <div class="container-fulid ">
-                    <div class="row align-items-center  gx-0">
-                        <div class="col-6 col-xl-2 col-lg-3 col-md-5 p-0">
-                            <div class="header-area-image ml-100">
-                                <a href="index.html"><img src="./images/logo/header-logo.png" alt="logo"></a>
+    <header class="header-area body-black ">        
+        <div class="menu-bar fixed-menu ">
+            <div class="container-fulid ">
+                <div class="row align-items-center gx-0">                    
+                    <div class="col-6 col-xl-2 col-lg-3 col-md-5 p-0">
+                        <div class="header-area-image logo-wrapper ml-100">
+                            <div class="logo">
+                                <a href="index.html" class="standard-logo">
+                                    <img src="./images/logo/header-logo.png" alt="standard-logo" >
+                                </a>
+                                <a href="index.html" class="sticky-logo">
+                                    <img src="./images/logo/header-logo.png" alt="sticky-logo" >
+                                </a>
                             </div>
                         </div>
-                        <div class="col-6 col-xl-10 col-lg-9 col-md-7">
-                            <div
-                                class="header-area-menu d-flex justify-content-end  d-xl-flex d-lg-flex  d-md-flex align-items-center justify-content-xl-between justify-content-lg-between justify-content-md-end   p-relative z-index-11">
-                                <nav>
-                                    <ul class="main-menu d-xl-flex d-lg-flex justify-content-center align-items-center ">
-                                        <li class="scroll-effect">
-                                            <a class="plus-icon" href="index.html">Home</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="index.html">HomeOne</a></li>
-                                                <li><a href="index-two.html">HomeTwo</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="scroll-effect"><a href="about.html">About</a></li>
-                                        <li class="scroll-effect"><a class="plus-icon" href="pricing.html">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="./pricing.html">Pricing</a></li>
-                                                <li><a href="./team.html">Team</a></li>
-                                                <li><a href="./team-details.html">Team Details</a></li>
-                                                <li><a href="./contact.html">Contact</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="scroll-effect">
-                                            <a class="plus-icon" href="service.html">Services</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="service.html">Services Page</a></li>
-                                                <li><a href="services-details.html">Services Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="scroll-effect">
-                                            <a class="plus-icon" href="projects.html">Projects</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="projects.html">Project Page</a></li>
-                                                <li><a href="project-details.html">Project Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="scroll-effect">
-                                            <a class="plus-icon" href="blog.html">Blogs</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="./blog.html">Blog Page</a></li>
-                                                <li><a href="./blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <div id="toggle-button" class="button-like">
-                                    <a href="#"><i class="fa-solid fa-bars"></i></a>
-                                </div>
-                                <div class="header-area-menu-icon style-2 mr-100">
-                                    <a class="canvas-menu" href="#"><span class="icon-Menu"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Mobile Responsive Toggle Btn Start  -->
-                        <div class="toggle-menus" id="toggle-active">
-                            <div class="toggle-menu-header d-flex justify-content-between mb-40">
-                                <div class="logo">
-                                    <img src="./images/logo/header-logo.png" alt="logo">
-                                </div>
-                                <div class="toggle-close-icon">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                            </div>
-
-                            <nav>
-                                <ul class="dropdown">
+                    </div>
+                    <div class="col-6 col-xl-10 col-lg-9 col-md-7">
+                        <div class="header-area-menu d-flex justify-content-end  d-xl-flex d-lg-flex  d-md-flex align-items-center justify-content-xl-between justify-content-lg-between justify-content-md-end   p-relative z-index-11">
+                            <nav class="main-menu">
+                                <ul>
                                     <li>
-                                        <a href="index.html">Home</a>
-                                        <div class="dropdown-btn">
-                                            <button class="n  width-100" onclick="toggleList(1)"><i
-                                                    class="fa-solid fa-plus"></i></button>
-                                        </div>
-                                        <ul id="dropdown-toggle-menu-1" class=" hidden-list">
+                                        <a class="plus-icon" href="index.html">Home</a>
+                                        <ul class="sub-menu">
                                             <li><a href="index.html">HomeOne</a></li>
                                             <li><a href="index-two.html">HomeTwo</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="pricing.html">Pages</a>
-                                        <div class="dropdown-btn">
-                                            <button class="dropdown-toggle-btn width-100" onclick="toggleList(2)"><i
-                                                    class="fa-solid fa-plus"></i></button>
-                                        </div>
-                                        <ul id="dropdown-toggle-menu-2" class=" hidden-list">
+                                    <li><a class="plus-icon" href="pricing.html">Pages</a>
+                                        <ul class="sub-menu">
                                             <li><a href="./pricing.html">Pricing</a></li>
                                             <li><a href="./team.html">Team</a></li>
                                             <li><a href="./team-details.html">Team Details</a></li>
@@ -145,71 +81,138 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="./service.html">Services</a>
-                                        <div class="dropdown-btn">
-                                            <button class="dropdown-toggle-btn width-100" onclick="toggleList(3)"><i
-                                                    class="fa-solid fa-plus"></i></button>
-                                        </div>
-                                        <ul id="dropdown-toggle-menu-3" class=" hidden-list">
+                                        <a class="plus-icon" href="service.html">Services</a>
+                                        <ul class="sub-menu">
                                             <li><a href="service.html">Services Page</a></li>
                                             <li><a href="services-details.html">Services Details</a></li>
                                         </ul>
-
                                     </li>
                                     <li>
-                                        <a href="./projects.html">Projects</a>
-                                        <div class="dropdown-btn">
-                                            <button class="dropdown-toggle-btn width-100" onclick="toggleList(4)"><i
-                                                class="fa-solid fa-plus"></i></button>
-                                        </div>
-                                        <ul id="dropdown-toggle-menu-4" class=" hidden-list">
-                                            <li><a href="./projects.html">Project Page</a></li>
-                                            <li><a href="./project-details.html">Project Details</a></li>
+                                        <a class="plus-icon" href="projects.html">Projects</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="projects.html">Project Page</a></li>
+                                            <li><a href="project-details.html">Project Details</a></li>
                                         </ul>
                                     </li>
-                                    
                                     <li>
-                                        <a href="./blog.html">Blogs</a>
-                                        <div class="dropdown-btn">
-                                            <button class="dropdown-toggle-btn width-100" onclick="toggleList(5)"><i
-                                                    class="fa-solid fa-plus"></i></button>
-                                        </div>
-                                        <ul id="dropdown-toggle-menu-5" class=" hidden-list">
+                                        <a class="plus-icon" href="blog.html">Blogs</a>
+                                        <ul class="sub-menu">
                                             <li><a href="./blog.html">Blog Page</a></li>
                                             <li><a href="./blog-details.html">Blog Details</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </nav>
-                            <div class="toggle-menu-contact">
-                                <h4 class="mb-25">Contact Info</h4>
-                                <div class="address mb-20">
-                                    <i class="mr-10 fa-solid fa-location-dot"></i>
-                                    <span>2972 Westheimer Rd. Santa Ana </span>
-                                </div>
-                                <div class="email mb-20">
-                                    <i class="mr-10 fa-regular fa-envelope"></i>
-                                    <a href="mailto:georgia.young@example.com"> georgia.young@example.com </a>
-                                </div>
-                                <div class="phone">
-                                    <i class="mr-10 fa-solid fa-phone"></i>
-                                    <span> +123-456-7890 </span>
-                                </div>
+                            <div id="toggle-button" class="button-like">
+                                <a href="#"><i class="fa-solid fa-bars"></i></a>
                             </div>
-                            <div class="toggle-social-icon">
-                                <ul class="d-flex justify-content-between">
-                                    <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.x.com"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="https://www.dribbble.com"><i class="fa-solid fa-basketball"></i></a></li>
-                                </ul>
+                            <div class="header-area-menu-icon style-2 mr-100">
+                                <a class="canvas-menu" href="#"><span class="icon-Menu"></span></a>
                             </div>
                         </div>
-                        <!-- Mobile Responsive Toggle Btn End  -->
                     </div>
+                    <!-- Mobile Responsive Toggle Btn Start  -->
+                    <div class="toggle-menus" id="toggle-active">
+                        <div class="toggle-menu-header d-flex justify-content-between mb-40">
+                            <div class="logo">
+                                <img src="./images/logo/header-logo.png" alt="logo">
+                            </div>
+                            <div class="toggle-close-icon">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                    <div class="dropdown-btn">
+                                        <button class="n  width-100" onclick="toggleList(1)"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-1" class=" hidden-list">
+                                        <li><a href="index.html">HomeOne</a></li>
+                                        <li><a href="index-two.html">HomeTwo</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="pricing.html">Pages</a>
+                                    <div class="dropdown-btn">
+                                        <button class="dropdown-toggle-btn width-100" onclick="toggleList(2)"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-2" class=" hidden-list">
+                                        <li><a href="./pricing.html">Pricing</a></li>
+                                        <li><a href="./team.html">Team</a></li>
+                                        <li><a href="./team-details.html">Team Details</a></li>
+                                        <li><a href="./contact.html">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="./service.html">Services</a>
+                                    <div class="dropdown-btn">
+                                        <button class="dropdown-toggle-btn width-100" onclick="toggleList(3)"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-3" class=" hidden-list">
+                                        <li><a href="service.html">Services Page</a></li>
+                                        <li><a href="services-details.html">Services Details</a></li>
+                                    </ul>
+
+                                </li>
+                                <li>
+                                    <a href="./projects.html">Projects</a>
+                                    <div class="dropdown-btn">
+                                        <button class="dropdown-toggle-btn width-100" onclick="toggleList(4)"><i
+                                            class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-4" class=" hidden-list">
+                                        <li><a href="./projects.html">Project Page</a></li>
+                                        <li><a href="./project-details.html">Project Details</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li>
+                                    <a href="./blog.html">Blogs</a>
+                                    <div class="dropdown-btn">
+                                        <button class="dropdown-toggle-btn width-100" onclick="toggleList(5)"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-5" class=" hidden-list">
+                                        <li><a href="./blog.html">Blog Page</a></li>
+                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="toggle-menu-contact">
+                            <h4 class="mb-25">Contact Info</h4>
+                            <div class="address mb-20">
+                                <i class="mr-10 fa-solid fa-location-dot"></i>
+                                <span>2972 Westheimer Rd. Santa Ana </span>
+                            </div>
+                            <div class="email mb-20">
+                                <i class="mr-10 fa-regular fa-envelope"></i>
+                                <a href="mailto:georgia.young@example.com"> georgia.young@example.com </a>
+                            </div>
+                            <div class="phone">
+                                <i class="mr-10 fa-solid fa-phone"></i>
+                                <span> +123-456-7890 </span>
+                            </div>
+                        </div>
+                        <div class="toggle-social-icon">
+                            <ul class="d-flex justify-content-between">
+                                <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.x.com"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.dribbble.com"><i class="fa-solid fa-basketball"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Responsive Toggle Btn End  -->
                 </div>
             </div>
-        </div>
+        </div>        
     </header>
     <!-- Header End -->
 
@@ -254,11 +257,9 @@
     <div class="off-canvas-menu-overlay">
     </div>
     <!-- Off Canvas End  -->
-
-    <!-- Main Start -->
-    <main class="p-relative">
+  
         <!-- Hero Start -->
-        <div class="hero-area p-relative body-black pt-36 z-index-1">
+        <section class="hero-area p-relative body-black pt-36 z-index-1">
             <img class="hero-area-bg-one p-absolute" src="images/shape/hero-1-dawn-shape-1.png" alt="shape">
             <img class="hero-area-bg-four p-absolute" src="images/shape/hero-1-ornament-4.png" alt="shape">
             <img class="hero-area-bg-block-shape p-absolute" src="images/shape/hero-1-block-shape.png" alt="shape">
@@ -335,10 +336,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Hero End -->
         <!-- Text Marque Start !-->
-        <div class="text-marque-area brand-marque-area-primary style-1 p-relative pt-59 pb-70  body-black">
+        <section class="text-marque-area brand-marque-area-primary style-1 p-relative pt-59 pb-70  body-black">
             <div class="bg-light-color style-2"></div>
             <div class="text-marque-area-shape p-absolute">
                 <img src="images/shape/home-1-brand-marq-ornament.png" alt="shape">
@@ -357,10 +358,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Text Marque End !-->
         <!-- Gallery-area Start -->
-        <div class="gallery-area body-black p-relative pb-140">
+        <section class="gallery-area body-black p-relative pb-140">
             <div class="gallery-area-bg-shape tilt-animate p-absolute">
                 <img src="./images/shape/home-1-gellary-bg-shape.png" alt="gallery">
             </div>
@@ -399,10 +400,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Gallery-area End -->
         <!-- About-Area-Start -->
-        <div class="about-area  pb-140 p-relative body-black ">
+        <section class="about-area  pb-140 p-relative body-black ">
             <div class="about-area-bg-shape p-absolute">
                 <img src="./images/shape/home-1-about-shape.png" alt="shape">
             </div>
@@ -435,19 +436,18 @@
 
                     </div>
                 </div>
-                <div class="about-area-main-part pt-54 p-relative z-index-11        pb-80">
+                <div class="about-area-main-part pt-54 p-relative z-index-11 pb-80">
                     <div class="about-card-bg-topographic p-absolute">
                         <img src="images/shape/home-1-about-topographic-2.png" alt="topographic-2">
                     </div>
                     <div class="about-area-heading pb-60">
-                        <div
-                            class="about-area-heading-part d-flex justify-content-center text-center align-items-center gap-38 mb-8">
+                        <div class="about-area-heading-part d-flex justify-content-center text-center align-items-center gap-38 mb-8">
                             <h2><span>Unique</span> Ideas</h2>
                             <img class="about-area-inner-img" src="./images/about/home-1-bg.png" alt="about">
                         </div>
                         <div
                             class="about-area-heading-part d-flex justify-content-center text-start align-items-center  gap-25">
-                            <a href="service.html"><img src="./images/icon/about-up-arrow.svg" alt="arrow"></a>
+                            <a href="service.html"><i class="fa-solid fa-arrow-right-long"></i></a>
                             <h2>For Your <span>Business.</span></h2>
                         </div>
                     </div>
@@ -456,16 +456,12 @@
                         <div class="about-card-area">
                             <div class="card-wrapper style-1">
                                 <div class="card-text mb-35">
-                                    <a href="services-details.html">
-                                        <h3>Web Design & Development</h3>
-                                    </a>
-                                    <p>Web Design & Development involves creating visually appealing and highly
-                                        functional websites.</p>
+                                    <h3><a href="services-details.html">Web Design & Development</a></h3>
+                                    <p>Web Design & Development involves creating visually appealing and highly functional websites.</p>
                                 </div>
                                 <div class="card-content d-flex justify-content-between align-items-center">
                                     <div class="arrow-icon">
-                                        <a href="services-details.html"><img src="./images/icon/about-up-arrow.svg"
-                                                alt="arrow"></a>
+                                        <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
                                     </div>
                                     <span>01</span>
                                 </div>
@@ -474,16 +470,16 @@
                         <div class="about-card-area">
                             <div class="card-wrapper style-1">
                                 <div class="card-text mb-35">
-                                    <a href="services-details.html">
-                                        <h3>Advertising and Marketing Campaigns</h3>
-                                    </a>
-                                    <p>Advertising and marketing campaigns craft targeted messages to boost brand
-                                        visibility and engagement</p>
+                                    <h3>
+                                        <a href="services-details.html">
+                                        Advertising and Marketing Campaigns
+                                        </a>
+                                    </h3>
+                                    <p>Advertising and marketing campaigns craft targeted messages to boost brand  visibility and engagement</p>
                                 </div>
                                 <div class="card-content d-flex justify-content-between align-items-center">
                                     <div class="arrow-icon">
-                                        <a href="services-details.html"><img src="./images/icon/about-up-arrow.svg"
-                                                alt="arrow"></a>
+                                        <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
                                     </div>
                                     <span>02</span>
                                 </div>
@@ -491,17 +487,16 @@
                         </div>
                         <div class="about-card-area">
                             <div class="card-wrapper style-1">
-                                <div class="card-text mb-35">
-                                    <a href="services-details.html">
-                                        <h3>Creative Consulting <br> and Development</h3>
-                                    </a>
+                                <div class="card-text mb-35">                                    
+                                    <h3>
+                                        <a href="services-details.html">Creative Consulting <br> and Development</a>
+                                    </h3>                                   
                                     <p>Creative consulting and development provide innovative to enhance brand identity
                                         and growth.</p>
                                 </div>
                                 <div class="card-content d-flex justify-content-between align-items-center">
                                     <div class="arrow-icon">
-                                        <a href="services-details.html"><img src="./images/icon/about-up-arrow.svg"
-                                                alt="arrow"></a>
+                                        <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
                                     </div>
                                     <span>03</span>
                                 </div>
@@ -510,16 +505,17 @@
                         <div class="about-card-area">
                             <div class="card-wrapper style-1">
                                 <div class="card-text mb-35">
-                                    <a href="services-details.html">
-                                        <h3>Branding and <br> Identity Design</h3>
-                                    </a>
+                                    <h3>
+                                        <a href="services-details.html">
+                                        Branding and <br> Identity Design
+                                        </a>
+                                    </h3>
                                     <p>Branding and identity design create a cohesive visual identity that defines and
                                         differentiates brands.</p>
                                 </div>
                                 <div class="card-content d-flex justify-content-between align-items-center">
                                     <div class="arrow-icon">
-                                        <a href="services-details.html"><img src="./images/icon/about-up-arrow.svg"
-                                                alt="arrow"></a>
+                                        <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
                                     </div>
                                     <span>04</span>
                                 </div>
@@ -528,10 +524,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- About-Area-End -->
         <!-- Portfolio-area-start -->
-        <div class="portfolio-area body-black pb-140 ">
+        <section class="portfolio-area body-black pb-140 ">
             <div class="container">
                 <div class="section-title mb-60 style-1 ">
                     <span class="mb-15">portfolio <img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
@@ -549,12 +545,11 @@
 
                             <div class="portfolio-area-info">
                                 <span>Brand, Photography</span>
-                                <div
-                                    class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
-                                    <a href="project-details.html">
-                                        <h4>CLASSIC CONCRETE <br> PLANTERS</h4>
-                                    </a>
-                                    <a href="project-details.html"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
+                                <div class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">                                
+                                    <h4><a href="project-details.html">
+                                        CLASSIC CONCRETE <br> PLANTERS
+                                    </a></h4>                                    
+                                    <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
                                 </div>
                             </div>
                         </div>
@@ -571,12 +566,11 @@
 
                             <div class="portfolio-area-info">
                                 <span>Brand, Photography</span>
-                                <div
-                                    class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
-                                    <a href="project-details.html">
-                                        <h4>CLASSIC CONCRETE <br> PLANTERS</h4>
-                                    </a>
-                                    <a href="project-details.html">
+                                <div class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
+                                    <h4><a href="project-details.html">
+                                        CLASSIC CONCRETE <br> PLANTERS
+                                    </a></h4>
+                                    <a href="project-details.html" class="arrow-link">
                                         <img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
                                 </div>
                             </div>
@@ -593,12 +587,11 @@
                             </div>
                             <div class="portfolio-area-info">
                                 <span>Brand, Photography</span>
-                                <div
-                                    class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
-                                    <a href="project-details.html">
-                                        <h4>CLASSIC CONCRETE <br> PLANTERS</h4>
-                                    </a>
-                                    <a href="project-details.html"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
+                                <div  class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
+                                    <h4><a href="project-details.html">
+                                        CLASSIC CONCRETE <br> PLANTERS
+                                    </a></h4>
+                                    <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
                                 </div>
                             </div>
                         </div>
@@ -614,12 +607,11 @@
                             </div>
                             <div class="portfolio-area-info">
                                 <span>Brand, Photography</span>
-                                <div
-                                    class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
-                                    <a href="project-details.html">
-                                        <h4>CLASSIC CONCRETE <br> PLANTERS</h4>
-                                    </a>
-                                    <a href="project-details.html"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
+                                <div  class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
+                                    <h4><a href="project-details.html">
+                                        CLASSIC CONCRETE <br> PLANTERS
+                                    </a></h4>
+                                    <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
                                 </div>
                             </div>
                         </div>
@@ -680,10 +672,10 @@
                 </div>
             </div>
             <!-- Portfolio-Awards End -->
-        </div>
+        </section>
         <!-- Portfolio-area-end -->
         <!-- Why-choose-us-area start -->
-        <div class="wcu-area style-1 pb-206 pt-196 body-black"
+        <section class="wcu-area style-1 pb-206 pt-196 body-black"
             style="background-image: url(./images/why-choose-us/why-choose-us-bg.png); background-position: center; background-repeat: no-repeat;">
             <div class="container">
                 <div class="row ">
@@ -727,10 +719,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Why-choose-us-area End -->
         <!-- Team-area Start -->
-        <div class="team-area body-black p-relative pb-140">
+        <section class="team-area body-black p-relative pb-140">
             <div class="container">
                 <div class="bg-light-color style-5">
                 </div>
@@ -749,31 +741,31 @@
                                     </a>
                                 </div>
                                 <div class="team-area-member-text">
-                                    <a href="team-details.html">
-                                        <h4>Cameron Williamson</h4>
-                                    </a>
+                                     <h4><a href="team-details.html">
+                                        Aster Marks
+                                    </a></h4>
                                     <p>CEO</p>
                                     <div class="team-area-member-social-link mt-15">
                                         <ul>
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://facebook.com">
                                                     <i class="fa-brands fa-facebook-f"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://twitter.com">
                                                     <i class="fa-brands fa-twitter"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://linkedin.com">
                                                     <i class="fa-brands fa-linkedin-in"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://dribbble.com">
                                                     <i class="fa-solid fa-basketball"></i>
                                                 </a>
@@ -794,31 +786,31 @@
                                     </a>
                                 </div>
                                 <div class="team-area-member-text">
-                                    <a href="team-details.html">
-                                        <h4>Arlene McCoy</h4>
-                                    </a>
+                                    <h4><a href="team-details.html">
+                                        Arlene McCoy
+                                    </a></h4>
                                     <p>General Manager</p>
                                     <div class="team-area-member-social-link mt-15">
                                         <ul>
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://facebook.com">
                                                     <i class="fa-brands fa-facebook-f"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://twitter.com">
                                                     <i class="fa-brands fa-twitter"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://linkedin.com">
                                                     <i class="fa-brands fa-linkedin-in"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://dribbble.com">
                                                     <i class="fa-solid fa-basketball"></i>
                                                 </a>
@@ -841,31 +833,31 @@
                                     </a>
                                 </div>
                                 <div class="team-area-member-text">
-                                    <a href="team-details.html">
-                                        <h4>Theresa Webb</h4>
-                                    </a>
+                                   <h4><a href="team-details.html">
+                                        Theresa Webb
+                                    </a></h4>                                    
                                     <p>Vice President</p>
                                     <div class="team-area-member-social-link mt-15">
                                         <ul>
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://facebook.com">
                                                     <i class="fa-brands fa-facebook-f"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://twitter.com">
                                                     <i class="fa-brands fa-twitter"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://linkedin.com">
                                                     <i class="fa-brands fa-linkedin-in"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://dribbble.com">
                                                     <i class="fa-solid fa-basketball"></i>
                                                 </a>
@@ -886,31 +878,31 @@
                                     </a>
                                 </div>
                                 <div class="team-area-member-text">
-                                    <a href="team-details.html">
-                                        <h4>Jacob Jones</h4>
-                                    </a>
+                                    <h4><a href="team-details.html">
+                                        Jacob Jones
+                                    </a></h4>  
                                     <p>Directors</p>
                                     <div class="team-area-member-social-link mt-15">
                                         <ul>
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://facebook.com">
                                                     <i class="fa-brands fa-facebook-f"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://twitter.com">
                                                     <i class="fa-brands fa-twitter"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://linkedin.com">
                                                     <i class="fa-brands fa-linkedin-in"></i>
                                                 </a>
                                             </li>
 
-                                            <li class="d-inline">
+                                            <li>
                                                 <a href="https://dribbble.com">
                                                     <i class="fa-solid fa-basketball"></i>
                                                 </a>
@@ -923,10 +915,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Team-area End -->
         <!-- Video-popup-area Start -->
-        <div class="video-popup-area pt-270 pb-270"
+        <section class="video-popup-area pt-270 pb-270"
             style="background-image: url(./images/video-popup/video-popup-bg.png); background-position: center;">
             <div class="video-popup-area-wrapper p-relative z-index-1">
                 <div class="video-popup-area-img d-flex align-items-center justify-content-center">
@@ -937,10 +929,10 @@
                     </h4>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Video-popup-area End -->
         <!-- Testimonial-area Start -->
-        <div class="testimonial-area body-black style-1 p-relative z-index-11">
+        <section class="testimonial-area body-black style-1 p-relative z-index-11">
             <div class="container-fluid">
                 <div class="row gx-1">
                     <div class="col-xl-6 col-lg-5 col-md-6">
@@ -1028,11 +1020,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Testimonial-area End -->
 
         <!-- Blog & News Area Start -->
-        <div class="blog-area body-black pb-140">
+        <section class="blog-area body-black pb-140">
             <div class="container">
                 <div class="section-title mb-63 style-2">
                     <span class="pb-15">Blog & News<img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
@@ -1043,19 +1035,17 @@
                         <div class="blog-area-card d-md-flex justify-content-center" id="card-1">
                             <div class="blog-area-card-wrapper">
                                 <span class="mb-20">February - 22th 2024</span>
-                                <a href="blog-details.html">
-                                    <h5 class="mb-20">Will you be attending Affiliate Summit Europe?</h5>
-                                </a>
+                                    <h5 class="mb-20">
+                                        <a href="blog-details.html">Will you be attending Affiliate Summit Europe?</a>
+                                    </h5>
                                 <p class="hidden-card">I have been a loyal customer of this auto parts company for years
                                     and I cannot recommend them enough. Their extensive selection.</p>
                                 <div class="card-image mt-20 p-relative">
                                     <a href="blog-details.html">
-                                        <img class="blog-main-img" src="images/blog/home-1-blog-img-1.png"
-                                            alt="Blog Post">
+                                        <img class="blog-main-img" src="images/blog/home-1-blog-img-1.png" alt="Blog Post">
                                     </a>
                                     <div class="blog-area-icon-img p-absolute">
-                                        <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg"
-                                                alt="Post"></a>
+                                        <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg" alt="Post"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1066,19 +1056,16 @@
                         <div class="blog-area-card" id="card-2">
                             <div class="blog-area-card-wrapper">
                                 <span class="mb-20">February - 22th 2024</span>
-                                <a href="blog-details.html">
-                                    <h5 class="mb-20">Will you be attending Affiliate Summit Europe?</h5>
-                                </a>
-                                <p class="visible-card">I have been a loyal customer of this auto parts company for
-                                    years and I cannot recommend them enough. Their extensive selection.</p>
+                                 <h5 class="mb-20">
+                                    <a href="blog-details.html">Will you be attending Affiliate Summit Europe?</a>
+                                </h5>
+                                <p class="visible-card">I have been a loyal customer of this auto parts company for  years and I cannot recommend them enough. Their extensive selection.</p>
                                 <div class="card-image mt-20 p-relative">
                                     <a href="blog-details.html">
-                                        <img class="blog-main-img" src="images/blog/home-1-blog-img-2.png"
-                                            alt="Blog Post">
+                                        <img class="blog-main-img" src="images/blog/home-1-blog-img-2.png"  alt="Blog Post">
                                     </a>
                                     <div class="blog-area-icon-img p-absolute">
-                                        <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg"
-                                                alt="Post"></a>
+                                        <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg" alt="Post"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1089,9 +1076,9 @@
                         <div class="blog-area-card d-md-flex justify-content-center" id="card-3">
                             <div class="blog-area-card-wrapper">
                                 <span class="mb-20">February - 22th 2024</span>
-                                <a href="blog-details.html">
-                                    <h5 class="mb-20">Will you be attending Affiliate Summit Europe?</h5>
-                                </a>
+                                    <a href="blog-details.html">
+                                        <img class="blog-main-img" src="images/blog/home-1-blog-img-2.png"  alt="Blog Post">
+                                    </a>
                                 <p class="hidden-card">I have been a loyal customer of this auto parts company for years
                                     and I cannot recommend them enough. Their extensive selection.</p>
                                 <div class="card-image mt-20 p-relative">
@@ -1108,7 +1095,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Blog & News Area End -->
 
         <!-- Brand Marquee Start -->
@@ -1141,108 +1128,110 @@
             </div>
         </div>
         <!-- Brand Marquee End -->
-    </main>
-    <!-- Main End -->
 
     <!-- Footer Start -->
-    <footer>
-        <div class="footer-area footer-bg ">
-            <div class="container">
-                <div class="row gx-0">
-                    <div class="col-xl-3 col-lg-3 p-0">
-                        <div class="footer-area-company-info p-relative">
-                            <div class="footer-area-company-logo pt-75 pb-33">
+    
+    <footer class="footer-area footer-bg ">
+        <div class="container">
+            <div class="row gx-0">
+                <div class="col-xl-3 col-lg-3 p-0">
+                    <div class="footer-area-company-info p-relative">
+                        <div class="footer-area-company-logo pt-75 pb-33">
+                            <a href="index.html">
                                 <img src="./images/logo/footer-logo.png" alt="logo">
-                            </div>
-                            <hr class="line-1 p-absolute">
-                            <hr class="mt-0 mb-0">
-                            <div class="footer-area-heading-text pt-33 pb-31">
-                                <h2>Let's Work</h2>
-                                <h4>Together</h4>
-                            </div>
-                            <div class="footer-area-company-fast-email pb-69">
-                                <a href="mailto:alma.lawson@example.com"> alma.lawson@example.com
-                                    <img class="pl-10" src="./images/icon/footer-up-awrro.svg" alt="up arrow">
+                            </a>
+                        </div>
+                        <hr class="line-1 p-absolute">
+                        <hr class="mt-0 mb-0">
+                        <div class="footer-area-heading-text pt-33 pb-31">
+                            <h2>Let's Work</h2>
+                            <h4>Together</h4>
+                        </div>
+                        <div class="footer-area-company-fast-email pb-69">
+                            <a href="mailto:alma.lawson@example.com"> alma.lawson@example.com
+                                <img class="pl-10" src="./images/icon/footer-up-awrro.svg" alt="up arrow">
+                            </a>
+                        </div>
+                        <hr class="mt-0 mb-16">
+                    </div>
+                </div>
+
+                <div class="col-xl-9 col-lg-9">
+                    <div class="footer-area-contract-info ">
+                        <div
+                            class="footer-area-social-info d-block d-xl-flex d-lg-flex d-md-flex justify-content-between align-items-center pt-74 pb-34">
+                            <div class="sce-email ml-120">
+                                <a href="mailto:georgia.young@example.com">
+                                    <img class="mr-15" src="./images/icon/footer-email.svg" alt="envelope">
+                                    georgia.young@example.com
                                 </a>
                             </div>
-                            <hr class="mt-0 mb-16">
+                            <div class="social-content d-flex gap-40">
+                                <a href="https://www.facebook.com/">
+                                    <img class="mr-10" src="images/icon/footer-social_facebook.svg" alt="facebook">
+                                    facebook
+                                </a>
+
+                                <a href="https://www.pinterest.com/">
+                                    <img class="mr-10" src="images/icon/footer-social_pinterest.svg"
+                                        alt="pinterest">
+                                    pinterest
+                                </a>
+
+                                <a href="https://www.linkedin.com/">
+                                    <img class="mr-10" src="images/icon/footer-social_linkedin.svg" alt="linkedin">
+                                    linkedin
+                                </a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-9 col-lg-9">
-                        <div class="footer-area-contract-info ">
-                            <div
-                                class="footer-area-social-info d-block d-xl-flex d-lg-flex d-md-flex justify-content-between align-items-center pt-74 pb-34">
-                                <div class="sce-email ml-120">
-                                    <a href="mailto:georgia.young@example.com">
-                                        <img class="mr-15" src="./images/icon/footer-email.svg" alt="envelope">
-                                        georgia.young@example.com
-                                    </a>
-                                </div>
-                                <div class="social-content d-flex gap-40">
-                                    <a href="https://www.facebook.com/">
-                                        <img class="mr-10" src="images/icon/footer-social_facebook.svg" alt="facebook">
-                                        facebook
-                                    </a>
-
-                                    <a href="https://www.pinterest.com/">
-                                        <img class="mr-10" src="images/icon/footer-social_pinterest.svg"
-                                            alt="pinterest">
-                                        pinterest
-                                    </a>
-
-                                    <a href="https://www.linkedin.com/">
-                                        <img class="mr-10" src="images/icon/footer-social_linkedin.svg" alt="linkedin">
-                                        linkedin
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="footer-area-quick-menu d-flex pt-67 pb-40 ml-120">
+                        <div class="footer-area-quick-menu-one ">
+                            <h4 class="mb-26">Quick Links</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="service.html">UI UX Design</a></li>
+                                <li><a href="project-details.html"> Portfolio</a></li>
+                                <li><a href="service.html"> Web Design</a></li>
+                            </ul>
                         </div>
 
-                        <div class="footer-area-quick-menu d-flex pt-67 pb-40 ml-120">
-                            <div class="footer-area-quick-menu-one ">
-                                <h4 class="mb-26">Quick Links</h4>
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="service.html">UI UX Design</a></li>
-                                    <li><a href="project-details.html"> Portfolio</a></li>
-                                    <li><a href="service.html"> Web Design</a></li>
-                                </ul>
-                            </div>
+                        <div class="footer-area-quick-menu-two mt-63 ml-127 mr-92">
+                            <ul>
+                                <li><a href="about.html">Works</a></li>
+                                <li><a href="service.html">WordPress</a></li>
+                                <li><a href="services-details.html">Popular Services</a></li>
+                                <li><a href="service.html">Branding</a></li>
+                            </ul>
+                        </div>
 
-                            <div class="footer-area-quick-menu-two mt-63 ml-127 mr-92">
-                                <ul>
-                                    <li><a href="about.html">Works</a></li>
-                                    <li><a href="service.html">WordPress</a></li>
-                                    <li><a href="services-details.html">Popular Services</a></li>
-                                    <li><a href="service.html">Branding</a></li>
-                                </ul>
-                            </div>
+                        <div class="footer-area-services">
+                            <h4 class="mb-26">Other</h4>
+                            <ul>
+                                <li><a href="about.html">Privacy Policy</a></li>
+                                <li><a href="about.html">How IT Works</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="blog.html">Latest News</a></li>
+                            </ul>
+                        </div>
 
-                            <div class="footer-area-services">
-                                <h4 class="mb-26">Other</h4>
-                                <ul>
-                                    <li><a href="about.html">Privacy Policy</a></li>
-                                    <li><a href="about.html">How IT Works</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="footer-area-sand-messege ml-110">
-                                <a href="contact.html">
-                                    <h4>Message Us</h4>
-                                    <span class="icon-send"></span>
-                                </a>
-                            </div>
+                        <div class="footer-area-sand-messege ml-110">
+                            <a href="contact.html">
+                                <h4>Message Us</h4>
+                                <span class="icon-send"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="footer-copy-right-info d-flex justify-content-center align-items-center pb-15 ">
-                <span>©2024 <a href="index.html">CousalPro</a> All Rights Reserved</span>
-            </div>
+        <div class="footer-copy-right-info d-flex justify-content-center align-items-center pb-15 ">
+            <span>©2025 <a href="index.html">CousalPro</a> All Rights Reserved</span>
         </div>
     </footer>
+    
     <!-- Footer End -->
 
     <!-- Scroll Up Section Start -->

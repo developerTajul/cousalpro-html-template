@@ -101,7 +101,24 @@
             background: #EDBC5A;
             border-radius: 50%;
             line-height: 78px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
+
+
+            i{
+                font-size: 30px;
+                color: white;
+                transform: rotate(-45deg);
+                @include transition;
+            }
+
+            &:hover{
+                i{
+                    transform: rotate(0deg);
+                }
+            }
 
             @include md {
                 width: 60px;

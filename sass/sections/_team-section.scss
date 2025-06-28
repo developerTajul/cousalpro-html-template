@@ -172,10 +172,18 @@
     }
 
     &-member-social-link {
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
         li {
-            padding: 10px;
-            margin-right: 10px;
+            height: 40px;
+            width: 40px;
             white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             @include transition;
 
             &:hover {

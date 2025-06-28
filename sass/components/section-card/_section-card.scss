@@ -62,6 +62,23 @@
                     color: transparent;
                     transition: all 0.5s ease 0s;
                 }
+
+                .arrow-icon{
+                    a{
+                        color: white;
+                        font-size: 18px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        @include transition;
+
+                        i{
+                            transform: rotate(-45deg);
+                            @include transition;
+                        }
+                    }
+                   
+                }
             }
         }
         &:hover{
@@ -71,10 +88,17 @@
                     height: 42px;
                     background: #EDBC5A;
                     line-height: 38px;
-                    
                 }
                 & span {
                     color: #EDBC5A;
+                }
+
+                .arrow-icon{
+                    a{
+                        i{
+                        transform: rotate(0deg);
+                        }
+                    }
                 }
             }
         }

@@ -32,6 +32,25 @@
                 font-size: 26px;
             }
         }
+
+        .arrow-link{
+            img{
+                @include transition;
+            }
+        }
+
+        &:hover{
+            h4{
+                a{
+                    color: $primary-color;
+                }
+            }
+            .arrow-link{
+                img{
+                    transform: rotate(45deg);
+                }
+            }
+        }
     }
 
     &-btnn {
