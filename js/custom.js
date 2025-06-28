@@ -494,5 +494,19 @@
           "<button type='button' class='post-gallery-btn next-btn'><i class='fa fa-arrow-right'></i></button>",
       });
 
+      const sr = ScrollReveal({
+        origin: 'top',
+        duration : 2000,
+        distance: '60px',
+        delay: 0,
+        opacity: 0              
+      });
+
+      sr.reveal('.about-card-area, .blog-area-card, .services-area-card, .pricing-area-card, .wcu-area-info-card-wrapper',{
+          origin: 'bottom',
+          interval: 250,
+          
+        })
+
   });
 })(jQuery);
