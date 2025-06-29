@@ -18191,6 +18191,13 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  bottom: 0;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .service-details-page .our-work-step-card-wrapper {
@@ -18214,6 +18221,9 @@ html {
     margin-bottom: 30px;
     margin: 20px auto;
   }
+}
+.service-details-page .our-work-step-card-wrapper:hover {
+  bottom: 10px;
 }
 .service-details-page .our-work-step-card-title span {
   font-family: Gilroy-Light;
@@ -18246,6 +18256,7 @@ html {
 }
 .service-details-page .wcu-area .wuc-area-side-img {
   margin-top: -85px;
+  animation: anime 5s linear infinite;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .service-details-page .wcu-area .wuc-area-side-img {
