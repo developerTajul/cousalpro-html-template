@@ -204,3 +204,20 @@
 
     }
 }
+
+.team-wcu{
+
+    .team-wcu-image{
+        animation: anime 5s linear infinite; 
+    }
+}
+.team-wcu-wrapper{
+    padding-left: 80px;
+
+    .team-wcu-content{
+
+        .team-wcu-info{
+            margin-top: 25px;
+        }
+    }
+}
