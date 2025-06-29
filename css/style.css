@@ -16565,6 +16565,18 @@ html {
   }
 }
 
+.wcu-area-page-circle-img {
+  animation: rotated_circle 30s infinite;
+}
+
+.wcu-area-page-img-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 33%;
+}
+
 @media (max-width: 400px) {
   .team-area-member-info-wrapper {
     gap: 20px;
@@ -16765,6 +16777,9 @@ html {
 }
 .team-area-member-social-link li a {
   color: #fff;
+}
+.team-area-member-social-link.about ul {
+  justify-content: center;
 }
 
 @media only screen and (max-width: 767px) {

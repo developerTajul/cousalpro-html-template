@@ -502,7 +502,7 @@
         opacity: 0              
       });
 
-      sr.reveal('.about-card-area, .blog-area-card, .services-area-card, .pricing-area-card, .wcu-area-info-card-wrapper',{
+      sr.reveal('.about-card-area, .blog-area-card, .services-area-card, .pricing-area-card, .wcu-area-info-card-wrapper, .wcu-area-info-card-wrapper, .team-area-member-info-wrapper',{
           origin: 'bottom',
           interval: 250,
           
