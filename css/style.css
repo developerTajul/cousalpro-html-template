@@ -14189,6 +14189,13 @@ html {
 .team-secondary-partner .contact-form form .contract-group .input-col select option.selector-menu {
   background: #141414;
 }
+.team-secondary-partner .contact-form form .contract-group .input-col .nice-select {
+  border: none;
+  height: 50px;
+}
+.team-secondary-partner .contact-form form .contract-group .input-col .nice-select span {
+  color: white;
+}
 .team-secondary-partner .contact-form form .contract-group.full-row {
   flex-direction: column;
 }
