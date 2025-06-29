@@ -505,7 +505,7 @@
         opacity: 0              
       });
 
-      sr.reveal('.about-card-area, .blog-area-card, .services-area-card, .pricing-area-card, .wcu-area-info-card-wrapper, .wcu-area-info-card-wrapper, .team-area-member-info-wrapper, .team-area-member-info-3, .team-wcu-info-title, .contact-loction, .wcu-area-info-card-wrapper, .our-work-step-card-wrapper, .wuc-accordion-wrapper',{
+      sr.reveal('.about-card-area, .blog-area-card, .services-area-card, .pricing-area-card, .wcu-area-info-card-wrapper, .wcu-area-info-card-wrapper, .team-area-member-info-wrapper, .team-area-member-info-3, .team-wcu-info-title, .contact-loction, .wcu-area-info-card-wrapper, .our-work-step-card-wrapper, .wuc-accordion-wrapper, .single-post-item ',{
           origin: 'bottom',
           interval: 250,
           
