@@ -70,9 +70,7 @@ $white: #ffffff;
               @include xs{
                 display: none;
               }
-            }
-
-           
+            }           
           }
           .post-heading {
             padding-top: 15px;
@@ -83,7 +81,7 @@ $white: #ffffff;
               a {
                 font-size: 32px;
                 color: $gray-900;
-                font-weight: 700;
+                font-weight: 500;
                 padding-right: 0px;
                 @include md {
                   padding-right: 0;

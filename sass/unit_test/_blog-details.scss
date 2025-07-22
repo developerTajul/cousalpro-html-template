@@ -137,7 +137,7 @@
             .post-title{        
               font-size: 40px;
               color: $white;
-              font-weight: 700;
+              font-weight: 500;
       
               @include  lg{
                 font-size: 34px;
@@ -905,11 +905,6 @@
             }
             
 
-
-
-
-
-
             
           }
         }
@@ -996,7 +991,7 @@
               display: inline-flex;
               align-items: center;
               flex-wrap: wrap;
-              gap: 5px;
+              gap: 10px;
               margin-top: 10px;
               margin-left: 10px;
               
@@ -1004,7 +999,8 @@
                 display: inline-flex;
                 justify-content: center;
                 align-items: center;
-                padding: 5px 10px;
+                height: 40px;
+                width: 40px;
                 border: 1px solid  $border-color;
                 border-radius: 50px;
                 color:  $white;
@@ -1660,7 +1656,7 @@
             font-size: 22px;
             margin-bottom: 0px;
             color:  $gray-100;
-            font-weight: 700;
+            font-weight: 400;
             overflow-wrap: anywhere;
 
             @include  xl{
@@ -1710,8 +1706,10 @@
         }
       }
 
+      // style 1 author info
       .author-info{
-        background-color:  $primary-color;
+        background-color:  transparent;
+        border: 1px solid $border-color;
         border-radius: 20px;
         padding: 40px;
         position: relative;
@@ -1762,6 +1760,112 @@
         }
       }
 
+      // style 2 author info
+      // .author-info{
+      //   // @include flex(row, space-between, center);
+      //   display: flex;
+      //   align-items: center;
+      //   justify-content: space-between;
+      //   padding: 60px;
+      //   gap: 30px;
+      //   border-radius: 5px;
+      //   background-color: transparent;
+      //   border: 1px solid rgba(204, 204, 204, 0.5);
+
+      //   @include lg{
+      //       padding: 30px;
+      //   }
+      //   @include md{
+      //       padding: 30px;
+      //   }
+        
+      //   .author-thumb{
+      //     width: 88px;
+      //     height: 88px;
+      //     position: relative;
+      //     border-radius: 50%;
+
+      //     @include sm{
+      //         margin: auto;
+      //     }
+      //     img{
+      //         width: 100%;
+      //         border-radius: 50%;
+      //         height: 100%;
+      //         object-fit: contain;
+      //     }
+      //     span{
+      //         position: absolute;
+      //         bottom: -15px;
+      //         left: 50%;
+      //         display: block;
+      //         transform: translateX(-50%);
+      //         // @include transformX(-50%);
+      //         width: 30px;
+      //         height: 30px;
+      //         line-height: 30px;
+      //         text-align: center;
+      //         color: $white;
+      //         // font-family: $--second-family;
+      //         font-weight: 900;
+      //         font-size: 20px;
+      //         background-color: $primary-color;
+      //         border-radius: 5px;
+              
+      //     }
+      //   }
+      //   .author-text{
+      //       width: calc(100% - 90px);
+
+      //       @include sm{
+      //             width: calc(100% - 50px);
+      //       }
+      //       @include xs{
+      //           width: 100%;
+      //       }
+      //   }
+
+      //   h3{
+      //       // font-family: $--third-family;
+      //       font-weight: 500;
+      //       font-size: 26px;
+      //       text-transform: capitalize;
+      //       color: $white;
+
+      //       @include lg{
+      //           font-size: 22px;
+      //       }
+      //       @include md{
+      //           font-size: 22px;
+      //       }
+      //       @include sm{
+      //           font-size: 24px;
+      //       }
+      //       @include xxs{
+      //           font-size: 22px;
+      //       }
+      //   }
+
+      //   p{
+      //       // font-family: $--font-family;
+      //       font-weight: 400;
+      //       font-size: 16px;
+      //       margin-top: 16px;
+      //       color: $white;
+      //   }
+
+      //   @include sm{
+      //       padding: 20px;
+      //       flex-wrap: wrap;
+      //       .contains{
+      //           width: 100% !important;
+      //       }
+      //       .user_profile{
+      //           width: 100% !important;
+      //       }
+      //   }
+      // }
+
       .post-img {
         display: flex;
         gap: 30px;
@@ -1773,9 +1877,6 @@
       .single.single-post #respond {
         margin-bottom: 2rem;
       }
-     
-
-
   }
 }
 
@@ -1825,6 +1926,8 @@
       outline: none;
       border: 1px solid gray;
       padding: 0 20px;
+      background: transparent;
+      color: $white;
     }
   
   }
@@ -1856,6 +1959,8 @@
       outline: none;
       border: 1px solid gray;
       padding: 20px;
+      background: transparent;
+      color: $white;
     }
 
   }
