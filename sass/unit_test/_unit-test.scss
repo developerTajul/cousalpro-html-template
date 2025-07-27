@@ -1,12 +1,4 @@
-@use "../mixin" as m;
-@use "../variables" as v;
 
-$black: #000;
-$white: #fff;
-$text-color: #616670;
-$primary-color: #573db8;
-$border-color: #e3e3e3;
-$gray-100: #f7f1fc;
 
 /* WordPress Core
 ===================*/
@@ -32,7 +24,7 @@ body {
 dl{
   dd{
     a{
-      color: v.$primary-color;
+      color: $primary-color;
     }
   }
 }
@@ -261,8 +253,8 @@ table {
 .gallery-caption {
   display: block;
 
-  @include m.sm{
-    font-size: v.$primary-color;
+  @include sm{
+    font-size: $primary-color;
   }
 }
 .size-thumbnail {
@@ -327,7 +319,7 @@ img {
 }
 
 code{
-  color: v.$primary-color;
+  color: $primary-color;
 }
 
 blockquote {
@@ -337,7 +329,7 @@ blockquote {
   position: relative;
   z-index: 1;
   padding: 40px 60px !important;
-  @include m.sm{
+  @include sm{
     padding: 30px !important;
   }
   

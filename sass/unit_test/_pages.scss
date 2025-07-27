@@ -1,9 +1,6 @@
-@use "../variables" as v;
-@use "../mixin" as m;
 
 // unit testing pages area
 .page-area{
-
     
     padding-top: 115px;
     padding-bottom: 100px;
@@ -11,15 +8,15 @@
     .page-content{
         p{
             margin: 0 0 15px;
-            color: v.$gray-800;
+            color: $gray-800;
             font-weight: 500;
 
             a{
-                color: v.$primary-color;
+                color: $primary-color;
             }
 
             code{
-                color: v.$primary-color;
+                color: $primary-color;
             }
         }
 
@@ -28,7 +25,7 @@
                 font-weight: 500;
 
                 a{
-                    color: v.$primary-color;
+                    color: $primary-color;
                 }
             }
         }
@@ -40,13 +37,13 @@
         table{
             th{
                 a{
-                    color: v.$primary-color;
+                    color: $primary-color;
                 }
             }
             tr{
                 td{
                     a{
-                        color: v.$primary-color;
+                        color: $primary-color;
                     }
                 }
             }
@@ -54,7 +51,7 @@
         dl{
             dd{
                 a{
-                    color: v.$primary-color;
+                    color: $primary-color;
                 }
             }
         }
@@ -84,7 +81,7 @@
 
                 &:hover,
                 &.current{
-                    background-color: v.$primary-color;
+                    background-color: $primary-color;
                     color: white;
                 }
             }
