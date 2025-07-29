@@ -46,10 +46,10 @@
     <!-- Header Start -->
     <header class="header-area body-black ">        
         <div class="menu-bar fixed-menu ">
-            <div class="container-fulid ">
-                <div class="row align-items-center gx-0">                    
-                    <div class="col-6 col-xl-2 col-lg-3 col-md-5 p-0">
-                        <div class="header-area-image logo-wrapper ml-100">
+            <div class="container-custom">
+                <div class="row ">   
+                    <div class="header-menu-wrapper">
+                        <div class="header-area-image logo-wrapper">
                             <div class="logo">
                                 <a href="index.html" class="standard-logo">
                                     <img src="./images/logo/header-logo.png" alt="standard-logo" >
@@ -58,10 +58,8 @@
                                     <img src="./images/logo/header-logo.png" alt="sticky-logo" >
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-xl-10 col-lg-9 col-md-7">
-                        <div class="header-area-menu d-flex justify-content-end  d-xl-flex d-lg-flex  d-md-flex align-items-center justify-content-xl-between justify-content-lg-between justify-content-md-end   p-relative z-index-11">
+                        </div>                    
+                        <div class="header-area-menu">
                             <nav class="main-menu">
                                 <ul>
                                     <li>
@@ -97,17 +95,20 @@
                                         </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
+                                    <li>
+                                        <a class="search-btn-active" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </li>
                                     
                                 </ul>
                             </nav>
-                            <div id="toggle-button" class="button-like">
-                                <a href="#"><i class="fa-solid fa-bars"></i></a>
-                            </div>
-                            <div class="header-area-menu-icon style-2 mr-100">
-                                <a class="canvas-menu" href="#"><span class="icon-Menu"></span></a>
-                            </div>
                         </div>
-                    </div>
+                        <div id="toggle-button" class="button-like">
+                            <button><i class="fa-solid fa-bars"></i></button>
+                        </div>
+                        <div class="header-area-menu-icon style-2 z-index-11">
+                            <a class="canvas-menu" href="#"><span class="icon-Menu"></span></a>
+                        </div>
+                    </div>                    
                     <!-- Mobile Responsive Toggle Btn Start  -->
                     <div class="toggle-menus" id="toggle-active">
                         <div class="toggle-menu-header d-flex justify-content-between mb-40">
@@ -208,6 +209,170 @@
     </header>
     <!-- Header End -->
 
+    <!-- <header class="header-area body-black ">        
+        <div class="menu-bar fixed-menu ">
+            <div class="container-fulid ">
+                <div class="row align-items-center gx-0">                    
+                    <div class="col-6 col-xl-2 col-lg-3 col-md-5 p-0">
+                        <div class="header-area-image logo-wrapper ml-100">
+                            <div class="logo">
+                                <a href="index.html" class="standard-logo">
+                                    <img src="./images/logo/header-logo.png" alt="standard-logo" >
+                                </a>
+                                <a href="index.html" class="sticky-logo">
+                                    <img src="./images/logo/header-logo.png" alt="sticky-logo" >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-10 col-lg-9 col-md-7">
+                        <div class="header-area-menu d-flex justify-content-end  d-xl-flex d-lg-flex  d-md-flex align-items-center justify-content-xl-between justify-content-lg-between justify-content-md-end   p-relative z-index-11">
+                            <nav class="main-menu">
+                                <ul>
+                                    <li>
+                                        <a class="plus-icon" href="./index.html">Home</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="index.html">HomeOne</a></li>
+                                            <li><a href="index-two.html">HomeTwo</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li>
+                                        <a class="plus-icon" href="service.html">Services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="service.html">Services Page</a></li>
+                                            <li><a href="services-details.html">Services Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="plus-icon" href="pricing.html">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="projects.html">Project Page</a></li>
+                                            <li><a href="project-details.html">Project Details</a></li>
+                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="team-details.html">Team Details</a></li>
+                                            <li><a href="error.html">Error-404</a></li>
+                                        </ul>
+                                    </li>                                    
+                                    <li>
+                                        <a class="plus-icon" href="blog.html">Blogs</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="./blog.html">Blog Page</a></li>
+                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    
+                                </ul>
+                            </nav>
+                            <div id="toggle-button" class="button-like">
+                                <a href="#"><i class="fa-solid fa-bars"></i></a>
+                            </div>
+                            <div class="header-area-menu-icon style-2 mr-100">
+                                <a class="canvas-menu" href="#"><span class="icon-Menu"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mobile Responsive Toggle Btn Start  -->
+                    <!-- <div class="toggle-menus" id="toggle-active">
+                        <div class="toggle-menu-header d-flex justify-content-between mb-40">
+                            <div class="logo">
+                                <img src="./images/logo/header-logo.png" alt="logo">
+                            </div>
+                            <div class="toggle-close-icon">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                    <div class="dropdown-btn">
+                                        <button class="n  width-100" onclick="toggleList(1)"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-1" class=" hidden-list">
+                                        <li><a href="index.html">HomeOne</a></li>
+                                        <li><a href="index-two.html">HomeTwo</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li>
+                                    <a href="./service.html">Services</a>
+                                    <div class="dropdown-btn">
+                                        <button class="dropdown-toggle-btn width-100" onclick="toggleList(3)"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-3" class=" hidden-list">
+                                        <li><a href="service.html">Services Page</a></li>
+                                        <li><a href="services-details.html">Services Details</a></li>
+                                    </ul>
+
+                                </li>
+                                
+                                <li><a href="pricing.html">Pages</a>
+                                    <div class="dropdown-btn">
+                                        <button class="dropdown-toggle-btn width-100" onclick="toggleList(2)"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-2" class=" hidden-list">
+                                        <li><a href="projects.html">Project Page</a></li>
+                                        <li><a href="project-details.html">Project Details</a></li>
+                                        <li><a href="pricing.html">Pricing</a></li>
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="team-details.html">Team Details</a></li>
+                                        <li><a href="error.html">Error-404</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li>
+                                    <a href="./blog.html">Blogs</a>
+                                    <div class="dropdown-btn">
+                                        <button class="dropdown-toggle-btn width-100" onclick="toggleList(5)"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                    <ul id="dropdown-toggle-menu-5" class=" hidden-list">
+                                        <li><a href="./blog.html">Blog Page</a></li>
+                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="contact.html">Contact</a></li>
+
+                            </ul>
+                        </nav>
+                        <div class="toggle-menu-contact">
+                            <h4 class="mb-25">Contact Info</h4>
+                            <div class="address mb-20">
+                                <i class="mr-10 fa-solid fa-location-dot"></i>
+                                <span>2972 Westheimer Rd. Santa Ana </span>
+                            </div>
+                            <div class="email mb-20">
+                                <i class="mr-10 fa-regular fa-envelope"></i>
+                                <a href="mailto:georgia.young@example.com"> georgia.young@example.com </a>
+                            </div>
+                            <div class="phone">
+                                <i class="mr-10 fa-solid fa-phone"></i>
+                                <span> +123-456-7890 </span>
+                            </div>
+                        </div>
+                        <div class="toggle-social-icon">
+                            <ul class="d-flex justify-content-between">
+                                <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.x.com"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.dribbble.com"><i class="fa-solid fa-basketball"></i></a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <!-- Mobile Responsive Toggle Btn End  -->
+                <!-- </div>
+            </div>
+        </div>        
+    </header> --> 
+    <!-- Header End -->
+
     <!-- Off Canvas Start  -->
     <div class="off-canvas-menu">
         <div class="off-canvas-menu-wrapper" style="background: #333333;">
@@ -249,882 +414,897 @@
     <div class="off-canvas-menu-overlay">
     </div>
     <!-- Off Canvas End  -->
+
+    <!-- Search Btn Start -->
+    <div class="search-menu-container">
+        <form action="/search" method="GET">
+            <input type="text" name="query" class="input-field" placeholder="Search...">
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <button type="button" class="close-btn">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+     <div class="search-menu-overlay">
+    </div>
+    <!-- Search Btn End -->
   
-        <!-- Hero Start -->
-        <section class="hero-area p-relative body-black pt-36 z-index-1">
-            <img class="hero-area-bg-one p-absolute" src="images/shape/hero-1-dawn-shape-1.png" alt="shape">
-            <img class="hero-area-bg-four p-absolute" src="images/shape/hero-1-ornament-4.png" alt="shape">
-            <img class="hero-area-bg-block-shape p-absolute" src="images/shape/hero-1-block-shape.png" alt="shape">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="hero-area-title p-relative z-index-99">
-                            <h1 class="hero-area-title-one">WE ARE <br> <span>WEB DESIGN</span></h1>
-                            <h1 class="hero-area-title-two">AGENCE</h1>
-                        </div>
+    <!-- Hero Start -->
+    <section class="hero-area p-relative body-black pt-36 z-index-1">
+        <img class="hero-area-bg-one p-absolute" src="images/shape/hero-1-dawn-shape-1.png" alt="shape">
+        <img class="hero-area-bg-four p-absolute" src="images/shape/hero-1-ornament-4.png" alt="shape">
+        <img class="hero-area-bg-block-shape p-absolute" src="images/shape/hero-1-block-shape.png" alt="shape">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-area-title p-relative z-index-99">
+                        <h1 class="hero-area-title-one">WE ARE <br> <span>WEB DESIGN</span></h1>
+                        <h1 class="hero-area-title-two">AGENCE</h1>
                     </div>
-                </div>
-            </div>
-
-            <div class="hero-area-slider-part p-relative z-index-11">
-                <div class="container-fluid gx-0">
-                    <div class="row gx-0">
-                        <div class="col-12 col-xl-8 col-lg-8 col-md-12 p-0">
-                            <div class="hero-area-slider-section hero-slider-active p-relative z-index-11">
-                                <div class="hero-area-slider-wrapper p-relative z-index-11">
-                                    <div class="hero-area-slider-image">
-                                        <img src="./images/hero/hone-1-hero-slider-img.png" alt="hero image">
-                                    </div>
-                                    <div class="hero-area-slider-inner-text p-absolute">
-                                        <p class="hero-area-slider-text-1 mb-13">induction</p>
-                                        <h3 class="hero-area-slider-text-2 mb-17">Creative <span>Design</span></h3>
-                                        <div class="title-border-1"></div>
-                                    </div>
-                                </div>
-                                <div class="hero-area-slider-wrapper p-relative z-index-11">
-                                    <div class="hero-area-slider-image">
-                                        <img src="./images/hero/hone-1-hero-slider-img.png" alt="hero image">
-                                    </div>
-                                    <div class="hero-area-slider-inner-text p-absolute">
-                                        <p class="hero-area-slider-text-1 mb-13">induction</p>
-                                        <h3 class="hero-area-slider-text-2 mb-17">Creative <span>Design</span></h3>
-                                        <div class="title-border-1"></div>
-                                    </div>
-                                </div>
-                                <div class="hero-area-slider-wrapper p-relative z-index-11">
-                                    <div class="hero-area-slider-image">
-                                        <img src="./images/hero/hone-1-hero-slider-img.png" alt="hero image">
-                                    </div>
-                                    <div class="hero-area-slider-inner-text p-absolute">
-                                        <p class="hero-area-slider-text-1 mb-13">induction</p>
-                                        <h3 class="hero-area-slider-text-2 mb-17">Creative <span>Design</span></h3>
-                                        <div class="title-border-1"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 ">
-                            <div class="hero-area-author-Wrapper pr-70 pl-130">
-                                <p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget
-                                    egestas magna mi ut <br> arcu. Phasellus nec odio orci.</p>
-                                <div class="title-border-2 mb-42 mt-32">
-                                </div>
-                                <div class="hero-area-author-info d-flex align-items-center justify-content-between">
-                                    <div class="hero-area-author-profile d-flex align-items-center ">
-                                        <div class="author-img-wrapper">
-                                            <img class="tilt-zoom" src="images/hero/clint-1.jpg" alt="author-pic">
-                                        </div>
-                                        <div class="hero-area-author-text ml-24">
-                                            <h5>Eleanor Pena</h5>
-                                            <span>Eleanor Pena</span>
-                                        </div>
-                                    </div>
-                                    <div class="hero-area-author-signature">
-                                        <img src="images/hero/hero-1-signature.png" alt="signature">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Hero End -->
-        <!-- Text Marque Start !-->
-        <section class="text-marque-area brand-marque-area-primary style-1 p-relative pt-59 pb-70  body-black">
-            <div class="bg-light-color style-2"></div>
-            <div class="text-marque-area-shape p-absolute">
-                <img src="images/shape/home-1-brand-marq-ornament.png" alt="shape">
-            </div>
-            <div class="text-marque-section body-black style-one  overflow-hidden">
-                <div class="text-marque-wrapper first-text-marque p-relative z-index-11">
-                    <div class="single-text-marque d-flex">
-                        <h2 class="text-marque-title-one mr-200">WEB DESIGN</h2>
-                        <h2 class="text-marque-title-one">WEB DESIGN</h2>
-                    </div>
-                </div>
-                <div class="text-marque-wrapper second-text-marque p-relative z-index-11">
-                    <div class="single-text-marque d-flex">
-                        <h2 class="text-marque-title-two mr-200">COPY WRITING</h2>
-                        <h2 class="text-marque-title-two">COPY WRITING</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Text Marque End !-->
-        <!-- Gallery-area Start -->
-        <section class="gallery-area body-black p-relative pb-140">
-            <div class="gallery-area-bg-shape tilt-animate p-absolute">
-                <img src="./images/shape/home-1-gellary-bg-shape.png" alt="gallery">
-            </div>
-            <div class="container-fluid gx-0">
-                <div
-                    class="gallery-area-wrapper p-relative z-index-11 d-xl-flex d-lg-flex d-md-flex  justify-content-center gap-20 mr-102">
-                    <div class="gallery-area-content ">
-                        <div class="gallery-area-image">
-                            <div class="gallery-area-big-img tilt-animate mb-37">
-                                <img src="images/gallery/home-1-gellary-bg-1.png" alt="gallery">
-                            </div>
-                            <div class="gallery-area-info d-xl-flex d-lg-flex d-md-flex align-content-center gap-36">
-                                <div class="shape-img ">
-                                    <img src="./images/gallery/home-1-gellary-bg-4.png" alt="gallery">
-                                </div>
-                                <div class="gallery-area-text">
-                                    <h2>Years</h2>
-                                    <h6>Experience</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-area-content d-sm-flex justify-content-sm-center">
-                        <div class="gallery-area-image tilt-animate">
-                            <img class="gallery-area-image-1" src="images/gallery/home-1-gellary-bg-2.png" alt="gallery">
-                        </div>
-                    </div>
-                    <div class="gallery-area-content d-xl-block d-lg-block d-md-none">
-                        <div class="gallery-area-image-shape tilt-animate p-relative mb-40">
-                            <img class="shape-1 p-absolute" src="./images/shape/home-1-gellary-shape-1.png" alt="shape">
-                            <img class="shape-2" src="./images/shape/home-1-gellary-shape-2.png" alt="gallery">
-                        </div>
-                        <div class="gallery-area-image tilt-animate">
-                            <img class="gallery-area-image-none" src="images/gallery/home-1-gellary-bg-3.png" alt="gallery">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Gallery-area End -->
-        <!-- About-Area-Start -->
-        <section class="about-area  pb-140 p-relative body-black ">
-            <div class="about-area-bg-shape p-absolute">
-                <img src="./images/shape/home-1-about-shape.png" alt="shape">
-            </div>
-            <div class="about-area-bg-topographic p-absolute">
-                <img src="images/shape/home-1-about-topographic-1.png" alt="topographic-1">
-            </div>
-            <div class="bg-light-color style-3 ">
-            </div>
-            <div class="bg-light-color style-4 ">
-            </div>
-            <div class="container">
-                <div class="about-area-info mb-143 p-relative d-lg-flex justify-content-lg-center z-index-11">
-                    <div class="about-area-wrapper ml-330 p-relative z-index-11">
-
-                        <div class="section-title mb-32 style-1">
-                            <span class="mb-15">
-                                About Company
-                                <img src="./images/icon/section-title-arrow.svg" alt="arrow">
-                            </span>
-                            <h2>Best Creative & Modern <br>Agency</h2>
-                        </div>
-
-                        <div class="about-area-text ml-110 mr-104">
-                            <h5 class="mb-11">Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur
-                                ligula, eget egestas magna mi ut arcu.</h5>
-                            <p>Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa. Aliquam blandit
-                                risus purus, in congue nunc venenatis id. Pellentesque habitant morbi tristique senectus
-                                et netus et malesuada fames ac turpis egestas.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="about-area-main-part pt-54 p-relative z-index-11 pb-80">
-                    <div class="about-card-bg-topographic p-absolute">
-                        <img src="images/shape/home-1-about-topographic-2.png" alt="topographic-2">
-                    </div>
-                    <div class="about-area-heading pb-60">
-                        <div class="about-area-heading-part d-flex justify-content-center text-center align-items-center gap-38 mb-8">
-                            <h2><span>Unique</span> Ideas</h2>
-                            <img class="about-area-inner-img" src="./images/about/home-1-bg.png" alt="about">
-                        </div>
-                        <div
-                            class="about-area-heading-part d-flex justify-content-center text-start align-items-center  gap-25">
-                            <a href="service.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                            <h2>For Your <span>Business.</span></h2>
-                        </div>
-                    </div>
-
-                    <div class="about-area-card-section d-xl-grid d-lg-grid d-md-grid justify-content-center">
-                        <div class="about-card-area">
-                            <div class="card-wrapper style-1">
-                                <div class="card-text mb-35">
-                                    <h3><a href="services-details.html">Web Design & Development</a></h3>
-                                    <p>Web Design & Development involves creating visually appealing and highly functional websites.</p>
-                                </div>
-                                <div class="card-content d-flex justify-content-between align-items-center">
-                                    <div class="arrow-icon">
-                                        <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                                    </div>
-                                    <span>01</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="about-card-area">
-                            <div class="card-wrapper style-1">
-                                <div class="card-text mb-35">
-                                    <h3>
-                                        <a href="services-details.html">
-                                        Advertising and Marketing Campaigns
-                                        </a>
-                                    </h3>
-                                    <p>Advertising and marketing campaigns craft targeted messages to boost brand  visibility and engagement</p>
-                                </div>
-                                <div class="card-content d-flex justify-content-between align-items-center">
-                                    <div class="arrow-icon">
-                                        <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                                    </div>
-                                    <span>02</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="about-card-area">
-                            <div class="card-wrapper style-1">
-                                <div class="card-text mb-35">                                    
-                                    <h3>
-                                        <a href="services-details.html">Creative Consulting <br> and Development</a>
-                                    </h3>                                   
-                                    <p>Creative consulting and development provide innovative to enhance brand identity
-                                        and growth.</p>
-                                </div>
-                                <div class="card-content d-flex justify-content-between align-items-center">
-                                    <div class="arrow-icon">
-                                        <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                                    </div>
-                                    <span>03</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="about-card-area">
-                            <div class="card-wrapper style-1">
-                                <div class="card-text mb-35">
-                                    <h3>
-                                        <a href="services-details.html">
-                                        Branding and <br> Identity Design
-                                        </a>
-                                    </h3>
-                                    <p>Branding and identity design create a cohesive visual identity that defines and
-                                        differentiates brands.</p>
-                                </div>
-                                <div class="card-content d-flex justify-content-between align-items-center">
-                                    <div class="arrow-icon">
-                                        <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                                    </div>
-                                    <span>04</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About-Area-End -->
-        
-        <!-- Portfolio-area-start -->
-        <section class="portfolio-area body-black pb-140 ">
-            <div class="container">
-                <div class="section-title mb-60 style-1 ">
-                    <span class="mb-15">portfolio <img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
-                    <h2>Our latest Awesome <br>Designs</h2>
-                </div>
-                <div class="row">
-                    <div class="col-xl-5 col-lg-5 col-md-5">
-                        <div class="portfolio-area-wrapper ">
-                            <div class="portfolio-area-img tilt-animate mb-30">
-                                <a href="project-details.html">
-                                    <img src="images/portfolio/home-1-portfolio-bg-1.png"
-                                        alt="CLASSIC CONCRETE PLANTERS">
-                                </a>
-                            </div>
-
-                            <div class="portfolio-area-info">
-                                <span>Brand, Photography</span>
-                                <div class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">                                
-                                    <h4><a href="project-details.html">
-                                        CLASSIC CONCRETE <br> PLANTERS
-                                    </a></h4>                                    
-                                    <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-7 col-lg-7 col-md-7">
-                        <div class="portfolio-area-wrapper mb-45 p-relative z-index-11">
-                            <div class="portfolio-area-img tilt-animate mb-30">
-                                <a href="project-details.html">
-                                    <img src="images/portfolio/home-1-portfolio-bg-2.png"
-                                        alt="CLASSIC CONCRETE PLANTERS">
-                                </a>
-                            </div>
-
-                            <div class="portfolio-area-info">
-                                <span>Brand, Photography</span>
-                                <div class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
-                                    <h4><a href="project-details.html">
-                                        CLASSIC CONCRETE <br> PLANTERS
-                                    </a></h4>
-                                    <a href="project-details.html" class="arrow-link">
-                                        <img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-7 col-lg-7 col-md-7">
-                        <div class="portfolio-area-wrapper mb-58">
-                            <div class="portfolio-area-img tilt-animate mb-30">
-                                <a href="project-details.html">
-                                    <img src="images/portfolio/home-1-portfolio-bg-3.png"
-                                        alt="CLASSIC CONCRETE PLANTERS">
-                                </a>
-                            </div>
-                            <div class="portfolio-area-info">
-                                <span>Brand, Photography</span>
-                                <div  class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
-                                    <h4><a href="project-details.html">
-                                        CLASSIC CONCRETE <br> PLANTERS
-                                    </a></h4>
-                                    <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-5 col-lg-5 col-md-5">
-                        <div class="portfolio-area-wrapper">
-                            <div class="portfolio-area-img tilt-animate mb-30">
-                                <a href="project-details.html">
-                                    <img src="images/portfolio/home-1-portfolio-bg-4.png"
-                                        alt="CLASSIC CONCRETE PLANTERS">
-                                </a>
-                            </div>
-                            <div class="portfolio-area-info">
-                                <span>Brand, Photography</span>
-                                <div  class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
-                                    <h4><a href="project-details.html">
-                                        CLASSIC CONCRETE <br> PLANTERS
-                                    </a></h4>
-                                    <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-area-btnn d-flex justify-content-center pb-60">
-                <a href="projects.html">
-                    <span class="mr-14 ">See all projects</span>
-                    <i class="fa fa-arrow-right"></i>
-                </a>
-            </div>
-            <!-- Portfolio-Awards Start -->
-            <div class="portfolio-area-awards body-black p-relative pt-60">
-                <div class="portfolio-area-awards-arrow-shape p-absolute z-index-1">
-                    <img src="images/shape/home-1-protfolio-arrow.png" alt="arrow-shape">
-                </div>
-                <div class="section-title mb-60 style-2">
-                    <span class="mb-15">portfolio <img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
-                    <h2>Awards Of Our Team</h2>
-                </div>
-                <div
-                    class="portfolio-area-awards-content d-block d-xl-flex d-lg-flex d-md-block  flex-sm-wrap justify-content-center align-items-center p-relative z-index-11">
-                    <div class="portfolio-area-awards-wrapper d-flex justify-content-center  gap-15">
-                        <div class="portfolio-area-awards-img">
-                            <img src="./images/icon/home-1-portfolio-logo-1.svg" alt="portfolio">
-                        </div>
-                        <div class="portfolio-area-awards-text">
-                            <h3>CSS Design Awards</h3>
-                            <div class="portfolio-area-awards-text-border mt-9 mb-10">
-                            </div>
-                            <span class="text-end d-block">Year: 2013</span>
-                        </div>
-                    </div>
-                    <div
-                        class="portfolio-area-awards-wrapper portfolio-area-awards-spacing d-flex align-items-center gap-15 ml-80 mr-80  justify-content-center ">
-                        <div class="portfolio-area-awards-img style-2">
-                            <img src="./images/icon/home-1-portfolio-dribbble-2.svg" alt="portfolio">
-                        </div>
-                        <div class="portfolio-area-awards-text">
-                            <h3>FWA Site of the day</h3>
-                            <div class="portfolio-area-awards-text-border mt-9 mb-10">
-                            </div>
-                            <span class="text-end d-block">Year: 2013</span>
-                        </div>
-                    </div>
-                    <div class="portfolio-area-awards-wrapper d-flex justify-content-center align-items-center gap-15">
-                        <div class="portfolio-area-awards-img style-3">
-                            <img src="./images/icon/home-1-portfolio-behance-3.svg" alt="portfolio">
-                        </div>
-                        <div class="portfolio-area-awards-text">
-                            <h3>Brands Of The Year</h3>
-                            <div class="portfolio-area-awards-text-border mt-9 mb-10">
-                            </div>
-                            <span class="text-end d-block">Year: 2013</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio-Awards End -->
-        </section>
-        <!-- Portfolio-area-end -->
-
-        <!-- Why-choose-us-area start -->
-        <section class="wcu-area style-1 pb-206 pt-196 body-black"
-            style="background-image: url(./images/why-choose-us/why-choose-us-bg.png); background-position: center; background-repeat: no-repeat;">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-xl-5">
-                        <div class="wcu-area-info">
-                            <div class="wcu-area-wrapper">
-                                <div class="section-title mb-30 style-1">
-                                    <span class="pb-15">Why Choose Us<img src="./images/icon/section-title-arrow.svg"
-                                            alt="arrow"></span>
-                                    <h2>We Provide Services <br> In One Places</h2>
-                                </div>
-                                <div class="wcu-area-text mr-75 ">
-                                    <h5 class="mb-20">Proin efficitur, mauris vel condimentum pulvinar.</h5>
-                                    <p>Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa. Aliquam
-                                        blandit risus purus, in congue nunc venenatis id. </p>
-                                    <a class="mt-20" href="service.html">View All Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-7">
-                        <div
-                            class="counter-area style-1 d-xl-flex d-lg-flex d-md-flex justify-content-between flex-wrap gap-60 pl-20">
-                            <div class="counter-area-wrapper">
-                                <span class="counter">45</span>
-                                <p>Expert Team Member</p>
-                            </div>
-                            <div class="counter-area-wrapper">
-                                <span class="counter">20</span><span>+</span>
-                                <p>Years Of Experience</p>
-                            </div>
-                            <div class="counter-area-wrapper">
-                                <span class="counter">25</span>
-                                <p>Awards Winning</p>
-                            </div>
-                            <div class="counter-area-wrapper">
-                                <span class="counter">2</span><span>K</span>
-                                <p>Project’s Complete</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Why-choose-us-area End -->
-        <!-- Team-area Start -->
-        <section class="team-area body-black p-relative pb-140">
-            <div class="container">
-                <div class="bg-light-color style-5">
-                </div>
-                <div class="section-title style-2 mb-63">
-                    <span class="pb-15">Member<img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
-                    <h2>Awards Of Our Team </h2>
-                </div>
-                <div class="row gx-0 p-relative z-index-11">
-                    <div class="col-xl-6 col-lg-6 p-0">
-                        <div class="team-area-member-info-1 pb-65">
-                            <div
-                                class="team-area-member-info-wrapper p-relative z-index-11 d-flex align-items-center gap-40">
-                                <div class="team-area-member-img tilt-zoom">
-                                    <a href="team-details.html">
-                                        <img src="images/team/home-1-team-1.png" alt="Cameron Williamson">
-                                    </a>
-                                </div>
-                                <div class="team-area-member-text">
-                                     <h4><a href="team-details.html">
-                                        Aster Marks
-                                    </a></h4>
-                                    <p>CEO</p>
-                                    <div class="team-area-member-social-link mt-15">
-                                        <ul>
-                                            <li>
-                                                <a href="https://facebook.com">
-                                                    <i class="fa-brands fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://twitter.com">
-                                                    <i class="fa-brands fa-twitter"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://linkedin.com">
-                                                    <i class="fa-brands fa-linkedin-in"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://dribbble.com">
-                                                    <i class="fa-solid fa-basketball"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6 col-lg-6 p-0">
-                        <div class="team-area-member-info-2 pb-65 pl-120">
-                            <div class="team-area-member-info-wrapper d-flex align-items-center gap-40">
-                                <div class="team-area-member-img tilt-zoom">
-                                    <a href="team-details.html">
-                                        <img src="images/team/home-1-team-4.png" alt="Arlene McCoy">
-                                    </a>
-                                </div>
-                                <div class="team-area-member-text">
-                                    <h4><a href="team-details.html">
-                                        Arlene McCoy
-                                    </a></h4>
-                                    <p>General Manager</p>
-                                    <div class="team-area-member-social-link mt-15">
-                                        <ul>
-                                            <li>
-                                                <a href="https://facebook.com">
-                                                    <i class="fa-brands fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://twitter.com">
-                                                    <i class="fa-brands fa-twitter"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://linkedin.com">
-                                                    <i class="fa-brands fa-linkedin-in"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://dribbble.com">
-                                                    <i class="fa-solid fa-basketball"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div></div>
-
-                    <div class="col-xl-6 col-lg-6 p-0">
-                        <div class="team-area-member-info-3 pt-55">
-                            <div class="team-area-member-info-wrapper d-flex align-items-center gap-40">
-                                <div class="team-area-member-img tilt-zoom">
-                                    <a href="team-details.html">
-                                        <img src="images/team/home-1-team-3.png" alt="Theresa Webb">
-                                    </a>
-                                </div>
-                                <div class="team-area-member-text">
-                                   <h4><a href="team-details.html">
-                                        Theresa Webb
-                                    </a></h4>                                    
-                                    <p>Vice President</p>
-                                    <div class="team-area-member-social-link mt-15">
-                                        <ul>
-                                            <li>
-                                                <a href="https://facebook.com">
-                                                    <i class="fa-brands fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://twitter.com">
-                                                    <i class="fa-brands fa-twitter"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://linkedin.com">
-                                                    <i class="fa-brands fa-linkedin-in"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://dribbble.com">
-                                                    <i class="fa-solid fa-basketball"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6 col-lg-6 p-0">
-                        <div class="team-area-member-info-4 pt-55 pl-120">
-                            <div class="team-area-member-info-wrapper d-flex align-items-center gap-40">
-                                <div class="team-area-member-img tilt-zoom">
-                                    <a href="team-details.html">
-                                        <img src="images/team/home-1-team-2.png" alt="Jacob Jones">
-                                    </a>
-                                </div>
-                                <div class="team-area-member-text">
-                                    <h4><a href="team-details.html">
-                                        Jacob Jones
-                                    </a></h4>  
-                                    <p>Directors</p>
-                                    <div class="team-area-member-social-link mt-15">
-                                        <ul>
-                                            <li>
-                                                <a href="https://facebook.com">
-                                                    <i class="fa-brands fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://twitter.com">
-                                                    <i class="fa-brands fa-twitter"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://linkedin.com">
-                                                    <i class="fa-brands fa-linkedin-in"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="https://dribbble.com">
-                                                    <i class="fa-solid fa-basketball"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Team-area End -->
-        <!-- Video-popup-area Start -->
-        <section class="video-popup-area pt-270 pb-270"
-            style="background-image: url(./images/video-popup/video-popup-bg.png); background-position: center;">
-            <div class="video-popup-area-wrapper p-relative z-index-1">
-                <div class="video-popup-area-img d-flex align-items-center justify-content-center">
-                    <img class="" src="images/shape/home-1-video-popup-shape.png" alt="shape">
-                </div>
-                <div class="video-popup-area-text p-absolute">
-                    <h4><a class="mfp-iframe video-play" href="https://www.youtube.com/watch?v=SZEflIVnhH8">Play</a>
-                    </h4>
-                </div>
-            </div>
-        </section>
-        <!-- Video-popup-area End -->
-        <!-- Testimonial-area Start -->
-        <section class="testimonial-area body-black style-1 p-relative z-index-11">
-            <div class="container-fluid">
-                <div class="row gx-1">
-                    <div class="col-xl-6 col-lg-5 col-md-6">
-                        <div class="testimonial-area-img-content ml-127">
-                            <img src="images/testimonial/home-1-testimonial-img-1.png" alt="testimonial">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="testimonial-area-main-slider ">
-                            <div class="testimonial-area-slider-wrapper">
-                                <div class="fast-slider testimonial-active-slider">
-                                    <div class="slider-image d-flex justify-content-center">
-                                        <img src="./images/testimonial/clint-1.jpg" alt="client">
-                                    </div>
-                                    <div class="slider-image d-flex justify-content-center">
-                                        <img src="./images/testimonial/clint-2.jpg" alt="client">
-                                    </div>
-                                    <div class="slider-image d-flex justify-content-center">
-                                        <img src="./images/testimonial/clint-3.jpg" alt="client">
-                                    </div>
-                                    <div class="slider-image d-flex justify-content-center">
-                                        <img src="./images/testimonial/clint-1.jpg" alt="client">
-                                    </div>
-                                </div>
-                                <div class="second-slider testimonial-active-slider-nav mt-25">
-                                    <div class="slider-wrapper">
-                                        <div class="slider-pra mb-15">
-                                            <p>I have been a loyal customer of this auto parts company for years and I
-                                                cannot recommend them enough. Their extensive selection of high-quality
-                                                parts and accessories, combined with their competitive prices.</p>
-                                        </div>
-                                        <div class="slider-info d-flex justify-content-between">
-                                            <div class="slider-info-text">
-                                                <h5 class="mb-8 ">Marvin McKinney</h5>
-                                                <span>Web designer</span>
-                                            </div>
-                                            <span class="icon-quote"></span>
-                                        </div>
-                                    </div>
-                                    <div class="slider-wrapper">
-                                        <div class="slider-pra mb-15">
-                                            <p>I have been a loyal customer of this auto parts company for years and I
-                                                cannot recommend them enough. Their extensive selection of high-quality
-                                                parts and accessories, combined with their competitive prices.</p>
-                                        </div>
-                                        <div class="slider-info d-flex justify-content-between">
-                                            <div class="slider-info-text">
-                                                <h5 class="mb-8">Marvin McKinney</h5>
-                                                <span>Web designer</span>
-                                            </div>
-                                            <span class="icon-quote"></span>
-                                        </div>
-                                    </div>
-                                    <div class="slider-wrapper">
-                                        <div class="slider-pra mb-15">
-                                            <p>I have been a loyal customer of this auto parts company for years and I
-                                                cannot recommend them enough. Their extensive selection of high-quality
-                                                parts and accessories, combined with their competitive prices.</p>
-                                        </div>
-                                        <div class="slider-info d-flex justify-content-between">
-                                            <div class="slider-info-text">
-                                                <h5 class="mb-8">Marvin McKinney</h5>
-                                                <span>Web designer</span>
-                                            </div>
-                                            <span class="icon-quote"></span>
-                                        </div>
-                                    </div>
-                                    <div class="slider-wrapper">
-                                        <div class="slider-pra mb-15">
-                                            <p>I have been a loyal customer of this auto parts company for years and I
-                                                cannot recommend them enough. Their extensive selection of high-quality
-                                                parts and accessories, combined with their competitive prices.</p>
-                                        </div>
-                                        <div class="slider-info d-flex justify-content-between">
-                                            <div class="slider-info-text">
-                                                <h5 class="mb-8">Marvin McKinney</h5>
-                                                <span>Web designer</span>
-                                            </div>
-                                            <span class="icon-quote"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonial-area End -->
-
-        <!-- Blog & News Area Start -->
-        <section class="blog-area body-black pb-140">
-            <div class="container">
-                <div class="section-title mb-63 style-2">
-                    <span class="pb-15">Blog & News<img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
-                    <h2>Our Latest News & Blog Get <br> Every Updates </h2>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="blog-area-card d-md-flex justify-content-center" id="card-1">
-                            <div class="blog-area-card-wrapper">
-                                <span class="mb-20">February - 22th 2024</span>
-                                    <h5 class="mb-20">
-                                        <a href="blog-details.html">Will you be attending Affiliate Summit Europe?</a>
-                                    </h5>
-                                <p class="hidden-card">I have been a loyal customer of this auto parts company for years
-                                    and I cannot recommend them enough. Their extensive selection.</p>
-                                <div class="card-image mt-20 p-relative">
-                                    <a href="blog-details.html">
-                                        <img class="blog-main-img" src="images/blog/home-1-blog-img-1.png" alt="Blog Post">
-                                    </a>
-                                    <div class="blog-area-icon-img p-absolute">
-                                        <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg" alt="Post"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="blog-area-card" id="card-2">
-                            <div class="blog-area-card-wrapper">
-                                <span class="mb-20">February - 22th 2024</span>
-                                 <h5 class="mb-20">
-                                    <a href="blog-details.html">Will you be attending Affiliate Summit Europe?</a>
-                                </h5>
-                                <p class="visible-card">I have been a loyal customer of this auto parts company for  years and I cannot recommend them enough. Their extensive selection.</p>
-                                <div class="card-image mt-20 p-relative">
-                                    <a href="blog-details.html">
-                                        <img class="blog-main-img" src="images/blog/home-1-blog-img-2.png"  alt="Blog Post">
-                                    </a>
-                                    <div class="blog-area-icon-img p-absolute">
-                                        <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg" alt="Post"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="blog-area-card d-md-flex justify-content-center" id="card-3">
-                            <div class="blog-area-card-wrapper">
-                                <span class="mb-20">February - 22th 2024</span>
-                                <h5 class="mb-20">
-                                    <a href="blog-details.html">Will you be attending Affiliate Summit Europe?</a>
-                                </h5>
-                                <p class="hidden-card">I have been a loyal customer of this auto parts company for years
-                                    and I cannot recommend them enough. Their extensive selection.</p>
-                                <div class="card-image mt-20 p-relative">
-                                    <a href="blog-details.html">
-                                        <img class="blog-main-img" src="images/blog/home-1-blog-img-3.png" alt="Blog">
-                                    </a>
-                                    <div class="blog-area-icon-img p-absolute">
-                                        <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg"
-                                                alt="Post"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Blog & News Area End -->
-
-        <!-- Brand Marquee Start -->
-        <div class="brand-marque-area brand-marque-area-primary body-black overflow-hidden">
-            <div class="brand-marque-wrapper marquee-active first-text-marque">
-                <div class="single-img-marque">
-                    <img src="./images/brand-marque/home-1-brand-marque-1.png" alt="brand">
-                </div>
-                <div class="single-img-marque">
-                    <img src="./images/brand-marque/home-1-brand-marque-2.png" alt="brand">
-                </div>
-                <div class="single-img-marque">
-                    <img src="./images/brand-marque/home-1-brand-marque-3.png" alt="brand">
-                </div>
-                <div class="single-img-marque">
-                    <img src="./images/brand-marque/home-1-brand-marque-4.png" alt="brand">
-                </div>
-                <div class="single-img-marque">
-                    <img src="./images/brand-marque/home-1-brand-marque-1.png" alt="brand">
-                </div>
-                <div class="single-img-marque">
-                    <img src="./images/brand-marque/home-1-brand-marque-2.png" alt="brand">
-                </div>
-                <div class="single-img-marque">
-                    <img src="./images/brand-marque/home-1-brand-marque-3.png" alt="brand">
-                </div>
-                <div class="single-img-marque">
-                    <img src="./images/brand-marque/home-1-brand-marque-4.png" alt="brand">
                 </div>
             </div>
         </div>
-        <!-- Brand Marquee End -->
 
-    <!-- Footer Start -->
+        <div class="hero-area-slider-part p-relative z-index-11">
+            <div class="container-fluid gx-0">
+                <div class="row gx-0">
+                    <div class="col-12 col-xl-8 col-lg-8 col-md-12 p-0">
+                        <div class="hero-area-slider-section hero-slider-active p-relative z-index-11">
+                            <div class="hero-area-slider-wrapper p-relative z-index-11">
+                                <div class="hero-area-slider-image">
+                                    <img src="./images/hero/hone-1-hero-slider-img.png" alt="hero image">
+                                </div>
+                                <div class="hero-area-slider-inner-text p-absolute">
+                                    <p class="hero-area-slider-text-1 mb-13">induction</p>
+                                    <h3 class="hero-area-slider-text-2 mb-17">Creative <span>Design</span></h3>
+                                    <div class="title-border-1"></div>
+                                </div>
+                            </div>
+                            <div class="hero-area-slider-wrapper p-relative z-index-11">
+                                <div class="hero-area-slider-image">
+                                    <img src="./images/hero/hone-1-hero-slider-img.png" alt="hero image">
+                                </div>
+                                <div class="hero-area-slider-inner-text p-absolute">
+                                    <p class="hero-area-slider-text-1 mb-13">induction</p>
+                                    <h3 class="hero-area-slider-text-2 mb-17">Creative <span>Design</span></h3>
+                                    <div class="title-border-1"></div>
+                                </div>
+                            </div>
+                            <div class="hero-area-slider-wrapper p-relative z-index-11">
+                                <div class="hero-area-slider-image">
+                                    <img src="./images/hero/hone-1-hero-slider-img.png" alt="hero image">
+                                </div>
+                                <div class="hero-area-slider-inner-text p-absolute">
+                                    <p class="hero-area-slider-text-1 mb-13">induction</p>
+                                    <h3 class="hero-area-slider-text-2 mb-17">Creative <span>Design</span></h3>
+                                    <div class="title-border-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 ">
+                        <div class="hero-area-author-Wrapper pr-70 pl-130">
+                            <p>Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget
+                                egestas magna mi ut <br> arcu. Phasellus nec odio orci.</p>
+                            <div class="title-border-2 mb-42 mt-32">
+                            </div>
+                            <div class="hero-area-author-info d-flex align-items-center justify-content-between">
+                                <div class="hero-area-author-profile d-flex align-items-center ">
+                                    <div class="author-img-wrapper">
+                                        <img class="tilt-zoom" src="images/hero/clint-1.jpg" alt="author-pic">
+                                    </div>
+                                    <div class="hero-area-author-text ml-24">
+                                        <h5>Eleanor Pena</h5>
+                                        <span>Eleanor Pena</span>
+                                    </div>
+                                </div>
+                                <div class="hero-area-author-signature">
+                                    <img src="images/hero/hero-1-signature.png" alt="signature">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+    <!-- Text Marque Start !-->
+    <section class="text-marque-area brand-marque-area-primary style-1 p-relative pt-59 pb-70  body-black">
+        <div class="bg-light-color style-2"></div>
+        <div class="text-marque-area-shape p-absolute">
+            <img src="images/shape/home-1-brand-marq-ornament.png" alt="shape">
+        </div>
+        <div class="text-marque-section body-black style-one  overflow-hidden">
+            <div class="text-marque-wrapper first-text-marque p-relative z-index-11">
+                <div class="single-text-marque d-flex">
+                    <h2 class="text-marque-title-one mr-200">WEB DESIGN</h2>
+                    <h2 class="text-marque-title-one">WEB DESIGN</h2>
+                </div>
+            </div>
+            <div class="text-marque-wrapper second-text-marque p-relative z-index-11">
+                <div class="single-text-marque d-flex">
+                    <h2 class="text-marque-title-two mr-200">COPY WRITING</h2>
+                    <h2 class="text-marque-title-two">COPY WRITING</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Text Marque End !-->
+    <!-- Gallery-area Start -->
+    <section class="gallery-area body-black p-relative pb-140">
+        <div class="gallery-area-bg-shape tilt-animate p-absolute">
+            <img src="./images/shape/home-1-gellary-bg-shape.png" alt="gallery">
+        </div>
+        <div class="container-fluid gx-0">
+            <div
+                class="gallery-area-wrapper p-relative z-index-11 d-xl-flex d-lg-flex d-md-flex  justify-content-center gap-20 mr-102">
+                <div class="gallery-area-content ">
+                    <div class="gallery-area-image">
+                        <div class="gallery-area-big-img tilt-animate mb-37">
+                            <img src="images/gallery/home-1-gellary-bg-1.png" alt="gallery">
+                        </div>
+                        <div class="gallery-area-info d-xl-flex d-lg-flex d-md-flex align-content-center gap-36">
+                            <div class="shape-img ">
+                                <img src="./images/gallery/home-1-gellary-bg-4.png" alt="gallery">
+                            </div>
+                            <div class="gallery-area-text">
+                                <h2>Years</h2>
+                                <h6>Experience</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-area-content d-sm-flex justify-content-sm-center">
+                    <div class="gallery-area-image tilt-animate">
+                        <img class="gallery-area-image-1" src="images/gallery/home-1-gellary-bg-2.png" alt="gallery">
+                    </div>
+                </div>
+                <div class="gallery-area-content d-xl-block d-lg-block d-md-none">
+                    <div class="gallery-area-image-shape tilt-animate p-relative mb-40">
+                        <img class="shape-1 p-absolute" src="./images/shape/home-1-gellary-shape-1.png" alt="shape">
+                        <img class="shape-2" src="./images/shape/home-1-gellary-shape-2.png" alt="gallery">
+                    </div>
+                    <div class="gallery-area-image tilt-animate">
+                        <img class="gallery-area-image-none" src="images/gallery/home-1-gellary-bg-3.png" alt="gallery">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery-area End -->
+    <!-- About-Area-Start -->
+    <section class="about-area  pb-140 p-relative body-black ">
+        <div class="about-area-bg-shape p-absolute">
+            <img src="./images/shape/home-1-about-shape.png" alt="shape">
+        </div>
+        <div class="about-area-bg-topographic p-absolute">
+            <img src="images/shape/home-1-about-topographic-1.png" alt="topographic-1">
+        </div>
+        <div class="bg-light-color style-3 ">
+        </div>
+        <div class="bg-light-color style-4 ">
+        </div>
+        <div class="container">
+            <div class="about-area-info mb-143 p-relative d-lg-flex justify-content-lg-center z-index-11">
+                <div class="about-area-wrapper ml-330 p-relative z-index-11">
+
+                    <div class="section-title mb-32 style-1">
+                        <span class="mb-15">
+                            About Company
+                            <img src="./images/icon/section-title-arrow.svg" alt="arrow">
+                        </span>
+                        <h2>Best Creative & Modern <br>Agency</h2>
+                    </div>
+
+                    <div class="about-area-text ml-110 mr-104">
+                        <h5 class="mb-11">Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur
+                            ligula, eget egestas magna mi ut arcu.</h5>
+                        <p>Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa. Aliquam blandit
+                            risus purus, in congue nunc venenatis id. Pellentesque habitant morbi tristique senectus
+                            et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="about-area-main-part pt-54 p-relative z-index-11 pb-80">
+                <div class="about-card-bg-topographic p-absolute">
+                    <img src="images/shape/home-1-about-topographic-2.png" alt="topographic-2">
+                </div>
+                <div class="about-area-heading pb-60">
+                    <div class="about-area-heading-part d-flex justify-content-center text-center align-items-center gap-38 mb-8">
+                        <h2><span>Unique</span> Ideas</h2>
+                        <img class="about-area-inner-img" src="./images/about/home-1-bg.png" alt="about">
+                    </div>
+                    <div
+                        class="about-area-heading-part d-flex justify-content-center text-start align-items-center  gap-25">
+                        <a href="service.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                        <h2>For Your <span>Business.</span></h2>
+                    </div>
+                </div>
+
+                <div class="about-area-card-section d-xl-grid d-lg-grid d-md-grid justify-content-center">
+                    <div class="about-card-area">
+                        <div class="card-wrapper style-1">
+                            <div class="card-text mb-35">
+                                <h3><a href="services-details.html">Web Design & Development</a></h3>
+                                <p>Web Design & Development involves creating visually appealing and highly functional websites.</p>
+                            </div>
+                            <div class="card-content d-flex justify-content-between align-items-center">
+                                <div class="arrow-icon">
+                                    <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                                <span>01</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card-area">
+                        <div class="card-wrapper style-1">
+                            <div class="card-text mb-35">
+                                <h3>
+                                    <a href="services-details.html">
+                                    Advertising and Marketing Campaigns
+                                    </a>
+                                </h3>
+                                <p>Advertising and marketing campaigns craft targeted messages to boost brand  visibility and engagement</p>
+                            </div>
+                            <div class="card-content d-flex justify-content-between align-items-center">
+                                <div class="arrow-icon">
+                                    <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                                <span>02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card-area">
+                        <div class="card-wrapper style-1">
+                            <div class="card-text mb-35">                                    
+                                <h3>
+                                    <a href="services-details.html">Creative Consulting <br> and Development</a>
+                                </h3>                                   
+                                <p>Creative consulting and development provide innovative to enhance brand identity
+                                    and growth.</p>
+                            </div>
+                            <div class="card-content d-flex justify-content-between align-items-center">
+                                <div class="arrow-icon">
+                                    <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                                <span>03</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card-area">
+                        <div class="card-wrapper style-1">
+                            <div class="card-text mb-35">
+                                <h3>
+                                    <a href="services-details.html">
+                                    Branding and <br> Identity Design
+                                    </a>
+                                </h3>
+                                <p>Branding and identity design create a cohesive visual identity that defines and
+                                    differentiates brands.</p>
+                            </div>
+                            <div class="card-content d-flex justify-content-between align-items-center">
+                                <div class="arrow-icon">
+                                    <a href="services-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                                <span>04</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-Area-End -->
     
+    <!-- Portfolio-area-start -->
+    <section class="portfolio-area body-black pb-140 ">
+        <div class="container">
+            <div class="section-title mb-60 style-1 ">
+                <span class="mb-15">portfolio <img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
+                <h2>Our latest Awesome <br>Designs</h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-5">
+                    <div class="portfolio-area-wrapper ">
+                        <div class="portfolio-area-img tilt-animate mb-30">
+                            <a href="project-details.html">
+                                <img src="images/portfolio/home-1-portfolio-bg-1.png"
+                                    alt="CLASSIC CONCRETE PLANTERS">
+                            </a>
+                        </div>
+
+                        <div class="portfolio-area-info">
+                            <span>Brand, Photography</span>
+                            <div class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">                                
+                                <h4><a href="project-details.html">
+                                    CLASSIC CONCRETE <br> PLANTERS
+                                </a></h4>                                    
+                                <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-7 col-md-7">
+                    <div class="portfolio-area-wrapper mb-45 p-relative z-index-11">
+                        <div class="portfolio-area-img tilt-animate mb-30">
+                            <a href="project-details.html">
+                                <img src="images/portfolio/home-1-portfolio-bg-2.png"
+                                    alt="CLASSIC CONCRETE PLANTERS">
+                            </a>
+                        </div>
+
+                        <div class="portfolio-area-info">
+                            <span>Brand, Photography</span>
+                            <div class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
+                                <h4><a href="project-details.html">
+                                    CLASSIC CONCRETE <br> PLANTERS
+                                </a></h4>
+                                <a href="project-details.html" class="arrow-link">
+                                    <img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-7 col-md-7">
+                    <div class="portfolio-area-wrapper mb-58">
+                        <div class="portfolio-area-img tilt-animate mb-30">
+                            <a href="project-details.html">
+                                <img src="images/portfolio/home-1-portfolio-bg-3.png"
+                                    alt="CLASSIC CONCRETE PLANTERS">
+                            </a>
+                        </div>
+                        <div class="portfolio-area-info">
+                            <span>Brand, Photography</span>
+                            <div  class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
+                                <h4><a href="project-details.html">
+                                    CLASSIC CONCRETE <br> PLANTERS
+                                </a></h4>
+                                <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5">
+                    <div class="portfolio-area-wrapper">
+                        <div class="portfolio-area-img tilt-animate mb-30">
+                            <a href="project-details.html">
+                                <img src="images/portfolio/home-1-portfolio-bg-4.png"
+                                    alt="CLASSIC CONCRETE PLANTERS">
+                            </a>
+                        </div>
+                        <div class="portfolio-area-info">
+                            <span>Brand, Photography</span>
+                            <div  class="portfolio-area-content d-flex align-items-end justify-content-between pb-23">
+                                <h4><a href="project-details.html">
+                                    CLASSIC CONCRETE <br> PLANTERS
+                                </a></h4>
+                                <a href="project-details.html" class="arrow-link"><img src="images/icon/home-1-up-arrwo-bold.svg" alt="arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-area-btnn d-flex justify-content-center pb-60">
+            <a href="projects.html">
+                <span class="mr-14 ">See all projects</span>
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+        <!-- Portfolio-Awards Start -->
+        <div class="portfolio-area-awards body-black p-relative pt-60">
+            <div class="portfolio-area-awards-arrow-shape p-absolute z-index-1">
+                <img src="images/shape/home-1-protfolio-arrow.png" alt="arrow-shape">
+            </div>
+            <div class="section-title mb-60 style-2">
+                <span class="mb-15">portfolio <img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
+                <h2>Awards Of Our Team</h2>
+            </div>
+            <div
+                class="portfolio-area-awards-content d-block d-xl-flex d-lg-flex d-md-block  flex-sm-wrap justify-content-center align-items-center p-relative z-index-11">
+                <div class="portfolio-area-awards-wrapper d-flex justify-content-center  gap-15">
+                    <div class="portfolio-area-awards-img">
+                        <img src="./images/icon/home-1-portfolio-logo-1.svg" alt="portfolio">
+                    </div>
+                    <div class="portfolio-area-awards-text">
+                        <h3>CSS Design Awards</h3>
+                        <div class="portfolio-area-awards-text-border mt-9 mb-10">
+                        </div>
+                        <span class="text-end d-block">Year: 2013</span>
+                    </div>
+                </div>
+                <div
+                    class="portfolio-area-awards-wrapper portfolio-area-awards-spacing d-flex align-items-center gap-15 ml-80 mr-80  justify-content-center ">
+                    <div class="portfolio-area-awards-img style-2">
+                        <img src="./images/icon/home-1-portfolio-dribbble-2.svg" alt="portfolio">
+                    </div>
+                    <div class="portfolio-area-awards-text">
+                        <h3>FWA Site of the day</h3>
+                        <div class="portfolio-area-awards-text-border mt-9 mb-10">
+                        </div>
+                        <span class="text-end d-block">Year: 2013</span>
+                    </div>
+                </div>
+                <div class="portfolio-area-awards-wrapper d-flex justify-content-center align-items-center gap-15">
+                    <div class="portfolio-area-awards-img style-3">
+                        <img src="./images/icon/home-1-portfolio-behance-3.svg" alt="portfolio">
+                    </div>
+                    <div class="portfolio-area-awards-text">
+                        <h3>Brands Of The Year</h3>
+                        <div class="portfolio-area-awards-text-border mt-9 mb-10">
+                        </div>
+                        <span class="text-end d-block">Year: 2013</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio-Awards End -->
+    </section>
+    <!-- Portfolio-area-end -->
+
+    <!-- Why-choose-us-area start -->
+    <section class="wcu-area style-1 pb-206 pt-196 body-black"
+        style="background-image: url(./images/why-choose-us/why-choose-us-bg.png); background-position: center; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row ">
+                <div class="col-xl-5">
+                    <div class="wcu-area-info">
+                        <div class="wcu-area-wrapper">
+                            <div class="section-title mb-30 style-1">
+                                <span class="pb-15">Why Choose Us<img src="./images/icon/section-title-arrow.svg"
+                                        alt="arrow"></span>
+                                <h2>We Provide Services <br> In One Places</h2>
+                            </div>
+                            <div class="wcu-area-text mr-75 ">
+                                <h5 class="mb-20">Proin efficitur, mauris vel condimentum pulvinar.</h5>
+                                <p>Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa. Aliquam
+                                    blandit risus purus, in congue nunc venenatis id. </p>
+                                <a class="mt-20" href="service.html">View All Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <div
+                        class="counter-area style-1 d-xl-flex d-lg-flex d-md-flex justify-content-between flex-wrap gap-60 pl-20">
+                        <div class="counter-area-wrapper">
+                            <span class="counter">45</span>
+                            <p>Expert Team Member</p>
+                        </div>
+                        <div class="counter-area-wrapper">
+                            <span class="counter">20</span><span>+</span>
+                            <p>Years Of Experience</p>
+                        </div>
+                        <div class="counter-area-wrapper">
+                            <span class="counter">25</span>
+                            <p>Awards Winning</p>
+                        </div>
+                        <div class="counter-area-wrapper">
+                            <span class="counter">2</span><span>K</span>
+                            <p>Project’s Complete</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why-choose-us-area End -->
+    <!-- Team-area Start -->
+    <section class="team-area body-black p-relative pb-140">
+        <div class="container">
+            <div class="bg-light-color style-5">
+            </div>
+            <div class="section-title style-2 mb-63">
+                <span class="pb-15">Member<img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
+                <h2>Awards Of Our Team </h2>
+            </div>
+            <div class="row gx-0 p-relative z-index-11">
+                <div class="col-xl-6 col-lg-6 p-0">
+                    <div class="team-area-member-info-1 pb-65">
+                        <div
+                            class="team-area-member-info-wrapper p-relative z-index-11 d-flex align-items-center gap-40">
+                            <div class="team-area-member-img tilt-zoom">
+                                <a href="team-details.html">
+                                    <img src="images/team/home-1-team-1.png" alt="Cameron Williamson">
+                                </a>
+                            </div>
+                            <div class="team-area-member-text">
+                                    <h4><a href="team-details.html">
+                                    Aster Marks
+                                </a></h4>
+                                <p>CEO</p>
+                                <div class="team-area-member-social-link mt-15">
+                                    <ul>
+                                        <li>
+                                            <a href="https://facebook.com">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://twitter.com">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://linkedin.com">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://dribbble.com">
+                                                <i class="fa-solid fa-basketball"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 p-0">
+                    <div class="team-area-member-info-2 pb-65 pl-120">
+                        <div class="team-area-member-info-wrapper d-flex align-items-center gap-40">
+                            <div class="team-area-member-img tilt-zoom">
+                                <a href="team-details.html">
+                                    <img src="images/team/home-1-team-4.png" alt="Arlene McCoy">
+                                </a>
+                            </div>
+                            <div class="team-area-member-text">
+                                <h4><a href="team-details.html">
+                                    Arlene McCoy
+                                </a></h4>
+                                <p>General Manager</p>
+                                <div class="team-area-member-social-link mt-15">
+                                    <ul>
+                                        <li>
+                                            <a href="https://facebook.com">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://twitter.com">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://linkedin.com">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://dribbble.com">
+                                                <i class="fa-solid fa-basketball"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div></div>
+
+                <div class="col-xl-6 col-lg-6 p-0">
+                    <div class="team-area-member-info-3 pt-55">
+                        <div class="team-area-member-info-wrapper d-flex align-items-center gap-40">
+                            <div class="team-area-member-img tilt-zoom">
+                                <a href="team-details.html">
+                                    <img src="images/team/home-1-team-3.png" alt="Theresa Webb">
+                                </a>
+                            </div>
+                            <div class="team-area-member-text">
+                                <h4><a href="team-details.html">
+                                    Theresa Webb
+                                </a></h4>                                    
+                                <p>Vice President</p>
+                                <div class="team-area-member-social-link mt-15">
+                                    <ul>
+                                        <li>
+                                            <a href="https://facebook.com">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://twitter.com">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://linkedin.com">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://dribbble.com">
+                                                <i class="fa-solid fa-basketball"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 p-0">
+                    <div class="team-area-member-info-4 pt-55 pl-120">
+                        <div class="team-area-member-info-wrapper d-flex align-items-center gap-40">
+                            <div class="team-area-member-img tilt-zoom">
+                                <a href="team-details.html">
+                                    <img src="images/team/home-1-team-2.png" alt="Jacob Jones">
+                                </a>
+                            </div>
+                            <div class="team-area-member-text">
+                                <h4><a href="team-details.html">
+                                    Jacob Jones
+                                </a></h4>  
+                                <p>Directors</p>
+                                <div class="team-area-member-social-link mt-15">
+                                    <ul>
+                                        <li>
+                                            <a href="https://facebook.com">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://twitter.com">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://linkedin.com">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://dribbble.com">
+                                                <i class="fa-solid fa-basketball"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team-area End -->
+    <!-- Video-popup-area Start -->
+    <section class="video-popup-area pt-270 pb-270"
+        style="background-image: url(./images/video-popup/video-popup-bg.png); background-position: center;">
+        <div class="video-popup-area-wrapper p-relative z-index-1">
+            <div class="video-popup-area-img d-flex align-items-center justify-content-center">
+                <img class="" src="images/shape/home-1-video-popup-shape.png" alt="shape">
+            </div>
+            <div class="video-popup-area-text p-absolute">
+                <h4><a class="mfp-iframe video-play" href="https://www.youtube.com/watch?v=SZEflIVnhH8">Play</a>
+                </h4>
+            </div>
+        </div>
+    </section>
+    <!-- Video-popup-area End -->
+    <!-- Testimonial-area Start -->
+    <section class="testimonial-area body-black style-1 p-relative z-index-11">
+        <div class="container-fluid">
+            <div class="row gx-1">
+                <div class="col-xl-6 col-lg-5 col-md-6">
+                    <div class="testimonial-area-img-content ml-127">
+                        <img src="images/testimonial/home-1-testimonial-img-1.png" alt="testimonial">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <div class="testimonial-area-main-slider ">
+                        <div class="testimonial-area-slider-wrapper">
+                            <div class="fast-slider testimonial-active-slider">
+                                <div class="slider-image d-flex justify-content-center">
+                                    <img src="./images/testimonial/clint-1.jpg" alt="client">
+                                </div>
+                                <div class="slider-image d-flex justify-content-center">
+                                    <img src="./images/testimonial/clint-2.jpg" alt="client">
+                                </div>
+                                <div class="slider-image d-flex justify-content-center">
+                                    <img src="./images/testimonial/clint-3.jpg" alt="client">
+                                </div>
+                                <div class="slider-image d-flex justify-content-center">
+                                    <img src="./images/testimonial/clint-1.jpg" alt="client">
+                                </div>
+                            </div>
+                            <div class="second-slider testimonial-active-slider-nav mt-25">
+                                <div class="slider-wrapper">
+                                    <div class="slider-pra mb-15">
+                                        <p>I have been a loyal customer of this auto parts company for years and I
+                                            cannot recommend them enough. Their extensive selection of high-quality
+                                            parts and accessories, combined with their competitive prices.</p>
+                                    </div>
+                                    <div class="slider-info d-flex justify-content-between">
+                                        <div class="slider-info-text">
+                                            <h5 class="mb-8 ">Marvin McKinney</h5>
+                                            <span>Web designer</span>
+                                        </div>
+                                        <span class="icon-quote"></span>
+                                    </div>
+                                </div>
+                                <div class="slider-wrapper">
+                                    <div class="slider-pra mb-15">
+                                        <p>I have been a loyal customer of this auto parts company for years and I
+                                            cannot recommend them enough. Their extensive selection of high-quality
+                                            parts and accessories, combined with their competitive prices.</p>
+                                    </div>
+                                    <div class="slider-info d-flex justify-content-between">
+                                        <div class="slider-info-text">
+                                            <h5 class="mb-8">Marvin McKinney</h5>
+                                            <span>Web designer</span>
+                                        </div>
+                                        <span class="icon-quote"></span>
+                                    </div>
+                                </div>
+                                <div class="slider-wrapper">
+                                    <div class="slider-pra mb-15">
+                                        <p>I have been a loyal customer of this auto parts company for years and I
+                                            cannot recommend them enough. Their extensive selection of high-quality
+                                            parts and accessories, combined with their competitive prices.</p>
+                                    </div>
+                                    <div class="slider-info d-flex justify-content-between">
+                                        <div class="slider-info-text">
+                                            <h5 class="mb-8">Marvin McKinney</h5>
+                                            <span>Web designer</span>
+                                        </div>
+                                        <span class="icon-quote"></span>
+                                    </div>
+                                </div>
+                                <div class="slider-wrapper">
+                                    <div class="slider-pra mb-15">
+                                        <p>I have been a loyal customer of this auto parts company for years and I
+                                            cannot recommend them enough. Their extensive selection of high-quality
+                                            parts and accessories, combined with their competitive prices.</p>
+                                    </div>
+                                    <div class="slider-info d-flex justify-content-between">
+                                        <div class="slider-info-text">
+                                            <h5 class="mb-8">Marvin McKinney</h5>
+                                            <span>Web designer</span>
+                                        </div>
+                                        <span class="icon-quote"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial-area End -->
+
+    <!-- Blog & News Area Start -->
+    <section class="blog-area body-black pb-140">
+        <div class="container">
+            <div class="section-title mb-63 style-2">
+                <span class="pb-15">Blog & News<img src="./images/icon/section-title-arrow.svg" alt="arrow"></span>
+                <h2>Our Latest News & Blog Get <br> Every Updates </h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="blog-area-card d-md-flex justify-content-center" id="card-1">
+                        <div class="blog-area-card-wrapper">
+                            <span class="mb-20">February - 22th 2024</span>
+                                <h5 class="mb-20">
+                                    <a href="blog-details.html">Will you be attending Affiliate Summit Europe?</a>
+                                </h5>
+                            <p class="hidden-card">I have been a loyal customer of this auto parts company for years
+                                and I cannot recommend them enough. Their extensive selection.</p>
+                            <div class="card-image mt-20 p-relative">
+                                <a href="blog-details.html">
+                                    <img class="blog-main-img" src="images/blog/home-1-blog-img-1.png" alt="Blog Post">
+                                </a>
+                                <div class="blog-area-icon-img p-absolute">
+                                    <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg" alt="Post"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4">
+                    <div class="blog-area-card" id="card-2">
+                        <div class="blog-area-card-wrapper">
+                            <span class="mb-20">February - 22th 2024</span>
+                                <h5 class="mb-20">
+                                <a href="blog-details.html">Will you be attending Affiliate Summit Europe?</a>
+                            </h5>
+                            <p class="visible-card">I have been a loyal customer of this auto parts company for  years and I cannot recommend them enough. Their extensive selection.</p>
+                            <div class="card-image mt-20 p-relative">
+                                <a href="blog-details.html">
+                                    <img class="blog-main-img" src="images/blog/home-1-blog-img-2.png"  alt="Blog Post">
+                                </a>
+                                <div class="blog-area-icon-img p-absolute">
+                                    <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg" alt="Post"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4">
+                    <div class="blog-area-card d-md-flex justify-content-center" id="card-3">
+                        <div class="blog-area-card-wrapper">
+                            <span class="mb-20">February - 22th 2024</span>
+                            <h5 class="mb-20">
+                                <a href="blog-details.html">Will you be attending Affiliate Summit Europe?</a>
+                            </h5>
+                            <p class="hidden-card">I have been a loyal customer of this auto parts company for years
+                                and I cannot recommend them enough. Their extensive selection.</p>
+                            <div class="card-image mt-20 p-relative">
+                                <a href="blog-details.html">
+                                    <img class="blog-main-img" src="images/blog/home-1-blog-img-3.png" alt="Blog">
+                                </a>
+                                <div class="blog-area-icon-img p-absolute">
+                                    <a href="blog-details.html"><img src="./images/icon/home-1-blog-awrro.svg"
+                                            alt="Post"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog & News Area End -->
+
+    <!-- Brand Marquee Start -->
+    <div class="brand-marque-area brand-marque-area-primary body-black overflow-hidden">
+        <div class="brand-marque-wrapper marquee-active first-text-marque">
+            <div class="single-img-marque">
+                <img src="./images/brand-marque/home-1-brand-marque-1.png" alt="brand">
+            </div>
+            <div class="single-img-marque">
+                <img src="./images/brand-marque/home-1-brand-marque-2.png" alt="brand">
+            </div>
+            <div class="single-img-marque">
+                <img src="./images/brand-marque/home-1-brand-marque-3.png" alt="brand">
+            </div>
+            <div class="single-img-marque">
+                <img src="./images/brand-marque/home-1-brand-marque-4.png" alt="brand">
+            </div>
+            <div class="single-img-marque">
+                <img src="./images/brand-marque/home-1-brand-marque-1.png" alt="brand">
+            </div>
+            <div class="single-img-marque">
+                <img src="./images/brand-marque/home-1-brand-marque-2.png" alt="brand">
+            </div>
+            <div class="single-img-marque">
+                <img src="./images/brand-marque/home-1-brand-marque-3.png" alt="brand">
+            </div>
+            <div class="single-img-marque">
+                <img src="./images/brand-marque/home-1-brand-marque-4.png" alt="brand">
+            </div>
+        </div>
+    </div>
+    <!-- Brand Marquee End -->
+
+    <!-- Footer Start -->    
     <footer class="footer-area footer-bg ">
         <div class="container">
             <div class="row gx-0">
@@ -1224,8 +1404,7 @@
         <div class="footer-copy-right-info d-flex justify-content-center align-items-center pb-15 ">
             <span>©2025 <a href="index.html">CousalPro</a> All Rights Reserved</span>
         </div>
-    </footer>
-    
+    </footer>    
     <!-- Footer End -->
 
     <!-- Scroll Up Section Start -->

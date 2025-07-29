@@ -203,9 +203,7 @@ $border-color: #e3e3e3;
       }
 
       &.format-image{
-        @include xxs{
-          margin-top: 50px;
-        }
+        
         .post-thumbnail {
           img {
             border-top-right-radius: 6px;

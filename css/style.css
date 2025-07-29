@@ -13961,11 +13961,6 @@ html {
   }
 }
 
-@media (max-width: 1399px) {
-  .pages-heading {
-    margin: 0 30px;
-  }
-}
 .pages-heading::before {
   content: "";
   position: absolute;
@@ -14002,6 +13997,9 @@ html {
 }
 .pages-heading-image img {
   border-radius: 15px;
+  min-height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .pages-heading-text {
   top: 50%;
@@ -15306,6 +15304,7 @@ html {
   padding: 40px 36px;
   bottom: 0;
   right: -10px;
+  animation: anime 3s linear infinite;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-area-two-contain-text {
@@ -18719,6 +18718,44 @@ html {
   margin-left: 36px;
 }
 
+@media (min-width: 1600px) {
+  .container-custom {
+    max-width: 1600px !important;
+    margin: auto;
+    padding: 0 25px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .container-custom {
+    padding: 0 25px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .container-custom {
+    padding: 0 25px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container-custom {
+    padding: 0 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container-custom {
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container-custom {
+    padding: 0 16px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container-custom {
+    padding: 0 12px;
+  }
+}
+
 @keyframes sticy-menu {
   0% {
     top: -80px;
@@ -18780,41 +18817,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 400px;
-}
-@media only screen and (min-width: 1600px) and (max-width: 1800px) {
-  .header-area-menu .main-menu ul {
-    margin-left: 210px;
-  }
-}
-@media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .header-area-menu .main-menu ul {
-    margin-left: 80px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .header-area-menu .main-menu ul {
-    margin-left: 50px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-area-menu .main-menu ul {
-    margin-left: 30px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-area-menu .main-menu ul {
-    display: block;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .header-area-menu .main-menu ul {
-    display: block;
-  }
 }
 @media (max-width: 991px) {
   .header-area-menu .main-menu ul {
-    display: none;
+    display: none !important;
     visibility: hidden;
   }
 }
@@ -18833,14 +18839,9 @@ html {
 .header-area-menu .main-menu ul li:first-child {
   margin-left: 0;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .header-area-menu .main-menu ul li {
-    margin-left: 60px;
-  }
-}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area-menu .main-menu ul li {
-    margin-left: 35px;
+    margin-left: 10px;
   }
 }
 .header-area-menu .main-menu ul li:hover a {
@@ -19013,7 +19014,7 @@ html {
     margin-top: 4px;
   }
 }
-.header-area #toggle-button a {
+.header-area #toggle-button button {
   font-size: 30px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -19073,6 +19074,23 @@ html {
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
+}
+
+.header-menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 11;
+}
+.header-menu-wrapper .header-area-image {
+  margin-left: 0;
+}
+.header-menu-wrapper .header-area-menu-icon.style-2 {
+  margin-right: 0px;
+}
+.header-menu-wrapper #toggle-button {
+  margin-right: 0;
 }
 
 .blog-area-card {
@@ -19724,11 +19742,6 @@ html {
 .blog-area .blog-posts .single-post-item.sticky {
   border: 1px solid #EDBC5A;
   border-radius: 6px;
-}
-@media only screen and (max-width: 479px) {
-  .blog-area .blog-posts .single-post-item.format-image {
-    margin-top: 50px;
-  }
 }
 .blog-area .blog-posts .single-post-item.format-image .post-thumbnail img {
   border-top-right-radius: 6px;

@@ -573,6 +573,7 @@
     padding: 40px 36px;
     bottom: 0;
     right: -10px;
+    animation: anime 3s linear infinite;
 
     @include lg {
       width: 140px;
