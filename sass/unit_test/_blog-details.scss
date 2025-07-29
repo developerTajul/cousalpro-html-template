@@ -91,45 +91,51 @@
             display: flex;
             align-items: center;
             gap: 25px;
-            
+            flex-wrap: wrap;
+            row-gap: normal;
+
+            @include lg{
+              gap: 20px;
+              row-gap: normal;
+            }
             a {
-              color:  $gray-900;
+              color: $white;
             }
             .author-img,
             .blog-category,
             .post-date,
             .post-comment {
-                img{
-                    height: 40px;
-                    width: 40px;
-                    border-radius: 50%;
-                    margin-right: 4px;
-                }
+              img{
+                  height: 40px;
+                  width: 40px;
+                  border-radius: 50%;
+                  margin-right: 4px;
+              }
               a {
-                color:  $gray-700;
+                color: $white;
+                font-size: 18px;
+                transition: all 0.3s;
 
                 &:hover{
                   color: $primary-color;
                 }
-              }
-              i{
-                color: $primary-color;
-              }
-              svg {
-                path {
-                  fill:  $primary-color;
+  
+                @include sm{
+                  font-size: 16px;
                 }
               }
+              
+              i {
+                color: $primary-color;
+              }
+              
               .meta-text {
                 font-weight: 400;
                 margin-left: 3px;
+
               }
-          }
-          .blog-category{
-            @include  xs{
-              display: none;
             }
-          }
+            
           }
           .post-heading{
             margin-top: 20px;
