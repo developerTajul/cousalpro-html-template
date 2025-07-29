@@ -101,6 +101,7 @@
       loop: true,
       dots: false,
       rtl: false,
+      
       responsive: [
         {
           breakpoint: 1400,

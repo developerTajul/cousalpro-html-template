@@ -13196,6 +13196,11 @@ html {
   }
 }
 
+.portfolio-area-slider .slick-slide {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .testimonial-area.style-1 .slick-arrow.btn-prev {
   position: absolute;
   bottom: 110px;
@@ -15992,20 +15997,30 @@ html {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area-content-wrapper p.pra-text {
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 15px;
   }
 }
 @media only screen and (max-width: 767px) {
   .about-area-content-wrapper p.pra-text {
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 15px;
   }
 }
 @media (max-width: 500px) {
   .about-area-content-wrapper p.pra-text {
     padding: 0 0 30px 0;
-    font-size: 10px;
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-area-content-wrapper p.pra-text br {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-area-content-wrapper p.pra-text br {
+    display: none;
   }
 }
 .about-area-content-wrapper p.pra-text::before {
@@ -18906,25 +18921,35 @@ html {
 .header-area-menu.style-2 .main-menu ul {
   margin-left: 50px;
 }
-@media (max-width: 1700px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .header-area-menu.style-2 .main-menu ul {
+    margin-left: 25px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area-menu.style-2 .main-menu ul {
+    margin-left: 25px;
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
   .header-area-menu.style-2 .main-menu ul li {
-    margin-left: 70px;
+    margin-left: 30px;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .header-area-menu.style-2 .main-menu ul li {
-    margin-left: 48px;
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-area-menu.style-2 .main-menu ul li {
-    margin-left: 40px;
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area-menu.style-2 .main-menu ul li {
-    margin-left: 20px;
-    padding: 40px 0;
+    margin-left: 0px;
+    padding: 20px 0;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -18934,7 +18959,7 @@ html {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area-menu.style-2 .main-menu ul li a {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 .header-area-menu-icon span::before {
@@ -18943,12 +18968,12 @@ html {
 .header-area-touch-btn {
   margin-left: 20px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .header-area-touch-btn {
-    margin-left: 10px;
+    display: none;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1399px) {
   .header-area-touch-btn {
     display: none;
   }
