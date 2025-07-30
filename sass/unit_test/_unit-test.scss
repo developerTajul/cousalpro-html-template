@@ -546,14 +546,17 @@ nav.wp-calendar-nav {
       
     }
     input {
-      //background-color: $white;
-      //border: 1px solid $border-color;
+      background-color: transparent;
+      border: 1px solid transparent;
       padding: 0 25px;
       height: 60px;
       width: 100%;
       color: $black;
       font-size: 18px;
-      //border-radius: 6px 0 0 6px;
+      
+      &:focus{
+        border-color: $primary-color;
+      }
     }
     button {
       color: $white;

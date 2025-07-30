@@ -2,10 +2,10 @@ $border-color: rgb(236, 236, 236);
 
 // blog and blog details page sidebar
 
-.sidebar {
-    padding: 27px;
+  .sidebar {
+    padding: 25px;
     border: 1px solid $border-color;
-    border-radius: 20px;
+    border-radius: 6px;
   
     @include md {
       margin-top: 80px;

@@ -19966,9 +19966,9 @@ html {
   }
 }
 .sidebar {
-  padding: 27px;
+  padding: 25px;
   border: 1px solid rgb(236, 236, 236);
-  border-radius: 20px;
+  border-radius: 6px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .sidebar {
@@ -22238,6 +22238,7 @@ ul.children {
   background-color: #f7f1fc;
   padding: 10px 15px;
   margin-bottom: 30px;
+  border-radius: 6px;
   /* Widget Instagram Feed */
   /* Widget Title */
   /* Social Widget Block */
@@ -23866,11 +23867,17 @@ nav.wp-calendar-nav a:hover {
 }
 .wp-block-search input,
 .search-form input {
+  background-color: transparent;
+  border: 1px solid transparent;
   padding: 0 25px;
   height: 60px;
   width: 100%;
   color: #000000;
   font-size: 18px;
+}
+.wp-block-search input:focus,
+.search-form input:focus {
+  border-color: #EDBC5A;
 }
 .wp-block-search button,
 .search-form button {
