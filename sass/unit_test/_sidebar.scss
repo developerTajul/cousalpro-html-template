@@ -234,13 +234,13 @@
       .wp-block-latest-posts__post-title {
         line-height: 28px;
         font-weight: 600;
-        color: #616670;
+        color: $gray-800;
 
         .wp-block-latest-comments__comment-date {
           font-size: 14px !important;
           margin-bottom: 10px;
           position: relative;
-          color: #616670;
+          color: $gray-800;
           font-weight: 600;
 
           &:before {
@@ -251,7 +251,7 @@
         }
       }
       a {
-        color: #616670;
+        color: $gray-800;
         font-weight: 700;
 
         &.wp-block-latest-comments__comment-author,
@@ -345,7 +345,7 @@
         span{
           a{
             text-decoration: none;
-            color: #616670;
+            color: $gray-800;
             font-weight: 500;
             transition: all 0.3s;
 
@@ -377,7 +377,7 @@
     border: 1px solid #E3E3E3;
     padding: 0 10px;
     border-radius: 5px;
-    color: #616670;
+    color: $gray-800;
     margin-bottom: 0;
     background-color: transparent;
     display: block !important;
@@ -399,7 +399,7 @@
         border: 1px solid #E3E3E3;
         padding: 0 10px;
         border-radius: 5px;
-        color: #616670;
+        color: $gray-800;
       }
     }
     .login-remember {
@@ -474,7 +474,7 @@
     li {
       display: block;
       padding: 7px 0;
-      color: #616670;
+      color: $gray-800;
 
       &:first-child {
         padding-top: 0;
@@ -503,7 +503,7 @@
       }
       a {
        
-        color: #616670;
+        color: $gray-800;
         position: relative;
         display: inline-block;
         text-transform: capitalize;
@@ -714,7 +714,7 @@
   .wp-block-latest-posts__post-author,
   .wp-block-rss__item-publish-date {
     margin-right: 10px;
-    color: #616670;
+    color: $gray-800;
   }
   .wp-block-latest-posts__post-author,
   .wp-block-latest-posts__post-date,
@@ -724,7 +724,7 @@
     display: inline-block;
     font-size: 14px !important;
     font-weight: 600;
-    color: #616670;
+    color: $gray-800;
     text-transform: capitalize;
     position: relative;
   }
@@ -753,7 +753,7 @@
     margin-top: 10px;
     margin-bottom: 0;
     font-size: 16px;
-    color: #616670;
+    color: $gray-800;
   }
 }
 
