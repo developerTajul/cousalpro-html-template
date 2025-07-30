@@ -181,14 +181,16 @@
   .widget-title,
   .wp-block-search__label {
     font-size: 24px;
+    font-family: $font-family;
     display: flex;
     align-items: center;
     line-height: 30px;
     font-weight: 700;
-    margin-bottom: 26px;
-    color: black; /////////////
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $gray-800;
+    color: $black; 
     position: relative;
-    // margin-top: -4px;
 
     //&:before {
     //  width: 4px;

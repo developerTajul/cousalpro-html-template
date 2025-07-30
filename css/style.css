@@ -22284,12 +22284,15 @@ ul.children {
 .widget .widget-title,
 .widget .wp-block-search__label {
   font-size: 24px;
+  font-family: "Gilroy-Bold";
   display: flex;
   align-items: center;
   line-height: 30px;
   font-weight: 700;
-  margin-bottom: 26px;
-  color: black;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #0e3440;
+  color: #000000;
   position: relative;
 }
 .widget .wp-block-social-links .wp-social-link {
