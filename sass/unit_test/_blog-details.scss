@@ -165,6 +165,11 @@
               color: $white;
             }
 
+            .wp-block-cover .wp-block-cover-text{
+              position: relative;
+              z-index: 2;
+            }
+
 
     
             p{

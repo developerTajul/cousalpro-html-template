@@ -20366,6 +20366,10 @@ html {
   font-weight: 500;
   color: #ffffff;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-cover .wp-block-cover-text {
+  position: relative;
+  z-index: 2;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p {
   margin-top: 15px;
   margin-bottom: 15px;
