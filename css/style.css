@@ -23862,7 +23862,7 @@ nav.wp-calendar-nav a:hover {
 }
 .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__input:focus,
 .search-form .wp-block-search__inside-wrapper .wp-block-search__input:focus {
-  border-color: #EDBC5A;
+  border-color: #EDBC5A !important;
 }
 .wp-block-search label,
 .search-form label {
