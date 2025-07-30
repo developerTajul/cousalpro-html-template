@@ -22117,7 +22117,7 @@ html {
 }
 .latest-comments li.comment .comments-box blockquote {
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
-  background-color: white;
+  background-color: rgba(237, 188, 90, 0.231372549);
   margin-right: 40px;
 }
 .latest-comments li.comment .children li.comment .comments-box {
@@ -22163,6 +22163,12 @@ html {
 }
 .latest-comments li .comments-box .comments-text {
   overflow: hidden;
+}
+.latest-comments li .comments-box .comments-text h1 {
+  font-size: 66px;
+}
+.latest-comments li .comments-box .comments-text h5 {
+  color: #ffffff;
 }
 .latest-comments li .comments-box .comments-text p {
   font-size: 16px;
@@ -23749,7 +23755,7 @@ img.emoji {
 }
 
 code {
-  color: #EDBC5A;
+  color: #ffffff;
 }
 
 blockquote {
