@@ -2012,7 +2012,6 @@
     border: 1px solid transparent;
     width: fit-content;
     margin-top: 30px;
-    margin-left: 15px;
     padding: 15px 20px;
     font-weight: 500;
     transition: all 0.3s;
@@ -2218,10 +2217,13 @@
           font-size: 16px;
           line-height: 30px;
           margin-bottom: 20px;
-          color: #616670;
+          color: $white;
 
           a{
-            color:  $primary-color;
+            color:  $white;
+            &:hover{
+              color: $primary-color;
+            }
           }
         }
 
@@ -2246,7 +2248,7 @@
             justify-content: space-between;
             
             a{
-              color: black;
+              color: $white;
               transition: all 0.3s;
 
               &:hover{
@@ -2270,7 +2272,7 @@
           align-items: center;
           font-size: 16px;
           font-weight: 500;
-          color:black;
+          color:$white;
           border: 1px solid transparent;
           padding: 5px 24px;
           gap: 8px;
@@ -2291,6 +2293,10 @@
             background-color:  $primary-color;
             color: white;
             transition: all 0.3s;
+
+            i{
+              color: $white;
+            }
           }
         }
       }

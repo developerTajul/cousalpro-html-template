@@ -21922,7 +21922,6 @@ html {
   width: -moz-fit-content;
   width: fit-content;
   margin-top: 30px;
-  margin-left: 15px;
   padding: 15px 20px;
   font-weight: 500;
   transition: all 0.3s;
@@ -22097,9 +22096,12 @@ html {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
-  color: #616670;
+  color: #ffffff;
 }
 .latest-comments li .comments-box .comments-text p a {
+  color: #ffffff;
+}
+.latest-comments li .comments-box .comments-text p a:hover {
   color: #EDBC5A;
 }
 .latest-comments li .comments-box .comments-text table td a {
@@ -22119,7 +22121,7 @@ html {
   justify-content: space-between;
 }
 .latest-comments li .comments-box .comments-text .avatar-name h5 a {
-  color: black;
+  color: #ffffff;
   transition: all 0.3s;
 }
 .latest-comments li .comments-box .comments-text .avatar-name h5 a:hover {
@@ -22141,7 +22143,7 @@ html {
   align-items: center;
   font-size: 16px;
   font-weight: 500;
-  color: black;
+  color: #ffffff;
   border: 1px solid transparent;
   padding: 5px 24px;
   gap: 8px;
@@ -22162,6 +22164,9 @@ html {
   background-color: #EDBC5A;
   color: white;
   transition: all 0.3s;
+}
+.latest-comments li .comments-box .comments-text .comment-reply-link:hover i {
+  color: #ffffff;
 }
 
 .post-comments .latest-comments > ul {
