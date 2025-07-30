@@ -300,11 +300,15 @@
                 position: relative;    
                 
                 code{
-                  color:  $primary-color;
+                  color:  $white;
                 }
 
                 a{
-                  color:  $primary-color;
+                  color:  $white;
+
+                  &:hover{
+                    color: $primary-color;
+                  }
                 }
                 
               }
