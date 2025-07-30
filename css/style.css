@@ -20242,7 +20242,7 @@ html {
 }
 .blog-area ol li {
   padding-top: 10px;
-  color: #616670;
+  color: #ffffff;
 }
 .blog-area ul {
   padding-left: 20px;
@@ -20363,7 +20363,8 @@ html {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-heading {
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 500;
+  color: #ffffff;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p {
   margin-top: 15px;
@@ -20506,6 +20507,12 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul li a:hover {
   color: #EDBC5A;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ol {
+  padding-left: 0;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-table :where(figcaption) {
+  color: #ffffff;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2 {
   margin-bottom: 10px;
   font-weight: 600;
@@ -20528,7 +20535,7 @@ html {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h3, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h4, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h5, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h6 {
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group {
   margin: 15px 0;
@@ -20793,7 +20800,7 @@ html {
   z-index: 1;
   padding: 40px 60px !important;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
-  background-color: #fff;
+  background-color: rgba(237, 188, 90, 0.231372549);
   border-left: 1px solid #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p {

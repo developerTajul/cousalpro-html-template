@@ -44,7 +44,7 @@
     padding-left: 20px;
     li{
       padding-top: 10px;
-      color: #616670;
+      color: $white;
     }
   }
   ul{
@@ -161,8 +161,11 @@
 
             .wp-block-heading{
               margin-bottom: 10px;
-              font-weight: 600;
+              font-weight: 500;
+              color: $white;
             }
+
+
     
             p{
               margin-top: 15px;
@@ -312,6 +315,13 @@
                 
               }
             }
+            ol{
+              padding-left: 0;
+            }
+
+            .wp-block-table :where(figcaption) {
+              color: $white;
+            }
             
 
             h2{
@@ -342,7 +352,7 @@
             }
             h3, h4, h5, h6{
               margin-bottom: 10px;
-              font-weight: 600;
+              font-weight: 500;
             }
 
             .wp-block-group {
@@ -706,7 +716,7 @@
               z-index: 1;
               padding: 40px 60px !important;
               box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
-              background-color: #fff;
+              background-color: #edbc5a3b;
               border-left: 1px solid  $primary-color;
 
               p{
