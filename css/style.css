@@ -23849,12 +23849,20 @@ nav.wp-calendar-nav a:hover {
   display: inline-block;
   width: 100%;
   overflow: hidden;
-  gap: 10px;
 }
 .wp-block-search .wp-block-search__inside-wrapper,
 .search-form .wp-block-search__inside-wrapper {
   display: flex;
   padding: 0 !important;
+}
+.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__input,
+.search-form .wp-block-search__inside-wrapper .wp-block-search__input {
+  background-color: #ffffff;
+  border: 1px solid transparent;
+}
+.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__input:focus,
+.search-form .wp-block-search__inside-wrapper .wp-block-search__input:focus {
+  border-color: #EDBC5A;
 }
 .wp-block-search label,
 .search-form label {
@@ -23867,17 +23875,11 @@ nav.wp-calendar-nav a:hover {
 }
 .wp-block-search input,
 .search-form input {
-  background-color: transparent;
-  border: 1px solid transparent;
   padding: 0 25px;
   height: 60px;
   width: 100%;
   color: #000000;
   font-size: 18px;
-}
-.wp-block-search input:focus,
-.search-form input:focus {
-  border-color: #EDBC5A;
 }
 .wp-block-search button,
 .search-form button {
