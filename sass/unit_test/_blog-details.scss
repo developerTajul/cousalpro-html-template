@@ -322,6 +322,9 @@
             .wp-block-table :where(figcaption) {
               color: $white;
             }
+            .wp-block-image :where(figcaption) {
+              color: $white;
+            }
             
 
             h2{
