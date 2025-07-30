@@ -33,7 +33,10 @@ body {
 dl{
   dd{
     a{
-      color: $primary-color;
+      color: $white;
+      &:hover{
+        color: $primary-color;
+      }
     }
   }
 }
@@ -110,7 +113,7 @@ table {
     text-align: center;
     padding: 8px;
     transition: .3s;
-    color: $text-color;
+    color: $white;
 
     &#today {
       background: $primary-color;

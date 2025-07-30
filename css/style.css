@@ -22183,6 +22183,9 @@ html {
   color: #EDBC5A;
 }
 .latest-comments li .comments-box .comments-text table td a {
+  color: #ffffff;
+}
+.latest-comments li .comments-box .comments-text table td a:hover {
   color: #EDBC5A;
 }
 .latest-comments li .comments-box .comments-text .avatar-name {
@@ -23480,6 +23483,9 @@ body {
 }
 
 dl dd a {
+  color: #ffffff;
+}
+dl dd a:hover {
   color: #EDBC5A;
 }
 
@@ -23550,7 +23556,7 @@ table td {
   text-align: center;
   padding: 8px;
   transition: 0.3s;
-  color: #616670;
+  color: #ffffff;
 }
 table th#today,
 table td#today {
