@@ -296,27 +296,10 @@
       font-size: 14px;
     }
   
-    //i {
-    //  display: inline-flex;
-    //  align-items: center;
-    //  justify-content: center;
-    //}
-    // &:before {
-    //   position: absolute;
-    //   left: -20%;
-    //   top: 0;
-    //   height: 100%;
-    //   width: 0;
-    //   content: "";
-    //   background-color: $blue-color;
-    //   z-index: -1;
-    //   transform: skew(45deg);
-    //   @include transition;
-    // }
     &:hover {
       color: #fff;
-      border-color: $blue-color;
-      background-color: $blue-color;
+      border-color: $primary-color;
+      background-color: $primary-color;
   
       &:before {
         width: 150%;

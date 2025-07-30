@@ -344,8 +344,8 @@ input.theme-btn {
 .wp-block-loginout a:hover,
 input.theme-btn:hover {
   color: #fff;
-  border-color: #0000FF;
-  background-color: #0000FF;
+  border-color: #EDBC5A;
+  background-color: #EDBC5A;
 }
 .theme-btn:hover:before,
 .wp-block-loginout a:hover:before,
@@ -22158,7 +22158,7 @@ html {
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
-  border: 1px solid transparent;
+  border: 1px solid #EDBC5A;
   padding: 5px 24px;
   gap: 8px;
   position: absolute;
