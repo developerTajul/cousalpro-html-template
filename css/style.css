@@ -20649,6 +20649,11 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-read-more {
   color: #ffffff;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-terms:hover,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-navigation-link:hover,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-read-more:hover {
+  color: #EDBC5A;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-terms a,
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-navigation-link a,
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-read-more a {

@@ -507,6 +507,9 @@
             .wp-block-read-more{
 
               color:  $white;
+              &:hover{
+                  color: $primary-color;
+                }
 
               a{
                 color:  $white;
