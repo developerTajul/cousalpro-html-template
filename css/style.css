@@ -20688,17 +20688,20 @@ html {
   margin-bottom: 10px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-archives li a {
-  color: #616670;
+  color: #ffffff;
   transition: all 0.3s;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-archives li a:hover {
   color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-categories li a {
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-categories li a:hover {
   color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-posts__list li a {
-  color: black;
+  color: #ffffff;
   transition: all 0.3s;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-posts__list li a:hover {
@@ -20870,7 +20873,7 @@ html {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content nav.wp-calendar-nav span a {
   text-decoration: none;
-  color: #616670;
+  color: #ffffff;
   font-weight: 500;
   transition: all 0.3s;
 }
@@ -20903,7 +20906,7 @@ html {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-author,
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link {
-  color: black;
+  color: #ffffff;
   transition: all 0.3s;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-author:hover,
@@ -20940,7 +20943,11 @@ html {
   text-align: center;
   padding: 8px;
   transition: 0.3s;
-  color: #616670;
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table td#today {
+  background-color: #EDBC5A;
+  color: #ffffff;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content dl {
   color: #616670 !important;
@@ -23471,7 +23478,7 @@ table caption {
   border: 1px solid #dfe2e9;
   padding: 6px 10px;
   border-top: 0;
-  color: #616670;
+  color: #ffffff;
 }
 table th,
 table td {

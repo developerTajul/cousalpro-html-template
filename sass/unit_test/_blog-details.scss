@@ -559,7 +559,7 @@
             .wp-block-archives{
               li{
                 a{
-                  color: #616670;
+                  color: $white;
                   transition: all 0.3s;
 
                   &:hover{
@@ -571,7 +571,10 @@
             .wp-block-categories{
               li{
                 a{
-                  color:  $primary-color;
+                  color:  $white;
+                  &:hover{
+                    color: $primary-color;
+                  }
                 }
               }
             }
@@ -579,7 +582,7 @@
             .wp-block-latest-posts__list{
               li{
                 a{
-                  color: black;
+                  color: $white;
                   transition: all 0.3s;
 
                   &:hover{
@@ -815,7 +818,7 @@
                   span{
                     a{
                       text-decoration: none;
-                      color: #616670;
+                      color: $white;
                       font-weight: 500;
                       transition: all 0.3s;
 
@@ -861,7 +864,7 @@
               .wp-block-latest-comments__comment-meta{
                 .wp-block-latest-comments__comment-author,
                 .wp-block-latest-comments__comment-link{
-                  color: black;
+                  color: $white;
                   transition: all 0.3s;
 
                   &:hover{
@@ -918,7 +921,11 @@
                 text-align: center;
                 padding: 8px;
                 transition: 0.3s;
-                color: #616670;
+                color: $white;
+              }
+              td#today{
+                background-color: $primary-color;
+                color: $white;
               }
             }
             dl{
