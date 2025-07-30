@@ -21911,6 +21911,7 @@ html {
   padding: 20px;
   background: transparent;
   color: #ffffff;
+  max-height: 200px;
 }
 .comment-form .theme-btn {
   display: inline-block;
@@ -22128,7 +22129,7 @@ html {
   color: #EDBC5A;
 }
 .latest-comments li .comments-box .comments-text .avatar-name span {
-  color: #616670;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
 }

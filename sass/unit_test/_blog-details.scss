@@ -1999,6 +1999,7 @@
       padding: 20px;
       background: transparent;
       color: $white;
+      max-height: 200px;
     }
 
   }
@@ -2257,7 +2258,7 @@
             }
           }
           span {
-            color: #616670;
+            color: $white;
             font-size: 14px;
             font-weight: 400;
 
