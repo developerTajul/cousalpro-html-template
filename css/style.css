@@ -20543,6 +20543,7 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h3, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h4, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h5, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h6 {
   margin-bottom: 10px;
   font-weight: 500;
+  color: #ffffff;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group {
   margin: 15px 0;
@@ -20822,12 +20823,18 @@ html {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong a {
   text-decoration: underline !important;
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong a:hover {
   color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong code {
-  color: #EDBC5A;
+  color: #ffffff;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p a {
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p a:hover {
   color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pullquote {
@@ -20967,6 +20974,9 @@ html {
   width: 100%;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table th a {
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table th a:hover {
   color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table th, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table td {
@@ -20982,7 +20992,13 @@ html {
   color: #ffffff;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content dl {
-  color: #616670 !important;
+  color: #ffffff !important;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content dl dd a {
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content dl dd a:hover {
+  color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   padding-top: 50px;

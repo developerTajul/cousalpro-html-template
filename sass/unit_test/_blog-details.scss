@@ -367,6 +367,7 @@
             h3, h4, h5, h6{
               margin-bottom: 10px;
               font-weight: 500;
+              color: $white;
             }
 
             .wp-block-group {
@@ -744,15 +745,22 @@
                     font-size: 18px;
                     a{
                       text-decoration: underline !important;
-                      color:  $primary-color;
+                      color:  $white;
+
+                      &:hover{
+                        color: $primary-color
+                      }
                     }
 
                     code{
-                      color:  $primary-color;
+                      color:  $white;
                     }
                   }
                   a{
-                    color:  $primary-color;
+                    color:  $white;
+                    &:hover{
+                      color: $primary-color;
+                    }
                   }
               }
             }
@@ -953,7 +961,10 @@
               width: 100%;
               th{
                 a{
-                  color:  $primary-color;
+                  color:  $white;
+                  &:hover{
+                    color: $primary-color;
+                  }
                 }
               }
 
@@ -971,10 +982,19 @@
               }
             }
             dl{
-              color: #616670 !important;
+              color: $white !important;
+
+              dd{
+                a{
+                  color: $white;
+
+                  &:hover{
+                    color: $primary-color;
+                  }
+                }
+              }
             }
             
-
             
           }
         }
