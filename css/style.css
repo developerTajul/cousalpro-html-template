@@ -20515,6 +20515,7 @@ html {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-image :where(figcaption) {
   color: #ffffff;
+  opacity: 0.8;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2 {
   margin-bottom: 10px;
