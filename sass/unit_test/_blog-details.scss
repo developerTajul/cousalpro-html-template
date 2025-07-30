@@ -595,6 +595,10 @@
               }
             }
             .wp-block-categories{
+
+              .wp-block-categories__label{
+                color: $white;
+              }
               li{
                 a{
                   color:  $white;
@@ -887,7 +891,7 @@
               display: block !important;
               margin-top: 10px;
 
-              :focus{
+              &:focus{
                 color: $black;
               }
 
