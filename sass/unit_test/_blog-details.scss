@@ -293,7 +293,6 @@
               li {
                 margin-top: 10px;
                 color:  $white;
-                // color:  $gray-800;
                 font-size: 18px;
                 font-weight:  500;
                 margin-right: 8px;
@@ -452,7 +451,7 @@
             }
 
             .wp-block-query-pagination{
-              margin-bottom: 12px;
+              margin-bottom: 20px;
               .wp-block-query-pagination-numbers{
                   display: inline-flex;
                   align-items: center;
@@ -594,7 +593,11 @@
             .wp-block-page-list{
               li{
                 a{
-                  color:  $primary-color;
+                  color:  $white;
+
+                  &:hover{
+                    color: $primary-color;
+                  }
                 }
               }
             }
@@ -623,7 +626,7 @@
                   
                   &:first-child{
                     a{
-                      color: black !important;
+                      color: $white !important;
                     }
                   }
                   &:last-child{
@@ -884,7 +887,7 @@
 
             .wp-block-tag-cloud{
               a{
-                color: #616670;
+                color: $white;
                 transition: all 0.3s;
 
                 &:hover{

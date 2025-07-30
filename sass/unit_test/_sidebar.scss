@@ -706,11 +706,11 @@
   .wp-block-rss__item-title {
     display: inline-block;
     width: 100%;
-    font-weight: 600;
+    font-weight: 500;
 
     > a {
-      color: black;
-      font-weight: 600;
+      color: $white;
+      font-weight: 500;
     }
   }
   .wp-block-latest-posts__post-author,

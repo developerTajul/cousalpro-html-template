@@ -20598,7 +20598,7 @@ html {
   word-break: break-word;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers {
   display: inline-flex;
@@ -20708,6 +20708,9 @@ html {
   color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-page-list li a {
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-page-list li a:hover {
   color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-search {
@@ -20729,7 +20732,7 @@ html {
   display: inline-block;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-social-links.is-style-logos-only li:first-child a {
-  color: black !important;
+  color: #ffffff !important;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-social-links.is-style-logos-only li:last-child a {
   color: #EDBC5A !important;
@@ -20917,7 +20920,7 @@ html {
   display: block;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-tag-cloud a {
-  color: #616670;
+  color: #ffffff;
   transition: all 0.3s;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-tag-cloud a:hover {
@@ -22737,13 +22740,13 @@ ul.children {
 .widget_rss .wp-block-rss__item-title {
   display: inline-block;
   width: 100%;
-  font-weight: 600;
+  font-weight: 500;
 }
 .wp-block-latest-posts .wp-block-rss__item-title > a,
 .wp-block-rss .wp-block-rss__item-title > a,
 .widget_rss .wp-block-rss__item-title > a {
-  color: black;
-  font-weight: 600;
+  color: #ffffff;
+  font-weight: 500;
 }
 .wp-block-latest-posts .wp-block-latest-posts__post-author,
 .wp-block-latest-posts .wp-block-rss__item-publish-date,
@@ -23903,7 +23906,7 @@ nav.wp-calendar-nav a:hover {
   line-height: 28px;
   font-weight: 500;
   margin-bottom: 30px;
-  color: black;
+  color: #ffffff;
 }
 .wp-block-search input,
 .search-form input {
