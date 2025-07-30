@@ -20924,6 +20924,9 @@ html {
   display: block !important;
   margin-top: 10px;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content select :focus {
+  color: #000000;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-comments__comment {
   margin-bottom: 0;
 }
@@ -22816,7 +22819,7 @@ ul.children {
 .wp-block-rss .wp-block-latest-posts__post-date,
 .widget_rss .wp-block-latest-posts__post-date {
   color: #ffffff;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .wp-block-latest-posts .wp-block-latest-posts__post-author:before,
 .wp-block-latest-posts .wp-block-rss__item-author:before,
@@ -24150,7 +24153,8 @@ input[type=radio]:checked {
   font-size: 14px !important;
   margin-bottom: 10px;
   position: relative;
-  color: #616670;
+  color: #ffffff;
+  opacity: 0.7;
 }
 .wp-block-latest-comments li .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date:before,
 .wp-block-latest-comments li .wp-block-latest-posts__post-title .wp-block-latest-comments__comment-date:before,
