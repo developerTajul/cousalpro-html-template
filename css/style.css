@@ -20771,11 +20771,12 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #23262D;
-  background-color: rgba(217, 161, 76, 0.1);
-  border-radius: 50%;
-  height: 67px;
-  width: 67px;
+  color: #ffffff;
+  border: 1px solid #EDBC5A;
+  background-color: transparent;
+  border-radius: 6px;
+  height: 54px;
+  width: 54px;
   transition: all 0.5s ease-out;
   font-size: 24px;
   font-weight: 700;
