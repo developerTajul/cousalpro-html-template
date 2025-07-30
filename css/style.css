@@ -20196,6 +20196,7 @@ html {
   overflow: hidden;
   padding-top: 135px;
   padding-bottom: 135px;
+  background: #131313;
 }
 .blog-area.for-blog {
   padding-bottom: 110px;
@@ -20929,8 +20930,27 @@ html {
   color: #616670 !important;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
-  padding-top: 40px;
+  padding-top: 50px;
   width: 100%;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.blog-area .blog-details-wrapper .single-post-item .default-single-post-meta.style-2 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+  .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta.style-2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta.style-2 .blog-post-tag {
+    margin-top: 0;
+  }
 }
 @media only screen and (max-width: 575px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
@@ -20938,46 +20958,45 @@ html {
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 @media only screen and (max-width: 767px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 575px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 @media only screen and (max-width: 479px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  gap: 5px;
+  gap: 10px;
   display: inline-flex;
   flex-wrap: wrap;
-  margin-left: 10px;
+  margin-top: 5px;
+  margin-left: 7px;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 2px 10px;
+  padding: 5px 15px;
   border: 1px solid rgb(236, 236, 236);
   border-radius: 50px;
-  color: white;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 400;
 }
@@ -20985,34 +21004,29 @@ html {
   background: #EDBC5A;
   color: #ffffff;
 }
-@media only screen and (max-width: 575px) {
-  .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag {
-    margin-top: 25px;
-  }
-}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag span {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag span {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 @media only screen and (max-width: 767px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag span {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 575px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag span {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 @media only screen and (max-width: 479px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag span {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list {
@@ -21020,15 +21034,14 @@ html {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 7px;
+  margin-top: 5px;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  width: 40px;
+  padding: 5px 15px;
   border: 1px solid rgb(236, 236, 236);
   border-radius: 50px;
   color: #ffffff;
@@ -21038,16 +21051,6 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a:hover {
   background: #EDBC5A;
   color: #ffffff;
-}
-.blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a:hover svg path {
-  fill: white;
-}
-.blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a svg {
-  font-size: 20px;
-  padding: 2px 5px;
-}
-.blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a svg path {
-  fill: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item.format-image .post-thumbnail {
   margin-bottom: 20px;
@@ -21685,6 +21688,7 @@ html {
   color: #f7f1fc;
   font-weight: 400;
   overflow-wrap: anywhere;
+  font-family: "Gilroy-Bold";
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .blog-area .blog-details-wrapper .blog-post-nav .post-navigation .text h4 {
@@ -21776,20 +21780,35 @@ html {
 .blog-area .blog-details-wrapper .author-info .author-text {
   margin-top: 30px;
 }
-.blog-area .blog-details-wrapper .author-info .author-text .section-title {
+.blog-area .blog-details-wrapper .author-info .author-text h3 {
+  margin-bottom: 7px;
+}
+.blog-area .blog-details-wrapper .author-info .author-text h3 a {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.blog-area .blog-details-wrapper .author-info .author-text .designation {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .author-info .author-text p {
   color: white;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
 }
-.blog-area .blog-details-wrapper .author-info .author-text .section-meta {
-  color: white;
+.blog-area .blog-details-wrapper .author-info .author-text .author-post {
+  margin-top: 15px;
 }
-.blog-area .blog-details-wrapper .author-info .author-text .section-desc {
-  color: white;
+.blog-area .blog-details-wrapper .author-info .author-text .author-post a {
+  color: #ffffff;
 }
-.blog-area .blog-details-wrapper .author-info .author-text .section-meta {
-  margin-top: -8px;
-}
-.blog-area .blog-details-wrapper .author-info p {
-  color: black;
+.blog-area .blog-details-wrapper .author-info .author-text .author-post a:hover {
+  text-decoration: underline;
 }
 .blog-area .blog-details-wrapper .post-img {
   display: flex;
@@ -21810,7 +21829,7 @@ html {
   margin-bottom: 30px;
   font-size: 38px;
   line-height: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .post-comments-form .post-comments-title h2 {
@@ -21843,8 +21862,8 @@ html {
 .comment-form .contacts-name label,
 .comment-form .contacts-email label {
   font-size: 18px;
-  font-weight: 500;
-  color: #0e3440;
+  font-weight: 400;
+  color: #ffffff;
 }
 .comment-form .contacts-name input,
 .comment-form .contacts-email input {
@@ -21861,7 +21880,10 @@ html {
 .comment-form .comment-form-cookies-consent {
   margin-top: 10px;
   display: flex;
-  gap: 5px;
+  gap: 10px;
+}
+.comment-form .comment-form-cookies-consent label {
+  color: #ffffff;
 }
 .comment-form p {
   margin-top: 20px;
@@ -21874,8 +21896,8 @@ html {
 }
 .comment-form .contacts-message label {
   font-size: 18px;
-  font-weight: 500;
-  color: #0e3440;
+  font-weight: 400;
+  color: #ffffff;
 }
 .comment-form .contacts-message textarea {
   width: 100%;
