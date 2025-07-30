@@ -184,7 +184,10 @@
               }
 
               a{
-                color:  $primary-color;
+                color:  $white;
+                &:hover{
+                  color: $primary-color;
+                }
               }
 
               strong{
