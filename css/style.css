@@ -20545,6 +20545,7 @@ html {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group p strong {
   font-size: 16px;
+  color: inherit;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__container.wp-block-navigation .wp-block-page-list a {
   color: #616670;
