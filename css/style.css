@@ -19966,7 +19966,7 @@ html {
   }
 }
 .sidebar {
-  padding: 40px;
+  padding: 27px;
   border: 1px solid rgb(236, 236, 236);
   border-radius: 20px;
 }
@@ -22235,9 +22235,9 @@ ul.children {
 
 /* Widget */
 .widget {
-  background-color: #F4F4F4;
-  padding: 40px;
-  margin-bottom: 40px;
+  background-color: #f7f1fc;
+  padding: 10px 15px;
+  margin-bottom: 30px;
   /* Widget Instagram Feed */
   /* Widget Title */
   /* Social Widget Block */
@@ -22246,26 +22246,6 @@ ul.children {
   /* Login Widget */
   /* Tagcloud Widget */
   /* Default Widget */
-}
-@media only screen and (max-width: 767px) {
-  .widget {
-    padding: 20px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .widget {
-    padding: 30px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .widget {
-    padding: 20px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .widget {
-    padding: 30px;
-  }
 }
 .widget:last-child {
   margin-bottom: 0;
@@ -23397,6 +23377,10 @@ body {
 .blog-area dl, .blog-area ol, .blog-area ul {
   margin-top: 0;
   margin-bottom: 25px;
+}
+.blog-area .sidebar .widget ul, .blog-area .sidebar .widget ol, .blog-area .sidebar .widget dl {
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 dl dd a {

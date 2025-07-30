@@ -18,6 +18,15 @@ body {
     margin-top: 0;
     margin-bottom: 25px;
   }
+
+  .sidebar{
+    .widget{
+      ul,ol,dl{
+        padding-left: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 

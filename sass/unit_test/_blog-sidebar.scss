@@ -3,16 +3,10 @@ $border-color: rgb(236, 236, 236);
 // blog and blog details page sidebar
 
 .sidebar {
-    padding: 40px;
+    padding: 27px;
     border: 1px solid $border-color;
     border-radius: 20px;
-   // background-color: $gray-100;
-    // @include laptop_m_four {
-    //   padding: 20px;
-    // }
-    // @include rmaxwd(1280) {
-    //   padding: 20px;
-    // }
+  
     @include md {
       margin-top: 80px;
       padding: 40px;
@@ -159,8 +153,9 @@ $border-color: rgb(236, 236, 236);
           }
         }
       }
-    }
-    
+  }
+
+      
   
 }
 
