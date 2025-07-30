@@ -20372,7 +20372,7 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p {
   margin-top: 15px;
   margin-bottom: 15px;
-  line-height: normal;
+  line-height: 1.5;
   color: #ffffff;
   font-weight: 400;
 }
