@@ -324,10 +324,9 @@
               padding-left: 0;
             }
 
-            .wp-block-table :where(figcaption) {
-              color: $white;
-            }
-            .wp-block-image :where(figcaption) {
+            .wp-block-table :where(figcaption),
+            .wp-block-image :where(figcaption),
+            .blocks-gallery-caption  {
               color: $white;
               opacity: 0.8;
             }
