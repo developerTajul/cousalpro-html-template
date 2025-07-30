@@ -370,7 +370,11 @@
               &.wp-block-navigation{
                 .wp-block-page-list{
                   a{
-                    color: #616670;
+                    color: $white;
+
+                    &:hover{
+                      color: $primary-color;
+                    }
                   }
 
                   ul{
@@ -414,7 +418,7 @@
               line-height: 78px;
               font-weight: 700;
               margin-top: 0;
-              color: black;
+              color: $white;
               transition: all 0.3s;
 
               &:hover{
@@ -448,25 +452,26 @@
             }
 
             .wp-block-query-pagination{
+              margin-bottom: 12px;
               .wp-block-query-pagination-numbers{
                     display: inline-flex;
                     align-items: center;
                     gap: 12px;
                     flex-wrap: wrap;
-                    margin-bottom: 10px;
                 .page-numbers{
                   display: flex;
                   align-items: center;
                   justify-content: center;
-                  color: #23262D;
-                  background-color: rgba(217, 161, 76, 0.1);
-                  border-radius: 50%;
-                  height: 67px;
-                  width: 67px;
+                  color: $white;
+                  background-color: transparent;
+                  border-radius: 6px;
+                  height: 54px;
+                  width: 54px;
                   transition: all 0.5s ease-out;
                   font-size: 24px;
-                  font-weight: 700;
+                  font-weight: 500;
                   text-transform: capitalize;
+                  border: 1px solid transparent;
 
                   &:hover,
                   &.current{
@@ -480,14 +485,15 @@
                   display: flex;
                   align-items: center;
                   justify-content: center;
-                  color: #616670;
-                  background-color: #ffffff;
+                  color: $primary-color;
+                  background-color: transparent;
                   height: 53px;
                   padding: 0 20px;
+                  border-radius: 6px;
                   transition: all 0.5s ease-out;
                   font-size: 18px;
                   font-weight: 500;
-                  border: 1px solid rgba(44, 53, 62, 0.1490196078);
+                  border: 1px solid $primary-color;
                   text-transform: capitalize;
 
                   &:hover{
@@ -503,7 +509,11 @@
               color:  $primary-color;
 
               a{
-                color:  $primary-color;
+                color:  $white;
+
+                &:hover{
+                  color: $primary-color;
+                }
               }
             }
 
@@ -2094,7 +2104,7 @@
               font-size: 21px;
               margin-bottom: 5px;
               font-weight: 500;
-              color: black;
+              color: $white;
             }
         }
         .wp-block-comment-edit-link {
@@ -2112,10 +2122,9 @@
         }
         .wp-block-comment-reply-link {
            a {
-             //border-radius: 6px;
              font-size: 14px;
              font-weight: 500;
-             color: black;
+             color: $white;
              border: 1px solid  $primary-color;
              padding: 4px 26px;
              display: inline-block;

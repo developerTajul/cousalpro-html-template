@@ -20548,7 +20548,10 @@ html {
   color: inherit;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__container.wp-block-navigation .wp-block-page-list a {
-  color: #616670;
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__container.wp-block-navigation .wp-block-page-list a:hover {
+  color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__container.wp-block-navigation .wp-block-page-list ul li a {
   color: black;
@@ -20572,7 +20575,7 @@ html {
   line-height: 78px;
   font-weight: 700;
   margin-top: 0;
-  color: black;
+  color: #ffffff;
   transition: all 0.3s;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h1:hover a {
@@ -20594,26 +20597,29 @@ html {
   color: black;
   word-break: break-word;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination {
+  margin-bottom: 12px;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers {
   display: inline-flex;
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
-  margin-bottom: 10px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #23262D;
-  background-color: rgba(217, 161, 76, 0.1);
-  border-radius: 50%;
-  height: 67px;
-  width: 67px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 6px;
+  height: 54px;
+  width: 54px;
   transition: all 0.5s ease-out;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: capitalize;
+  border: 1px solid transparent;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers:hover, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers.current {
   background-color: #EDBC5A;
@@ -20623,14 +20629,15 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #616670;
-  background-color: #ffffff;
+  color: #EDBC5A;
+  background-color: transparent;
   height: 53px;
   padding: 0 20px;
+  border-radius: 6px;
   transition: all 0.5s ease-out;
   font-size: 18px;
   font-weight: 500;
-  border: 1px solid rgba(44, 53, 62, 0.1490196078);
+  border: 1px solid #EDBC5A;
   text-transform: capitalize;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination-next:hover {
@@ -20645,6 +20652,11 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-terms a,
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-navigation-link a,
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-read-more a {
+  color: #ffffff;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-terms a:hover,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-navigation-link a:hover,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-read-more a:hover {
   color: #EDBC5A;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .blog-coment-title h2,
@@ -22008,7 +22020,7 @@ html {
   font-size: 21px;
   margin-bottom: 5px;
   font-weight: 500;
-  color: black;
+  color: #ffffff;
 }
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-edit-link a {
   color: #EDBC5A;
@@ -22022,7 +22034,7 @@ html {
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-reply-link a {
   font-size: 14px;
   font-weight: 500;
-  color: black;
+  color: #ffffff;
   border: 1px solid #EDBC5A;
   padding: 4px 26px;
   display: inline-block;
