@@ -285,12 +285,12 @@
               &.has-drop-cap.has-medium-font-size{
                 strong{
                   font-size: 20px;
-                  color: #616670;
+                  color: $white;
                 }
               }
               &.has-very-light-gray-color {
                   color: #eee;
-                  background:  $primary-color !important;
+                  // background:  $primary-color !important;
               }
             }
             ul {
