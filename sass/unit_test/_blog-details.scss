@@ -254,7 +254,7 @@
 
               &.has-text-color{
                 strong{
-                    color: #1e0566;
+                    // color: #1e0566;
                     font-size: 16px;
                 }
               }
@@ -330,6 +330,12 @@
               color: $white;
               opacity: 0.8;
             }
+
+            .wp-block-archives-dropdown{
+              label {
+                color: $white;
+              }
+            } 
             
 
             h2{
@@ -876,7 +882,7 @@
               border: 1px solid #E3E3E3;
               padding: 0 10px;
               border-radius: 5px;
-              color: #616670;
+              color: $white;
               background-color: transparent;
               display: block !important;
               margin-top: 10px;

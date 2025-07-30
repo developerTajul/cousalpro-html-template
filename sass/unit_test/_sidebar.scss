@@ -741,6 +741,11 @@
     }
   }
 
+  .wp-block-latest-posts__post-date{
+    color: $white;
+    opacity: 0.8;
+  }
+
   .wp-block-latest-posts__post-author,
   .wp-block-rss__item-author {
     &:before {
