@@ -21014,7 +21014,7 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .blog-coment-title .wp-block-comments-title,
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-comments h2,
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-comments .wp-block-comments-title {
-  margin-bottom: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   margin-top: -10px;
 }
