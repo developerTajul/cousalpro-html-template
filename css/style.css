@@ -20074,6 +20074,10 @@ html {
   font-weight: 400;
   font-size: 18px;
 }
+.blog-area .blog-posts .page-header .archive-description p,
+.blog-area .blog-post-items .page-header .archive-description p {
+  color: #ffffff;
+}
 .blog-area .blog-posts .not-found .page-header,
 .blog-area .blog-post-items .not-found .page-header {
   margin-bottom: 25px;
@@ -20197,6 +20201,48 @@ html {
 }
 .blog-area .blog-posts .not-found .page-content .error-content .error-btn-bh .theme-btn:hover,
 .blog-area .blog-post-items .not-found .page-content .error-content .error-btn-bh .theme-btn:hover {
+  background-color: transparent;
+  border-color: #EDBC5A;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .blog-posts .posts-navigation,
+  .blog-area .blog-post-items .posts-navigation {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-area .blog-posts .posts-navigation,
+  .blog-area .blog-post-items .posts-navigation {
+    margin-bottom: 40px;
+  }
+}
+.blog-area .blog-posts .posts-navigation .nav-links,
+.blog-area .blog-post-items .posts-navigation .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.blog-area .blog-posts .posts-navigation .nav-links .nav-previous a,
+.blog-area .blog-posts .posts-navigation .nav-links .nav-next a,
+.blog-area .blog-post-items .posts-navigation .nav-links .nav-previous a,
+.blog-area .blog-post-items .posts-navigation .nav-links .nav-next a {
+  display: inline-block;
+  border-radius: 7px;
+  color: white;
+  background-color: #EDBC5A;
+  font-size: 20px;
+  border: 1px solid transparent;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.blog-area .blog-posts .posts-navigation .nav-links .nav-previous a:hover,
+.blog-area .blog-posts .posts-navigation .nav-links .nav-next a:hover,
+.blog-area .blog-post-items .posts-navigation .nav-links .nav-previous a:hover,
+.blog-area .blog-post-items .posts-navigation .nav-links .nav-next a:hover {
   background-color: transparent;
   border-color: #EDBC5A;
 }
