@@ -38,14 +38,14 @@
       width: 100%;
       overflow: hidden;
       display: flex !important;
-      gap: 10px;
+      gap: 0;
       input{
-            padding: 0 25px;
-            height: 60px;
-            width: 100%;
-            color: #23262D;
-            font-size: 18px;
-            border: none !important;
+        padding: 0 25px;
+        height: 60px;
+        width: 100%;
+        color: #23262D;
+        font-size: 18px;
+        border: none !important;
       }
 
     button{
