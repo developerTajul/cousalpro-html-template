@@ -11,10 +11,12 @@ $white: #ffffff;
 $text-color: #616670;
 $border-color: #e3e3e3;
 $font-family: "Gilroy-Bold";
+// #B0B0B0
 
 .blog-area{
     
-  .blog-posts {
+  .blog-posts,
+  .blog-post-items {
     .single-post-item {
         margin-bottom: 60px;
 
@@ -423,10 +425,7 @@ $font-family: "Gilroy-Bold";
       }
     }
 
-  }
-  
-  .blog-post-items{
-
+    //page header
     .page-header{
       margin-bottom: 40px;
   
@@ -471,16 +470,15 @@ $font-family: "Gilroy-Bold";
         font-size: 18px;
       }
     }
-
+  
     // not found
-
     .not-found{
       .page-header{
         margin-bottom: 25px;
       }
-
+  
       .blog-search-content{
-
+  
         @include md{
           margin-bottom: 50px;
         }
@@ -536,7 +534,7 @@ $font-family: "Gilroy-Bold";
           color: $white;
           font-weight: 500;
           margin-top: 10px;
-
+  
           @include md {
             font-size: 28px;
           }
@@ -546,18 +544,18 @@ $font-family: "Gilroy-Bold";
           @include xs {
             font-size: 26px;
           }
-
+  
         }
-
+  
         .error-content{
           margin-top: 16px;
-
+  
           .error-text{
             color: $white;
             font-weight: 400;
             font-size: 18px;
           }
-
+  
           .error-btn-bh{
             .theme-btn{
               display: inline-block;
@@ -571,7 +569,7 @@ $font-family: "Gilroy-Bold";
               padding: 15px 20px;
               font-weight: 500;
               transition: all 0.3s;
-
+  
               &:hover{
                 background-color: transparent;
                 border-color: $primary-color;
@@ -581,9 +579,9 @@ $font-family: "Gilroy-Bold";
         }
       }
     }
-
-
   }
+  
+  
 }
 
 @keyframes ripple {
