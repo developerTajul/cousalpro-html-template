@@ -21705,7 +21705,6 @@ html {
   margin-top: 40px;
 }
 .post-comments-form .post-comments-title h2 {
-  margin-top: 20px;
   margin-bottom: 30px;
   font-size: 38px;
   line-height: normal;
@@ -21814,10 +21813,6 @@ html {
   border: none;
 }
 
-.comment-respond {
-  margin-top: 70px;
-}
-
 .blog-coment-title h2,
 .blog-coment-title .wp-block-comments-title,
 .wp-block-comments h2,
@@ -21913,17 +21908,36 @@ html {
 .latest-comments .comment-respond {
   margin-top: 30px;
 }
-.latest-comments .comment-respond small {
-  float: right;
-  padding-top: 20px;
+.latest-comments .comment-respond .post-comments-title h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 38px;
+  line-height: normal;
+  font-weight: 500;
+  font-family: "Gilroy-Bold";
 }
-.latest-comments .comment-respond small a {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .latest-comments .comment-respond .post-comments-title h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .latest-comments .comment-respond .post-comments-title h2 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .latest-comments .comment-respond .post-comments-title h2 {
+    font-size: 28px;
+  }
+}
+.latest-comments .comment-respond .post-comments-title h2 small a {
   border: 1px solid #EDBC5A;
   padding: 5px 12px;
   color: #ffffff;
   font-size: 18px;
 }
-.latest-comments .comment-respond small a:hover {
+.latest-comments .comment-respond .post-comments-title h2 small a:hover {
   background-color: #EDBC5A;
 }
 .latest-comments li.comment {

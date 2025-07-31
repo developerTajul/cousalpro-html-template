@@ -1433,7 +1433,6 @@
   margin-top: 40px;
 
   .post-comments-title h2 {
-    margin-top: 20px;
     margin-bottom: 30px;
     font-size: 38px;
     line-height: normal;
@@ -1547,10 +1546,6 @@
 
 // blog details -- post card
 
-
-.comment-respond {
-  margin-top: 70px;
-}
 .blog-coment-title,
 .wp-block-comments {
   h2,
@@ -1651,21 +1646,40 @@
   .comment-respond {
     margin-top: 30px;
 
-    small{
-      float: right;
-      padding-top: 20px;
+      .post-comments-title h2 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 38px;
+        line-height: normal;
+        font-weight: 500;
+        font-family: $font-family;
 
-      a{
-        border: 1px solid $primary-color;
-        padding: 5px 12px;
-        color: $white;
-        font-size: 18px;
+        @include  md{
+          font-size: 32px;
+        }
+        @include  sm{
+          font-size: 30px;
+        }
+        @include  xxs{
+          font-size: 28px;
+        }
 
-        &:hover{
-          background-color: $primary-color;
+        small{
+          
+          a{
+            border: 1px solid $primary-color;
+            padding: 5px 12px;
+            color: $white;
+            font-size: 18px;
+    
+            &:hover{
+              background-color: $primary-color;
+            }
+          }
         }
       }
-    }
+
+
   }
   li {
     &.comment {
