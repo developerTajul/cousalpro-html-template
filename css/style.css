@@ -21915,6 +21915,41 @@ html {
 }
 
 /* Block Comment End */
+.post-comments-title h2 {
+  margin-bottom: 24px;
+  font-size: 38px;
+  line-height: normal;
+  font-weight: 500;
+  font-family: "Gilroy-Bold";
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .post-comments-title h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .post-comments-title h2 {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .post-comments-title h2 {
+    font-size: 25px;
+  }
+}
+.post-comments-title h2 small {
+  margin-left: 20px;
+}
+.post-comments-title h2 small a {
+  border: 1px solid #EDBC5A;
+  padding: 5px 12px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.post-comments-title h2 small a:hover {
+  background-color: #EDBC5A;
+}
+
 .latest-comments .comment-respond {
   margin-top: 30px;
 }

@@ -1649,6 +1649,39 @@
 }
 
 /* Block Comment End */
+
+.post-comments-title h2 {
+  margin-bottom: 24px;
+  font-size: 38px;
+  line-height: normal;
+  font-weight: 500;
+  font-family: $font-family;
+
+  @include  md{
+    font-size: 32px;
+  }
+  @include  sm{
+    font-size: 28px;
+  }
+  @include  xxs{
+    font-size: 25px;
+  }
+
+  small{
+    margin-left: 20px;
+    a{
+      border: 1px solid $primary-color;
+      padding: 5px 12px;
+      color: $white;
+      font-size: 18px;
+
+      &:hover{
+        background-color: $primary-color;
+      }
+    }
+  }
+}
+
 .latest-comments {
   .comment-respond {
     margin-top: 30px;
