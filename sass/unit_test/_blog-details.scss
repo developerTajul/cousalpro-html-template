@@ -1650,6 +1650,17 @@
 .latest-comments {
   .comment-respond {
     margin-top: 30px;
+
+    small{
+      float: right;
+      padding-top: 20px;
+
+      a{
+        border: 1px solid $primary-color;
+        padding: 5px 12px;
+        color: $white;
+      }
+    }
   }
   li {
     &.comment {

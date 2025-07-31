@@ -21913,6 +21913,15 @@ html {
 .latest-comments .comment-respond {
   margin-top: 30px;
 }
+.latest-comments .comment-respond small {
+  float: right;
+  padding-top: 20px;
+}
+.latest-comments .comment-respond small a {
+  border: 1px solid #EDBC5A;
+  padding: 5px 12px;
+  color: #ffffff;
+}
 .latest-comments li.comment {
   padding: 0;
 }
