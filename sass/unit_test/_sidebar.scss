@@ -1,11 +1,14 @@
 
 .sidebar {
-  // padding-left: 22px;
+  .widget{
+    ol,ul{
+      padding-left: 0;
 
-//   @include rmaxwd(991) {
-//     padding-left: 0;
-//     padding-top: 40px;
-//   }
+      ol,ul{
+        padding-left: 20px;
+      }
+    }
+  }
 }
 .page-sidebar {
   margin-bottom: 50px;
@@ -530,7 +533,7 @@
       }
 
       ul {
-        padding-left: 25px;
+        padding-left: 20px;
         padding-top: 10px;
       }
     }

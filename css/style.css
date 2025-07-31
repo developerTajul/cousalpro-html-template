@@ -21761,6 +21761,13 @@ ul.children {
   list-style: none;
 }
 
+.sidebar .widget ol, .sidebar .widget ul {
+  padding-left: 0;
+}
+.sidebar .widget ol ol, .sidebar .widget ol ul, .sidebar .widget ul ol, .sidebar .widget ul ul {
+  padding-left: 20px;
+}
+
 .page-sidebar {
   margin-bottom: 50px;
   padding-left: 18px;
@@ -22158,7 +22165,7 @@ ul.children {
 }
 .widget ul li ul,
 .widget ol li ul {
-  padding-left: 25px;
+  padding-left: 20px;
   padding-top: 10px;
 }
 .widget ul.wp-tag-cloud li,
