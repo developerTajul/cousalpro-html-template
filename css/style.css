@@ -19587,12 +19587,12 @@ html {
 
 .blog-area .blog-posts .single-post-item,
 .blog-area .blog-post-items .single-post-item {
-  margin-bottom: 60px;
+  margin-bottom: 54px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area .blog-posts .single-post-item,
   .blog-area .blog-post-items .single-post-item {
-    margin-bottom: 48px;
+    margin-bottom: 45px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -20035,6 +20035,18 @@ html {
 .blog-area .blog-posts .page-header,
 .blog-area .blog-post-items .page-header {
   margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .blog-posts .page-header,
+  .blog-area .blog-post-items .page-header {
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-area .blog-posts .page-header,
+  .blog-area .blog-post-items .page-header {
+    margin-bottom: 25px;
+  }
 }
 .blog-area .blog-posts .page-header .page-title,
 .blog-area .blog-post-items .page-header .page-title {

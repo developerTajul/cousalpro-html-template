@@ -18,10 +18,10 @@ $font-family: "Gilroy-Bold";
   .blog-posts,
   .blog-post-items {
     .single-post-item {
-        margin-bottom: 60px;
+        margin-bottom: 54px;
 
         @include md{
-          margin-bottom: 48px;
+          margin-bottom: 45px;
         }
         @include sm{
           margin-bottom: 35px;
@@ -435,6 +435,13 @@ $font-family: "Gilroy-Bold";
     //page header
     .page-header{
       margin-bottom: 40px;
+
+      @include md{
+        margin-bottom: 32px;
+      }
+      @include sm{
+        margin-bottom: 25px;
+      }
   
       .page-title {              
         font-family: $font-family;
@@ -626,8 +633,6 @@ $font-family: "Gilroy-Bold";
         }
       }
     }
-
-
 
   }
   
