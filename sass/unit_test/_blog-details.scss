@@ -481,6 +481,11 @@
                       font-weight: 500;
                       color: $white;
                       word-break: break-word;
+                      font-size: 2rem;
+
+                      @include sm{
+                        font-size: 28px;
+                      }
                     }
                   }
               }

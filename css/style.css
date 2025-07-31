@@ -20928,6 +20928,12 @@ html {
   font-weight: 500;
   color: #ffffff;
   word-break: break-word;
+  font-size: 2rem;
+}
+@media only screen and (max-width: 767px) {
+  .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query .wp-block-post-template .wp-block-post h2 {
+    font-size: 28px;
+  }
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination {
   margin-bottom: 20px;
