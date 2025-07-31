@@ -20,6 +20,13 @@ $font-family: "Gilroy-Bold";
     .single-post-item {
         margin-bottom: 60px;
 
+        @include md{
+          margin-bottom: 48px;
+        }
+        @include sm{
+          margin-bottom: 35px;
+        }
+
         .post-content-wrapper {
           background: $gray-100;
           padding: 35px 25px;
@@ -586,11 +593,8 @@ $font-family: "Gilroy-Bold";
     //post navigation
     .posts-navigation{
 
-      @include md{
-        margin-bottom: 50px;
-      }
       @include sm{
-        margin-bottom: 40px;
+        margin-bottom: 20px;
       }
 
       .nav-links{

@@ -19589,6 +19589,18 @@ html {
 .blog-area .blog-post-items .single-post-item {
   margin-bottom: 60px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .blog-posts .single-post-item,
+  .blog-area .blog-post-items .single-post-item {
+    margin-bottom: 48px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-area .blog-posts .single-post-item,
+  .blog-area .blog-post-items .single-post-item {
+    margin-bottom: 35px;
+  }
+}
 .blog-area .blog-posts .single-post-item .post-content-wrapper,
 .blog-area .blog-post-items .single-post-item .post-content-wrapper {
   background: #f7f1fc;
@@ -20204,16 +20216,10 @@ html {
   background-color: transparent;
   border-color: #EDBC5A;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .blog-area .blog-posts .posts-navigation,
-  .blog-area .blog-post-items .posts-navigation {
-    margin-bottom: 50px;
-  }
-}
 @media only screen and (max-width: 767px) {
   .blog-area .blog-posts .posts-navigation,
   .blog-area .blog-post-items .posts-navigation {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 .blog-area .blog-posts .posts-navigation .nav-links,
