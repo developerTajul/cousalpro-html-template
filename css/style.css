@@ -21950,6 +21950,15 @@ html {
   background-color: #EDBC5A;
 }
 
+.wp-block-post-comments-form {
+  margin-top: 40px;
+}
+@media only screen and (max-width: 575px) {
+  .wp-block-post-comments-form {
+    margin-top: 2px;
+  }
+}
+
 .latest-comments .comment-respond {
   margin-top: 30px;
 }
