@@ -512,16 +512,21 @@
           
         })
 
-      // remove white space from p in blog page for wp
+    // "Empty" <p> Tags (including &nbsp;) for wp
 
-      $('p').each(function () {
-        // Check if paragraph has no text and no non-empty elements (like <img>)
-        if ($(this).contents().filter(function () {
-          return this.nodeType === 3 ? $.trim(this.nodeValue).length : true;
-        }).length === 0) {
-          $(this).hide();
-        }
-      });
+     $('p').each(function () {
+      const html = $(this).html();
+
+      // Normalize whitespace and non-breaking space
+      const cleaned = html
+        .replace(/&nbsp;/gi, '') // remove non-breaking spaces
+        .replace(/\s/g, '')      // remove regular spaces, tabs, newlines
+
+      if (cleaned === '') {
+        $(this).remove(); // or use .hide() if needed
+      }
+    });
+
 
   });
 })(jQuery);
