@@ -21761,13 +21761,6 @@ ul.children {
   list-style: none;
 }
 
-.sidebar .widget ol, .sidebar .widget ul {
-  padding-left: 0;
-}
-.sidebar .widget ol ol, .sidebar .widget ol ul, .sidebar .widget ul ol, .sidebar .widget ul ul {
-  padding-left: 20px;
-}
-
 .page-sidebar {
   margin-bottom: 50px;
   padding-left: 18px;
@@ -22984,6 +22977,9 @@ body {
 .blog-area .sidebar .widget ul, .blog-area .sidebar .widget ol, .blog-area .sidebar .widget dl {
   padding-left: 0;
   margin-bottom: 0;
+}
+.blog-area .sidebar .widget ul ul, .blog-area .sidebar .widget ul ol, .blog-area .sidebar .widget ol ul, .blog-area .sidebar .widget ol ol, .blog-area .sidebar .widget dl ul, .blog-area .sidebar .widget dl ol {
+  padding-left: 20px;
 }
 
 dl dd a {
