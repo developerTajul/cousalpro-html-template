@@ -20513,8 +20513,11 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul li a:hover {
   color: #EDBC5A;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ol :first-child, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul :first-child {
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ol, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul {
   padding-left: 0;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ol ol, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ol ul, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul ol, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul ul {
+  padding-left: 20px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-table :where(figcaption),
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-image :where(figcaption),
