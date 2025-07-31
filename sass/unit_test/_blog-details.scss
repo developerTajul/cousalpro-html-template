@@ -1659,6 +1659,11 @@
         border: 1px solid $primary-color;
         padding: 5px 12px;
         color: $white;
+        font-size: 18px;
+
+        &:hover{
+          background-color: $primary-color;
+        }
       }
     }
   }

@@ -21921,6 +21921,10 @@ html {
   border: 1px solid #EDBC5A;
   padding: 5px 12px;
   color: #ffffff;
+  font-size: 18px;
+}
+.latest-comments .comment-respond small a:hover {
+  background-color: #EDBC5A;
 }
 .latest-comments li.comment {
   padding: 0;
