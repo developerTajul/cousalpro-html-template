@@ -20837,6 +20837,14 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-archives-dropdown label {
   color: #ffffff;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-title {
+  font-size: 2rem;
+}
+@media only screen and (max-width: 767px) {
+  .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-title {
+    font-size: 28px;
+  }
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2 {
   margin-bottom: 10px;
   font-weight: 600;
@@ -21823,37 +21831,33 @@ html {
 .blog-coment-title .wp-block-comments-title,
 .wp-block-comments h2,
 .wp-block-comments .wp-block-comments-title {
-  font-size: 48px;
-  line-height: 56px;
-  margin-bottom: 0;
+  font-size: 38px;
+  line-height: normal;
   font-weight: 500;
-  margin-top: -10px;
-}
-@media only screen and (max-width: 767px) {
-  .blog-coment-title h2,
-  .blog-coment-title .wp-block-comments-title,
-  .wp-block-comments h2,
-  .wp-block-comments .wp-block-comments-title {
-    font-size: 32px;
-    line-height: 34px;
-  }
+  font-family: "Gilroy-Bold";
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-coment-title h2,
   .blog-coment-title .wp-block-comments-title,
   .wp-block-comments h2,
   .wp-block-comments .wp-block-comments-title {
-    font-size: 38px;
-    line-height: 42px;
+    font-size: 32px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (max-width: 767px) {
   .blog-coment-title h2,
   .blog-coment-title .wp-block-comments-title,
   .wp-block-comments h2,
   .wp-block-comments .wp-block-comments-title {
-    font-size: 42px;
-    line-height: 56px;
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .blog-coment-title h2,
+  .blog-coment-title .wp-block-comments-title,
+  .wp-block-comments h2,
+  .wp-block-comments .wp-block-comments-title {
+    font-size: 25px;
   }
 }
 

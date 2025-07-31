@@ -348,6 +348,12 @@
               }
             } 
             
+            .wp-block-post-title{
+              font-size: 2rem;
+              @include sm{
+                font-size: 28px;
+              }
+            }
 
             h2{
               margin-bottom: 10px;
@@ -1555,23 +1561,19 @@
 .wp-block-comments {
   h2,
   .wp-block-comments-title {
-    font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 0;
+    font-size: 38px;
+    line-height: normal;
     font-weight: 500;
-    margin-top: -10px;
+    font-family: $font-family;
 
-    @include  sm {
+    @include  md{
       font-size: 32px;
-      line-height: 34px;
     }
-    @include  md {
-      font-size: 38px;
-      line-height: 42px;
+    @include  sm{
+      font-size: 28px;
     }
-    @include  lg {
-      font-size: 42px;
-      line-height: 56px;
+    @include  xxs{
+      font-size: 25px;
     }
   }
 }
