@@ -514,8 +514,8 @@ $font-family: "Gilroy-Bold";
       .page-content{
         .error-404-title{
           font-size: 44px;
-          color: $gray-900;
-          font-weight: $font-weight-bold;
+          color: $white;
+          font-weight: 500;
           
           @include lg {
             font-size: 40px;
@@ -533,8 +533,8 @@ $font-family: "Gilroy-Bold";
         }
         .error-title{
           font-size: 30px;
-          color: $gray-900;
-          font-weight: 700;
+          color: $white;
+          font-weight: 500;
           margin-top: 10px;
 
           @include md {
@@ -553,7 +553,7 @@ $font-family: "Gilroy-Bold";
           margin-top: 16px;
 
           .error-text{
-            color: $gray-800;
+            color: $white;
             font-weight: 400;
             font-size: 18px;
           }
@@ -563,9 +563,9 @@ $font-family: "Gilroy-Bold";
               display: inline-block;
               border-radius: 7px;
               color: white;
-              background-color: #573db8;
+              background-color: $primary-color;
               font-size: 20px;
-              border: none;
+              border: 1px solid transparent;
               width: fit-content;
               margin-top: 5px;
               padding: 15px 20px;
@@ -573,7 +573,8 @@ $font-family: "Gilroy-Bold";
               transition: all 0.3s;
 
               &:hover{
-                background-color: $gray-900;
+                background-color: transparent;
+                border-color: $primary-color;
               }
             }
           }
