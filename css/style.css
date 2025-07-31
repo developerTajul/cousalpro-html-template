@@ -20495,7 +20495,6 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul {
   margin-top: 15px;
   margin-bottom: 15px;
-  padding-left: 0;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul li {
   margin-top: 10px;
@@ -20514,7 +20513,7 @@ html {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul li a:hover {
   color: #EDBC5A;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ol {
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ol :first-child, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul :first-child {
   padding-left: 0;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-table :where(figcaption),

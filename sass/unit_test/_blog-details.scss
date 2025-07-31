@@ -301,7 +301,6 @@
             ul {
               margin-top: 15px;
               margin-bottom: 15px;
-              padding-left: 0;
 
               li {
                 margin-top: 10px;
@@ -325,8 +324,11 @@
                 
               }
             }
-            ol{
-              padding-left: 0;
+            ol,ul{
+              :first-child{
+                padding-left: 0;
+              }
+             
             }
 
             .wp-block-table :where(figcaption),
