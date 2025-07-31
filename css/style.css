@@ -21023,8 +21023,8 @@ html {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-comments .wp-block-comment-template li .wp-block-columns {
   padding: 50px;
-  border: 1px solid #dfe2e9;
-  margin-bottom: 24px;
+  border: 1px solid rgb(236, 236, 236);
+  margin-bottom: 40px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-avatar {
   flex-shrink: 0;
@@ -22062,7 +22062,6 @@ html {
 .latest-comments li .comments-box .comments-text p {
   font-size: 16px;
   line-height: 30px;
-  margin-bottom: 20px;
   color: #ffffff;
 }
 .latest-comments li .comments-box .comments-text p a {
