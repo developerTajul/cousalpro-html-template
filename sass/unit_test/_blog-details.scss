@@ -1647,7 +1647,6 @@
     margin-top: 30px;
 
       .post-comments-title h2 {
-        margin-top: 20px;
         margin-bottom: 30px;
         font-size: 38px;
         line-height: normal;
@@ -1658,14 +1657,14 @@
           font-size: 32px;
         }
         @include  sm{
-          font-size: 30px;
+          font-size: 28px;
         }
         @include  xxs{
-          font-size: 28px;
+          font-size: 25px;
         }
 
         small{
-          
+          margin-left: 20px;
           a{
             border: 1px solid $primary-color;
             padding: 5px 12px;

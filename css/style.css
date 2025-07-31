@@ -21909,7 +21909,6 @@ html {
   margin-top: 30px;
 }
 .latest-comments .comment-respond .post-comments-title h2 {
-  margin-top: 20px;
   margin-bottom: 30px;
   font-size: 38px;
   line-height: normal;
@@ -21923,13 +21922,16 @@ html {
 }
 @media only screen and (max-width: 767px) {
   .latest-comments .comment-respond .post-comments-title h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 @media only screen and (max-width: 479px) {
   .latest-comments .comment-respond .post-comments-title h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
+}
+.latest-comments .comment-respond .post-comments-title h2 small {
+  margin-left: 20px;
 }
 .latest-comments .comment-respond .post-comments-title h2 small a {
   border: 1px solid #EDBC5A;
