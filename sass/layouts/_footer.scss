@@ -1,12 +1,13 @@
 .footer-area{
     &-company-logo{
-        @include lg{
-            padding-bottom: 20px;
+
+        @include md{
+            padding-bottom: 30px;
         }
         @include sm{
-            padding-bottom: 15px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            padding-bottom: 25px;
         }
+       
     }
     &-company-info{
         .line-1 {
@@ -84,11 +85,11 @@
             border: 1px solid rgba(224, 224, 224, 0.15);
             display: inline-block;
             @include xl{
-                padding: 10px 20px;
+                padding: 5px 20px;
             }
             @include lg{
                 padding: 10px 20px;
-                font-size: 12px;
+                font-size: 15px;
             }
         }
     }
@@ -111,47 +112,21 @@
             display: none;
         }
     }
-    &-social-info{
-        @include lg{
-            padding-bottom: 28px;
-        }
-        @include md{
-            padding: 15px 0;
-        }
+    
+    & .sce-email{
+       
         @include sm{
-            padding: 15px 0;
+            margin-bottom: 25px;        
         }
-        & .sce-email{
-            @include xl{
-                margin-left: 70px;
-            }
+        a{
+            display: inline-block;
             @include lg{
-                margin-left: 30px;
-            }
-            @include md{
-                margin-left: 0;
-            }
-            @include sm{
-                margin-left: 0;
-                margin-bottom: 15px;
-            
-            }
-            a{
-                display: inline-block;
-                @include lg{
-                    font-size: 12px;
-                }
-            }
-        }
-        .social-content{
-            a{
-                display: inline-block;
-                font-family: Rubik;
-                font-size: 14px;
-                line-height: normal;
+                font-size: 15px;
             }
         }
     }
+        
+    
     &-quick-menu{
         margin-left: 120px;
         @include xl{
@@ -180,6 +155,16 @@
         }
     }
     &-quick-menu-one{
+        h4{
+            margin-bottom: 26px;
+
+            @include md{
+                margin-bottom: 15px;
+            }
+            @include sm{
+                margin-bottom: 12px;
+            }
+        }
        li{
         margin-bottom: 4.5px;
        }
@@ -202,26 +187,20 @@
     }
     &-services{
         h4{
-            @include xs{
-                margin: 15px 0 10px 0;
+            margin-bottom: 26px;
+            @include md{
+                margin-bottom: 15px;
             }
+            @include sm{
+                margin-bottom: 12px;
+            }
+            
         }
     }
     &-sand-messege{
-        margin: 42px 0 0 110px;
+        
         animation: anime 3s linear infinite;
-        @include xl{
-            margin: 38px 0 0 24px;
-        }
-        @include lg{
-            margin: 38px 0 0 24px;
-        }
-        @include md{
-            margin: 42px 0 0 65px;
-        }
-        @include sm{
-            display: none;
-        }
+        
         a {
             display: flex;
             flex-direction: column;
@@ -235,8 +214,12 @@
             border-radius: 50%;
             padding: 24px;
             @include lg{
-                width: 86px;
-                height: 86px;
+                width: 120px;
+                height: 120px;
+            }
+            @include xxs{
+                width: 120px;
+                height: 120px;
             }
             h4{
                 color: var(--black, #141414);
@@ -244,6 +227,9 @@
                 font-size: 20px;
                 @include transition;
                 @include lg{
+                    font-size: 16px;
+                }
+                @include xxs{
                     font-size: 16px;
                 }
             }
@@ -262,14 +248,7 @@
         }
     }
     .footer-copy-right-info{
-        @include md{
-            padding: 15px 0;
-            border-top: 1px solid rgba(255, 255, 255, 0.15);
-        }
-        @include sm{
-            padding: 15px 0;
-            border-top: 1px solid rgba(255, 255, 255, 0.15);
-        }
+       padding: 20px 0;
         span{
             color: var(--White, #FFF);
             text-align: center;
@@ -287,6 +266,68 @@
                 line-height: normal;
                 display: inline-block;
             }
+        }
+    }
+}
+
+
+.footer-top{
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+    .social-content{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        @include lg{
+            gap: 20px;
+        }
+
+        @include md{
+            gap: 30px;
+        }
+
+        @include xxs{
+            gap: 25px;
+        }
+        a{
+            display: inline-block;
+            font-family: Rubik;
+            font-size: 14px;
+            line-height: normal;
+
+            img{
+                margin-right: 10px;
+
+                @include lg{
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+.footer-bottom{
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+    .footer-area-quick-menu-one {
+        ul{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    }
+
+    .others{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include md{
+            margin-top: 30px;
+        }
+        @include sm{
+            margin-top: 30px;
         }
     }
 }
