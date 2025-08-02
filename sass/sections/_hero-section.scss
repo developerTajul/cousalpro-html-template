@@ -50,6 +50,7 @@
     top: 0;
     right: 100px;
     z-index: 11;
+    animation: anime 3s linear infinite;
 
     @include rmaxwd(1700) {
       max-width: 50%;

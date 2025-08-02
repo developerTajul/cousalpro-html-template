@@ -14752,6 +14752,7 @@ html {
   top: 0;
   right: 100px;
   z-index: 11;
+  animation: anime 3s linear infinite;
 }
 @media (max-width: 1700px) {
   .hero-area-bg-block-shape {
@@ -19121,27 +19122,35 @@ html {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area-card {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
   .blog-area-card {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
-}
-.blog-area-card:hover p.hidden-card {
-  visibility: visible;
-  opacity: 1;
-  max-height: 100%;
-  transform: scaleY(1);
 }
 .blog-area-card:hover .blog-area-icon-img {
   visibility: visible;
   opacity: 1;
 }
+.blog-area-card-wrapper {
+  width: 100%;
+}
 .blog-area-card-wrapper span {
   color: #B0B0B0;
   display: block;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area-card-wrapper span {
+    margin-bottom: 6px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-area-card-wrapper span {
+    margin-bottom: 6px;
+  }
 }
 .blog-area-card-wrapper h5 {
   color: #ffffff;
@@ -19159,6 +19168,15 @@ html {
 @media (max-width: 500px) {
   .blog-area-card-wrapper h5 {
     font-size: 16px;
+  }
+}
+.blog-area-card-wrapper p {
+  margin-bottom: 20px;
+  display: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area-card-wrapper p {
+    display: block !important;
   }
 }
 .blog-area-card-wrapper .hidden-card {

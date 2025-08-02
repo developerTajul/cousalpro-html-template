@@ -2,20 +2,13 @@
     &-card {
         position: relative;
         @include md{
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
         @include sm{
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         &:hover {
-            p {
-                &.hidden-card{
-                    visibility: visible;
-                    opacity: 1;
-                    max-height: 100%;
-                    transform: scaleY(1);
-                }
-            }
+           
             .blog-area-icon-img {
                 visibility: visible;
                 opacity: 1;
@@ -24,9 +17,18 @@
     }
 
     &-card-wrapper {
+        width: 100%;
         span {
             color: #B0B0B0;
             display: block;
+            margin-bottom: 20px;
+
+            @include md{
+                margin-bottom: 6px;
+            }
+            @include sm{
+                margin-bottom: 6px;
+            }
         }
         h5 {
             color: #ffffff;
@@ -40,6 +42,15 @@
                 font-size: 16px;
             }
         }
+        p{
+            margin-bottom: 20px;
+            display: none;
+
+            @include md{
+                display: block !important;
+            }
+        }
+        
         .hidden-card {
             visibility: hidden;
             opacity: 0;
@@ -49,6 +60,8 @@
             @include lg {
                 font-size: 12px;
             }
+
+            
         }
         .card-image{
             .blog-main-img{

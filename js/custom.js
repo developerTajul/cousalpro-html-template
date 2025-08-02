@@ -323,12 +323,9 @@
     });
 
     /*
-        Window Load
-        ============================*/
-    // $(window).on('load', function () {
-    //   $('#preloader').fadeOut();
-    //   $('body').delay(200).css({ 'overflow-x': 'hidden' });
-    // });
+      Window PreLoader
+      ============================*/
+    
     $('#preloader').fadeOut();
     $('body').delay(200).css({ 'overflow-x': 'hidden' });
     /*
@@ -365,66 +362,30 @@
         return false;
       });
     });
-    /*Blog Hover Card
-        ============================*/
-    $('#card-1, #card-3').hover(
-      function () {
-        $('#card-2 .visible-card').css({
-          visibility: 'hidden',
-          opacity: '0',
-          'max-height': '0',
-          transform: 'scaleY(0)',
-          transition: 'all 0.4s ease 0s',
+
+    /*Blog Hover Card ============================*/
+    function handleHoverEffect() {
+      if ($(window).width() > 991) {
+        // Desktop behavior: Only one visible at a time
+        $(".blog-area-card-wrapper p").hide(); // Hide all
+        $(".blog-area-card").eq(0).find("p").show(); // Show default
+
+        $(".blog-area-card").off("mouseenter").on("mouseenter", function () {
+          $(".blog-area-card-wrapper p").stop().slideUp(300);
+          $(this).find("p").stop().slideDown(300);
         });
-        $('#card-2 .blog-area-icon-img').css({
-          visibility: 'hidden',
-          opacity: '0',
-        });
-      },
-      function () {
-        $('#card-2 .visible-card').css({
-          visibility: 'visible',
-          opacity: '1',
-          'max-height': '100px',
-          transform: 'scaleY(1)',
-          transition: 'all 0.4s ease 0s',
-        });
-        $('#card-2 .blog-area-icon-img').css({
-          visibility: 'visible',
-          opacity: '1',
-          transition: 'all 0.3s ease 0s',
-        });
+      } else {
+        // Mobile behavior: show all <p> tags
+        $(".blog-area-card-wrapper p").show();
+        $(".blog-area-card").off("mouseenter"); // Remove hover effects on mobile
       }
-    );
-    $('#card-4, #card-6').hover(
-      function () {
-        $('#card-5 .visible-card').css({
-          visibility: 'hidden',
-          opacity: '0',
-          'max-height': '0',
-          transform: 'scaleY(0)',
-          transition: 'all 0.4s ease 0s',
-        });
-        $('#card-5 .blog-area-icon-img').css({
-          visibility: 'hidden',
-          opacity: '0',
-        });
-      },
-      function () {
-        $('#card-5 .visible-card').css({
-          visibility: 'visible',
-          opacity: '1',
-          'max-height': '100px',
-          transform: 'scaleY(1)',
-          transition: 'all 0.4s ease 0s',
-        });
-        $('#card-5 .blog-area-icon-img').css({
-          visibility: 'visible',
-          opacity: '1',
-          transition: 'all 0.3s ease 0s',
-        });
-      }
-    );
+    }
+      handleHoverEffect();
+
+      $(window).resize(function () {
+        handleHoverEffect();
+      });
+ 
     /*pricing Hover Card
         ============================*/
     $('#cards-1, #cards-3').hover(
