@@ -13085,6 +13085,145 @@ html {
   stroke-dasharray: 265.2;
 }
 
+.gallery-area.home-1 {
+  padding-bottom: 135px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .gallery-area.home-1 {
+    padding-bottom: 95px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .gallery-area.home-1 {
+    padding-bottom: 75px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .gallery-area.home-1 {
+    padding-bottom: 75px;
+  }
+}
+
+.about-area.home-1 {
+  padding-bottom: 135px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area.home-1 {
+    padding-bottom: 95px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-area.home-1 {
+    padding-bottom: 75px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-area.home-1 {
+    padding-bottom: 75px;
+  }
+}
+
+.portfolio-area.home-1 {
+  padding-bottom: 140px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .portfolio-area.home-1 {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area.home-1 {
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .portfolio-area.home-1 {
+    padding-bottom: 80px;
+  }
+}
+.portfolio-area.home-1 .portfolio-area-awards {
+  padding-top: 135px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .portfolio-area.home-1 .portfolio-area-awards {
+    padding-top: 95px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area.home-1 .portfolio-area-awards {
+    padding-top: 75px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .portfolio-area.home-1 .portfolio-area-awards {
+    padding-top: 75px;
+  }
+}
+
+.wcu-area.home-1 {
+  padding-top: 196px;
+  padding-bottom: 130px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .wcu-area.home-1 {
+    padding-top: 0px !important;
+    padding-bottom: 90px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wcu-area.home-1 {
+    padding-top: 0 !important;
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wcu-area.home-1 {
+    padding-top: 0 !important;
+    padding-bottom: 70px;
+  }
+}
+
+.team-area.home-1 {
+  padding-bottom: 140px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .team-area.home-1 {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-area.home-1 {
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-area.home-1 {
+    padding-bottom: 80px;
+  }
+}
+
+.home-blog-area.home-1 {
+  padding-bottom: 140px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .home-blog-area.home-1 {
+    padding-top: 95px;
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home-blog-area.home-1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home-blog-area.home-1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title {
     margin-bottom: 30px;
@@ -15858,6 +15997,16 @@ html {
   z-index: 1;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area-bg-shape {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-area-bg-shape {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
   .about-area-bg-shape {
     display: none;
   }

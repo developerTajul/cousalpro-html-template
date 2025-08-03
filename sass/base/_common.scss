@@ -135,4 +135,121 @@ html {
             stroke-dasharray: 265.2;
         }
     }
-  }
+}
+
+// home one responsive spaces
+.gallery-area{
+    &.home-1{
+        padding-bottom: 135px;
+
+        @include lg{
+            padding-bottom: 95px;
+        }
+        @include md{
+            padding-bottom: 75px;
+        }
+        @include sm{
+            padding-bottom: 75px;
+        }
+    }
+}
+
+.about-area{
+    &.home-1{
+        padding-bottom: 135px;
+
+        @include lg{
+            padding-bottom: 95px;
+        }
+        @include md{
+            padding-bottom: 75px;
+        }
+        @include sm{
+            padding-bottom: 75px;
+        }
+        
+    }
+}
+
+.portfolio-area{
+    &.home-1{
+        padding-bottom: 140px;
+
+        @include lg{
+            padding-bottom: 100px;
+        }
+        @include md{
+            padding-bottom: 80px;
+        }
+        @include sm{
+            padding-bottom: 80px;
+        }
+
+        .portfolio-area-awards{
+            padding-top: 135px;
+
+            @include lg{
+                padding-top: 95px;
+            }
+            @include md{
+                padding-top: 75px;
+            }
+            @include sm{
+                padding-top: 75px;
+            }
+        }
+    }
+}
+
+.wcu-area{
+    &.home-1{
+        padding-top: 196px;
+        padding-bottom: 130px;
+
+        @include lg{
+            padding-top: 0px !important;
+            padding-bottom: 90px;
+        }
+
+        @include md{
+            padding-top: 0 !important;
+            padding-bottom: 70px;
+        }
+        @include sm{
+            padding-top: 0 !important;
+            padding-bottom: 70px;
+        }
+    }
+}
+.team-area{
+    &.home-1{
+        padding-bottom: 140px;
+        @include lg{
+            padding-bottom: 100px;
+        }
+        @include md{
+            padding-bottom: 80px;
+        }
+        @include sm{
+            padding-bottom: 80px;
+        }
+    }
+}
+.home-blog-area{
+    &.home-1{
+        padding-bottom: 140px;
+        
+        @include lg{
+            padding-top: 95px;
+            padding-bottom: 100px;
+        }
+        @include md{
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        @include sm{
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+    }
+}

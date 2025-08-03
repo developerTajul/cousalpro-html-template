@@ -7,6 +7,12 @@
         @include lg{
             display: none;
         }
+        @include md{
+            display: none;
+        }
+        @include sm{
+            display: none;
+        }
     }
 
     &-bg-topographic {
