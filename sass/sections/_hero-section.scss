@@ -91,6 +91,7 @@
 
     @include sm {
       font-size: 80px;
+      line-height: 1.2;
     }
 
     @include rmaxwd(576) {
@@ -98,7 +99,7 @@
     }
 
     @include xs {
-      font-size: 30px;
+      font-size: 42px;
     }
 
     & span {

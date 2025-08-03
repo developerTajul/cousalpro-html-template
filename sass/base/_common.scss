@@ -83,6 +83,20 @@ html {
         padding-bottom: 40px;
     }
 }
+.pb-135{
+	@include xl{
+        padding-bottom: 105px;
+    }
+    @include lg{
+        padding-bottom: 70px;
+    }
+    @include md{
+        padding-bottom: 55px;
+    }
+    @include sm{
+        padding-bottom: 40px;
+    }
+}
 .mt-140{
 	@include xl{
         margin-top: 105px;

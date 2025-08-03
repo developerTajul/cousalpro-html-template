@@ -139,6 +139,9 @@
                 left: -31px;
                 ;
             }
+            @include xs{
+                display: none;
+            }
         }
     }
 

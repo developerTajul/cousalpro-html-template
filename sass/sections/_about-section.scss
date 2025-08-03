@@ -3,6 +3,10 @@
         left: 50px;
         top: 24px;
         z-index: 1;
+
+        @include lg{
+            display: none;
+        }
     }
 
     &-bg-topographic {
@@ -76,7 +80,7 @@
         .about-card-bg-topographic {
             top: 0;
             right: 0;
-            animation: zoomInOut 2s 2s infinite;
+            animation: zoomInOut 6s linear infinite;
         }
 
         @include md {

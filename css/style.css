@@ -13013,6 +13013,27 @@ html {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .pb-135 {
+    padding-bottom: 105px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pb-135 {
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pb-135 {
+    padding-bottom: 55px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pb-135 {
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .mt-140 {
     margin-top: 105px;
   }
@@ -14800,6 +14821,7 @@ html {
 @media only screen and (max-width: 767px) {
   .hero-area-title-one {
     font-size: 80px;
+    line-height: 1.2;
   }
 }
 @media (max-width: 576px) {
@@ -14809,7 +14831,7 @@ html {
 }
 @media only screen and (max-width: 575px) {
   .hero-area-title-one {
-    font-size: 30px;
+    font-size: 42px;
   }
 }
 .hero-area-title-one span {
@@ -15835,6 +15857,11 @@ html {
   top: 24px;
   z-index: 1;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area-bg-shape {
+    display: none;
+  }
+}
 .about-area-bg-topographic {
   top: -110px;
   right: 0;
@@ -15911,7 +15938,7 @@ html {
 .about-area-main-part .about-card-bg-topographic {
   top: 0;
   right: 0;
-  animation: zoomInOut 2s 2s infinite;
+  animation: zoomInOut 6s linear infinite;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area-main-part {
@@ -16223,6 +16250,11 @@ html {
     height: 250px;
     top: -69px;
     left: -31px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .portfolio-area .portfolio-area-awards-arrow-shape {
+    display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -16593,6 +16625,14 @@ html {
   max-width: 33%;
 }
 
+.team-area-member-info-wrapper {
+  gap: 40px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-area-member-info-wrapper {
+    gap: 20px;
+  }
+}
 @media (max-width: 400px) {
   .team-area-member-info-wrapper {
     gap: 20px;
@@ -16607,14 +16647,14 @@ html {
   .team-area-member-info-1 {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 15px 0;
   }
 }
 @media only screen and (max-width: 767px) {
   .team-area-member-info-1 {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 15px 0;
   }
 }
 .team-area-member-info-2 {
@@ -16628,10 +16668,9 @@ html {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-area-member-info-2 {
-    border-left: none;
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    padding: 15px 0;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -16639,22 +16678,21 @@ html {
     border-left: none;
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    padding: 15px 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-area-member-info-3 {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
   }
 }
 @media only screen and (max-width: 767px) {
   .team-area-member-info-3 {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 15px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
@@ -16663,10 +16701,9 @@ html {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-area-member-info-4 {
-    border: none;
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    padding: 15px 0;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -16674,7 +16711,7 @@ html {
     border: none;
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    padding: 15px 0;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -16694,8 +16731,8 @@ html {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-area-member-img {
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -16773,6 +16810,11 @@ html {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-area-member-social-link ul {
+    gap: 5px;
+  }
 }
 .team-area-member-social-link li {
   height: 40px;
