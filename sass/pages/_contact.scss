@@ -3,6 +3,7 @@
         margin-top: 56px;
         @include sm{
             margin-top: 0;
+            margin-bottom: 50px;
         }
     }
     h4{
@@ -18,6 +19,20 @@
         }
         @include sm{
             font-size: 21px;
+        }
+    }
+    .contact-loction{
+        h4{
+            @include sm{
+                margin-bottom: 10px;
+            }
+        }
+        p{
+            br{
+                @include md{
+                    display: none;
+                }
+            }
         }
     }
     .company-map{
