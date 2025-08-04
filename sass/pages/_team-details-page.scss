@@ -1,21 +1,26 @@
 .team-secondary {
-    @include padding-bottom-140;
 
     &-wrapper {
         border-radius: 20px;
         background: #1A1717;
-        padding: 100px 101px 133px 100px;
+        padding: 120px 100px;
 
         @include xl {
-            padding: 60px 96px 133px 60px;
+            padding: 80px;
         }
 
         @include lg {
-            padding: 60px 96px 133px 60px;
+            padding: 80px;
+        }
+        @include md{
+            padding: 60px;
         }
 
         @include sm {
-            padding: 50px 30px 50px 30px;
+            padding: 40px;
+        }
+        @include xs {
+            padding: 30px;
         }
 
         .team-secondary-wcu {

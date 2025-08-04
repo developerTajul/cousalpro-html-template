@@ -16469,7 +16469,7 @@ html {
   font-weight: 400;
   line-height: normal;
   display: inline-block;
-  padding: 22px 20px 20px 38px;
+  padding: 22px 30px;
   border-radius: 38px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.5s ease-out;
@@ -16492,6 +16492,24 @@ html {
 }
 .portfolio-area-btnn a:hover i {
   transform: rotate(0deg);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area-btnn a {
+    font-size: 26px;
+    padding: 20px 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .portfolio-area-btnn a {
+    font-size: 24px;
+    padding: 15px 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .portfolio-area-btnn a {
+    font-size: 22px;
+    padding: 13px 20px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-area .portfolio-area-awards {
@@ -18130,44 +18148,34 @@ html {
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .team-secondary {
-    padding-bottom: 105px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .team-secondary {
-    padding-bottom: 70px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-secondary {
-    padding-bottom: 55px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .team-secondary {
-    padding-bottom: 40px;
-  }
-}
 .team-secondary-wrapper {
   border-radius: 20px;
   background: #1A1717;
-  padding: 100px 101px 133px 100px;
+  padding: 120px 100px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .team-secondary-wrapper {
-    padding: 60px 96px 133px 60px;
+    padding: 80px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .team-secondary-wrapper {
-    padding: 60px 96px 133px 60px;
+    padding: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-secondary-wrapper {
+    padding: 60px;
   }
 }
 @media only screen and (max-width: 767px) {
   .team-secondary-wrapper {
-    padding: 50px 30px 50px 30px;
+    padding: 40px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .team-secondary-wrapper {
+    padding: 30px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -18989,6 +18997,10 @@ html {
   margin-bottom: 26px;
 }
 
+.error-page {
+  position: relative;
+  overflow: hidden;
+}
 .error-page::before {
   content: "";
   position: absolute;
@@ -19017,8 +19029,119 @@ html {
 }
 .error-page-wrapper {
   background: #1A1717;
-  padding: 132px 86px 132px 110px;
+  padding: 120px 100px;
   border-radius: 20px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .error-page-wrapper {
+    padding: 80px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .error-page-wrapper {
+    padding: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .error-page-wrapper {
+    padding: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .error-page-wrapper {
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .error-page-wrapper .content-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .error-page-wrapper .content-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .error-page-wrapper .content-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+.error-page-wrapper .content-wrapper .social-content {
+  align-items: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .error-page-wrapper .content-wrapper .social-content {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .error-page-wrapper .content-wrapper .social-content {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .error-page-wrapper .content-wrapper .social-content {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .error-page-wrapper .error-page-title h1 {
+    font-size: 130px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .error-page-wrapper .error-page-title h1 {
+    font-size: 120px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .error-page-wrapper .error-page-title h1 {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .error-page-wrapper .error-page-title h1 {
+    font-size: 74px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .error-page-wrapper .error-page-title h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .error-page-wrapper .error-page-title h1 {
+    font-size: 54px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .error-page-wrapper .error-page-title h3 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .error-page-wrapper .error-page-title h3 {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .error-page-wrapper .error-page-title h3 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .error-page-wrapper .error-page-title br {
+    display: none;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .error-page-wrapper .error-page-title br {
+    display: none;
+  }
 }
 .error-page-btn a {
   display: inline-block;
@@ -19051,6 +19174,18 @@ html {
 }
 .error-page-bg {
   margin-left: 36px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .error-page-bg {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .error-page-bg {
+    margin-left: 0;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1600px) {
