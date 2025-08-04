@@ -364,13 +364,14 @@
         $(".blog-area-card").off("mouseenter"); // Remove hover effects on mobile
       }
     }
-      handleHoverEffect();
+    handleHoverEffect();
 
-      $(window).resize(function () {
-        handleHoverEffect();
-      });
+    $(window).resize(function () {
+      handleHoverEffect();
+    });
  
-    /*pricing Hover Card
+    
+      /*pricing Hover Card
         ============================*/
     $('#cards-1, #cards-3').on('mouseenter', function () {
       $('#cards-2 .visibles-card').css({
