@@ -70,31 +70,27 @@ html {
     }
 }
 .pb-140{
-	@include xl{
-        padding-bottom: 105px;
-    }
+	
     @include lg{
-        padding-bottom: 70px;
+        padding-bottom: 100px;
     }
     @include md{
-        padding-bottom: 55px;
+        padding-bottom: 80px;
     }
     @include sm{
-        padding-bottom: 40px;
+        padding-bottom: 80px;
     }
 }
 .pb-135{
-	@include xl{
-        padding-bottom: 105px;
-    }
+	
     @include lg{
-        padding-bottom: 70px;
+        padding-bottom: 95px;
     }
     @include md{
-        padding-bottom: 55px;
+        padding-bottom: 75px;
     }
     @include sm{
-        padding-bottom: 40px;
+        padding-bottom: 75px;
     }
 }
 .mt-140{
@@ -112,17 +108,15 @@ html {
     }
 }
 .pt-140{
-	@include xl{
-        padding-top: 105px;
-    }
+
     @include lg{
-        padding-top: 70px;
+        padding-top: 100px;
     }
     @include md{
-        padding-top: 55px;
+        padding-top: 80px;
     }
     @include sm{
-        padding-top: 40px;
+        padding-top: 80px;
     }
 }
 .progress-circle{
@@ -137,7 +131,7 @@ html {
     }
 }
 
-// home one responsive spaces
+// responsive spaces
 .gallery-area{
     &.home-1{
         padding-bottom: 135px;
@@ -169,6 +163,26 @@ html {
         }
         
     }
+    &.home-2{
+        padding-top: 120px;
+        padding-bottom: 130px;
+
+        @include lg{
+            padding-top: 80px;
+            padding-bottom: 90px;
+        }
+        @include md{
+            padding-top: 60px;
+            padding-bottom: 70px;
+        }
+        @include sm{
+            padding-top: 50px;
+            padding-bottom: 85px;
+        }
+        @include xs{
+            padding-bottom: 70px;
+        }
+    }
 }
 
 .portfolio-area{
@@ -199,6 +213,24 @@ html {
             }
         }
     }
+
+    &.home-2{
+        padding-top: 70px;
+        padding-bottom: 135px;
+
+        @include lg{
+            padding-top: 80px;
+            padding-bottom: 95px;
+        }
+        @include md{
+            padding-top: 50px;
+            padding-bottom: 78px;
+        }
+        @include sm{
+            padding-top: 35px;
+            padding-bottom: 75px;
+        }
+    }
 }
 
 .wcu-area{
@@ -218,6 +250,19 @@ html {
         @include sm{
             padding-top: 0 !important;
             padding-bottom: 70px;
+        }
+    }
+
+    &.home-2{
+        padding-bottom: 120px;
+        @include lg{
+            padding-bottom: 80px;
+        }
+        @include md{
+            padding-bottom: 60px;
+        }
+        @include sm{
+            padding-bottom: 50px;
         }
     }
 }
@@ -250,6 +295,61 @@ html {
         @include sm{
             padding-top: 40px;
             padding-bottom: 30px;
+        }
+    }
+    &.home-2{
+        padding-top: 136px;
+        padding-bottom: 140px;
+
+        @include lg{
+            padding-top: 96px;
+            padding-bottom: 100px;
+        }
+        @include md{
+            padding-top: 76px;
+            padding-bottom: 30px;
+        }
+        @include sm{
+            padding-top: 76px;
+            padding-bottom: 45px;
+        }
+    }
+}
+
+.services-area{
+    &.home-2{
+        padding-bottom: 70px;
+
+        @include lg{
+            padding-bottom: 50px;
+        }
+        @include md{
+            padding-bottom: 65px;
+        }
+        @include sm{
+            padding-bottom: 20px;
+        }
+
+        
+    }
+}
+
+.pricing-area{
+    &.home-2{
+        padding-top: 140px;
+        padding-bottom: 140px;
+
+        @include lg{
+            padding-top: 100px;
+            padding-bottom: 104px;
+        }
+        @include md{
+            padding-top: 80px;
+            padding-bottom: 90px;
+        }
+        @include sm{
+            padding-top: 76px;
+            padding-bottom: 90px;
         }
     }
 }

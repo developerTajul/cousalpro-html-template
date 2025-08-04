@@ -588,6 +588,9 @@
       height: 120px;
       padding: 10px 17px;
     }
+    @include xs{
+      right: 0;
+    }
 
     @include rmaxwd(480) {
       width: 90px;

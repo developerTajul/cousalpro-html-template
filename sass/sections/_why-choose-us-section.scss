@@ -17,21 +17,7 @@
     }
   }
 
-  @include xl {
-    padding-bottom: 105px;
-  }
-
-  @include lg {
-    padding-bottom: 70px;
-  }
-
-  @include md {
-    padding-bottom: 55px;
-  }
-
-  @include sm {
-    padding-bottom: 40px;
-  }
+  
 
   .reverse {
     @include rmaxwd(1199) {
@@ -202,8 +188,16 @@
   }
 }
 
+.wcu-area-page{
+  text-align: center;
+  overflow: hidden;
+}
 .wcu-area-page-circle-img{
-   animation: rotated_circle 30s infinite;
+  overflow: hidden;
+  img{
+    object-fit: cover;
+    animation: rotated_circle 30s infinite;
+  }
 }
 
 .wcu-area-page-img-content{

@@ -12,6 +12,12 @@
   @include sm {
     padding-bottom: 20px;
   }
+  &.about{
+    padding-bottom: 75px;
+    @include lg{
+      padding-bottom: 55px;
+    }
+  }
 
   &-shape {
     position: absolute;
@@ -136,22 +142,18 @@
   &.style-2 {
     @include xl {
       padding-top: 10px;
-      padding-bottom: 30px;
     }
 
     @include lg {
       padding-top: 10px;
-      padding-bottom: 30px;
     }
 
     @include md {
       padding-top: 10px;
-      padding-bottom: 30px;
     }
 
     @include sm {
       padding-top: 10px;
-      padding-bottom: 30px;
     }
 
     .text-marque-section {
