@@ -93,6 +93,15 @@
         .wcu-area-card-info-secondary{
             .wcu-area-info-card-wrapper{
                 margin-bottom: 60px;
+
+                &.last-item{
+                    @include md{
+                        margin-bottom: 0;
+                    }
+                    @include sm{
+                        margin-bottom: 0;
+                    }
+                }
             }
         }
     }
@@ -177,7 +186,7 @@
         }
     }
     .wuc-accordion {
-        @include padding-bottom-140;
+       
         .section-specing {
             padding: 53px 97px 31px 105px;
             border-radius: 20px;
