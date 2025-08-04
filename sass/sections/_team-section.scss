@@ -220,10 +220,40 @@
 .team-wcu-wrapper{
     padding-left: 80px;
 
+    @include md{
+        padding-left: 30px;
+    }
+    @include sm{
+        padding-left: 0px;
+    }
+
     .team-wcu-content{
 
         .team-wcu-info{
             margin-top: 25px;
+
+            @include md{
+                gap: 20px;
+            }
+            @include xxs{
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            &-title{
+                @include xxs{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                h5{
+                    @include md{
+                        font-size: 20px;
+                    }
+                    @include sm{
+                        font-size: 20px;
+                    }
+                }
+            } 
         }
     }
 }

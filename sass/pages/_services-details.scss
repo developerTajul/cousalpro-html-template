@@ -1,5 +1,8 @@
 .service-details-page{
     .service-details-wcu{
+        &-content{
+            overflow: hidden;
+        }
         &-title {
             width: 416px;
             height: 383px;
@@ -93,6 +96,10 @@
         .wcu-area-card-info-secondary{
             .wcu-area-info-card-wrapper{
                 margin-bottom: 60px;
+
+                @include sm{
+                    margin-bottom: 30px;
+                }
 
                 &.last-item{
                     @include md{

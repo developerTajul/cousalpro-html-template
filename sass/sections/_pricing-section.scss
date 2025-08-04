@@ -1,24 +1,5 @@
 .pricing-area {
-  @include xl {
-    padding-bottom: 105px;
-    padding-top: 105px;
-  }
-
-  @include lg {
-    padding-bottom: 70px;
-    padding-top: 70px;
-  }
-
-  @include md {
-    padding-bottom: 55px;
-    padding-top: 55px;
-  }
-
-  @include sm {
-    padding-bottom: 40px;
-    padding-top: 40px;
-  }
-
+  
   &-bg-img {
     top: -153px;
 

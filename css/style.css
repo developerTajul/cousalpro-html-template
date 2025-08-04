@@ -17116,8 +17116,46 @@ html {
 .team-wcu-wrapper {
   padding-left: 80px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-wcu-wrapper {
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-wcu-wrapper {
+    padding-left: 0px;
+  }
+}
 .team-wcu-wrapper .team-wcu-content .team-wcu-info {
   margin-top: 25px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-wcu-wrapper .team-wcu-content .team-wcu-info {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .team-wcu-wrapper .team-wcu-content .team-wcu-info {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .team-wcu-wrapper .team-wcu-content .team-wcu-info-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-wcu-wrapper .team-wcu-content .team-wcu-info-title h5 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-wcu-wrapper .team-wcu-content .team-wcu-info-title h5 {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -17558,30 +17596,6 @@ html {
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .pricing-area {
-    padding-bottom: 105px;
-    padding-top: 105px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .pricing-area {
-    padding-bottom: 70px;
-    padding-top: 70px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .pricing-area {
-    padding-bottom: 55px;
-    padding-top: 55px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .pricing-area {
-    padding-bottom: 40px;
-    padding-top: 40px;
-  }
-}
 .pricing-area-bg-img {
   top: -153px;
 }
@@ -18392,6 +18406,9 @@ html {
   }
 }
 
+.service-details-page .service-details-wcu-content {
+  overflow: hidden;
+}
 .service-details-page .service-details-wcu-title {
   width: 416px;
   height: 383px;
@@ -18498,6 +18515,11 @@ html {
 }
 .service-details-page .service-details-wcu .wcu-area-card-info-secondary .wcu-area-info-card-wrapper {
   margin-bottom: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .service-details-page .service-details-wcu .wcu-area-card-info-secondary .wcu-area-info-card-wrapper {
+    margin-bottom: 30px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-details-page .service-details-wcu .wcu-area-card-info-secondary .wcu-area-info-card-wrapper.last-item {
@@ -18699,24 +18721,22 @@ html {
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .project-page .project-area {
-    padding-bottom: 50px;
-  }
+.project-page .project-area {
+  padding-bottom: 95px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .project-page .project-area {
-    padding-bottom: 20px;
+    padding-bottom: 55px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .project-page .project-area {
-    padding-bottom: 5px;
+    padding-bottom: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .project-page .project-area {
-    padding-bottom: 0px;
+    padding-bottom: 80px;
   }
 }
 .project-page .projects-wrapper {
