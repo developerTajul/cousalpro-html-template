@@ -152,21 +152,6 @@
       ],
     });
 
-    /*============================
-        Service Details Accordion
-        ============================*/
-    document.querySelectorAll('.wuc-accordion-wrapper').forEach(accordion => {
-      const title = accordion.querySelector('.wuc-accordion-title');
-      const rightArrow = title.querySelector('.right-arrow');
-      const bottomArrow = title.querySelector('.bottom-arrow');
-      const content = accordion.querySelector('.wuc-accordion-pra');
-
-      title.addEventListener('click', () => {
-        content.classList.toggle('active');
-        rightArrow.classList.toggle('active');
-        bottomArrow.classList.toggle('active');
-      });
-    });
 
     /*============================
         Magnific Popup
@@ -452,7 +437,7 @@
         opacity: 0              
       });
 
-      sr.reveal('.about-card-area, .blog-area-card, .services-area-card, .pricing-area-card, .wcu-area-info-card-wrapper, .wcu-area-info-card-wrapper, .team-area-member-info-wrapper, .team-area-member-info-3, .team-wcu-info-title, .contact-loction, .wcu-area-info-card-wrapper, .our-work-step-card-wrapper, .wuc-accordion-wrapper, .single-post-item, .projects-wrapper ',{
+      sr.reveal('.about-card-area, .blog-area-card, .services-area-card, .pricing-area-card, .wcu-area-info-card-wrapper, .wcu-area-info-card-wrapper, .team-area-member-info-wrapper, .team-area-member-info-3, .team-wcu-info-title, .contact-loction, .wcu-area-info-card-wrapper, .our-work-step-card-wrapper, .accordion-item, .single-post-item, .projects-wrapper ',{
           origin: 'bottom',
           interval: 250,
           

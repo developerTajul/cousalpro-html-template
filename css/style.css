@@ -18644,28 +18644,38 @@ html {
   }
 }
 .service-details-page .wuc-accordion .section-specing {
-  padding: 53px 97px 31px 105px;
+  padding: 80px;
   border-radius: 20px;
   background: #1A1717;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .service-details-page .wuc-accordion .section-specing {
-    padding: 50px 37px 31px 46px;
+    padding: 50px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .service-details-page .wuc-accordion .section-specing {
-    padding: 27px 16px 21px 20px;
+    padding: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-details-page .wuc-accordion .section-specing {
-    padding: 10px 10px 10px 10px;
+    padding: 20px 40px 60px;
   }
 }
 @media only screen and (max-width: 767px) {
   .service-details-page .wuc-accordion .section-specing {
-    padding: 30px 10px 30px 10px;
+    padding: 20px 40px 60px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .service-details-page .wuc-accordion .section-specing {
+    padding: 10px 25px 40px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .service-details-page .wuc-accordion .section-specing {
+    padding: 25px 0px 80px;
   }
 }
 .service-details-page .wuc-accordion-bg-img {
@@ -18737,6 +18747,119 @@ html {
 @media (max-width: 992px) {
   .service-details-page .wuc-accordion-image-wrapper {
     display: none;
+  }
+}
+
+.faq-container {
+  margin-right: 15px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .faq-container {
+    margin-right: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faq-container {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .faq-container {
+    margin-right: 0;
+  }
+}
+.faq-container .accordion-item {
+  background-color: transparent;
+  padding: 20px 0px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 767px) {
+  .faq-container .accordion-item {
+    margin-bottom: 20px;
+  }
+}
+.faq-container .accordion-item:last-child {
+  margin-bottom: 0;
+}
+.faq-container .accordion-item .accordion-header .accordion-button {
+  position: relative;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: white;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faq-container .accordion-item .accordion-header .accordion-button {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .faq-container .accordion-item .accordion-header .accordion-button {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .faq-container .accordion-item .accordion-header .accordion-button {
+    font-size: 18px;
+  }
+}
+.faq-container .accordion-item .accordion-header .accordion-button.collapsed {
+  color: white;
+  box-shadow: none;
+}
+.faq-container .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+}
+.faq-container .accordion-item .accordion-header .accordion-button:not(.collapsed)::before {
+  content: "\f107";
+}
+.faq-container .accordion-item .accordion-header .accordion-button:focus {
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+}
+.faq-container .accordion-item .accordion-header .accordion-button:after {
+  display: none;
+}
+.faq-container .accordion-item .accordion-header .accordion-button:before {
+  content: "\f105";
+  position: absolute;
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
+  font-size: 18px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  transition: all 0.3s;
+  color: #EDBC5A;
+}
+.faq-container .accordion-item .accordion-body {
+  padding: 0;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #B0B0B0;
+}
+@media only screen and (max-width: 575px) {
+  .faq-container .accordion-item .accordion-body {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .faq-container .accordion-item .accordion-body {
+    margin-top: 10px;
   }
 }
 
