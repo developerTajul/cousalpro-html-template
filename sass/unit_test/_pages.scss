@@ -12,11 +12,15 @@
             font-weight: 500;
 
             a{
-                color: $primary-color;
+                color: $gray-800;
+
+                &:hover{
+                    color: $primary-color;
+                }
             }
 
             code{
-                color: $primary-color;
+                color: $gray-800;
             }
         }
 
@@ -25,7 +29,11 @@
                 font-weight: 500;
 
                 a{
-                    color: $primary-color;
+                    color: $gray-800;
+
+                    &:hover{
+                        color: $primary-color;
+                    }
                 }
             }
         }
@@ -37,13 +45,20 @@
         table{
             th{
                 a{
-                    color: $primary-color;
+                    color: $gray-800;
+                    &:hover{
+                        color: $primary-color;
+                    }
                 }
             }
             tr{
                 td{
                     a{
-                        color: $primary-color;
+                        color: $gray-800;
+
+                        &:hover{
+                            color: $primary-color;
+                        }
                     }
                 }
             }
@@ -51,7 +66,11 @@
         dl{
             dd{
                 a{
-                    color: $primary-color;
+                    color: $gray-800;
+
+                    &:hover{
+                        color: $primary-color;
+                    }
                 }
             }
         }
