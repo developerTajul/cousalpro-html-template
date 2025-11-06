@@ -42,9 +42,25 @@
 
 .header-area{
     width: 100%;
-    height: 153px;
+  //  height: 153px;
     @include sm{
       height: 100px;
+    }
+
+    &.home-2{
+      .container{
+
+        @media (min-width: 1400px){
+          max-width: 1700px; 
+        }
+        
+      }
+
+      .header-wrapper-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
     }
   .fixed-menu{
     background-color: transparent;
@@ -77,16 +93,14 @@
 
   &-image{
 
-    @include lg{
-      margin-left: 50px;
-    }
+   
     @include md{
       padding: 25px 0;
-      margin-left: 50px;
+     
     }
     @include sm{
       padding: 25px 0;
-      margin-left: 30px;
+     
     }
   }
 
@@ -268,7 +282,7 @@
     }
   }
   &-touch-btn{
-    margin-left: 20px;
+   
     @include xml{
      display: none;
     }
@@ -327,12 +341,7 @@
     }
   }
   &-menu-icon{
-    @include xl{
-      margin-right: 120px
-    }
-    @include lg{
-      margin-right: 62px;
-    }
+    
     @include rmaxwd(991){
       display: none;
     }
@@ -349,22 +358,21 @@
       }
     }
     a{
-      &.canvas::after {
-        content: 'Menu';
         font-family: Rubik;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 29px;
-        margin-left: 15px;
-        position: absolute;
+        line-height: 29px; 
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
         @include xl{
           font-size: 14px;
         }
         @include lg{
           font-size: 14px;
         }
-      }
       &:hover{
        span{
         &::before{
@@ -389,6 +397,9 @@
   }
   .header-area-menu-icon.style-2 {
     margin-right: 0px;
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
   }
 
   #toggle-button{
@@ -396,4 +407,13 @@
   }
 }
 
+.header-right{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  @include xl{
+    gap: 25px;
+  }
+}
 
