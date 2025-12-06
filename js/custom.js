@@ -267,6 +267,10 @@
       $('.off-canvas-menu').removeClass('canvas-ative');
       $('.off-canvas-menu-overlay').removeClass('canvas-overlay-ative');
     });
+    $('.off-canvas-menu-overlay').on('click', function () {
+      $('.off-canvas-menu').removeClass('canvas-ative');
+      $('.off-canvas-menu-overlay').removeClass('canvas-overlay-ative');
+    });
     
     /*
     Window Load Offcanvas
@@ -431,15 +435,15 @@
 
       const sr = ScrollReveal({
         origin: 'top',
-        duration : 2000,
-        distance: '60px',
+        duration : 1000,
+        distance: '40px',
         delay: 0,
         opacity: 0              
       });
 
       sr.reveal('.about-card-area, .blog-area-card, .services-area-card, .pricing-area-card, .wcu-area-info-card-wrapper, .wcu-area-info-card-wrapper, .team-area-member-info-wrapper, .team-area-member-info-3, .team-wcu-info-title, .contact-loction, .wcu-area-info-card-wrapper, .our-work-step-card-wrapper, .accordion-item, .single-post-item, .projects-wrapper ',{
           origin: 'bottom',
-          interval: 250,
+          interval: 100,
           
         })
 

@@ -10,6 +10,16 @@
   opacity: 0;
   transform: scaleY(0);
   transition: all 0.5s ease 0s;
+
+  @include sm{
+    width: 500px;
+  }
+  @include xs{
+    width: 400px;
+  }
+  @include xxs{
+    width: auto;
+  }
   &.search-menu-active{
     visibility: visible;
     opacity: 1;
@@ -26,6 +36,13 @@
     border-radius: 5px;
     width: 100%;
     padding: 15px;
+
+    @include sm{
+      padding: 5px;
+    }
+    @include xs{
+      padding: 0px;
+    }
   }
 
   .input-field {
@@ -39,6 +56,16 @@
     background: #333333;
     color: $white;
     transition: border-color 0.3s;
+
+    @include lg{
+      padding: 10px 15px;
+    }
+    @include md{
+      padding: 10px 15px;
+    }
+    @include sm{
+      padding: 10px 15px;
+    }
 
     &:focus {
       border-bottom: 2px solid $white;
@@ -55,6 +82,13 @@
     cursor: pointer;
     transition: color 0.3s;
 
+    @include xs{
+      font-size: 20px;
+    }
+    @include xxs{
+      font-size: 18px;
+    }
+
     &:hover {
       color: $primary-color;
     }
@@ -70,6 +104,13 @@
     border-radius: 4px;
     cursor: pointer;
     transition: color 0.3s;
+
+    @include xs{
+      font-size: 28px;
+    }
+    @include xxs{
+      font-size: 26px;
+    }
 
     &:hover {
       color: $primary-color;

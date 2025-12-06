@@ -14592,6 +14592,7 @@ html {
 }
 .off-canvas-menu-wrapper {
   padding: 70px 35px 380px 35px;
+  background: #333333;
 }
 .off-canvas-menu-header .close-icon {
   font-size: 30px;
@@ -14898,6 +14899,21 @@ html {
   transform: scaleY(0);
   transition: all 0.5s ease 0s;
 }
+@media only screen and (max-width: 767px) {
+  .search-menu-container {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .search-menu-container {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .search-menu-container {
+    width: auto;
+  }
+}
 .search-menu-container.search-menu-active {
   visibility: visible;
   opacity: 1;
@@ -14914,6 +14930,16 @@ html {
   width: 100%;
   padding: 15px;
 }
+@media only screen and (max-width: 767px) {
+  .search-menu-container form {
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .search-menu-container form {
+    padding: 0px;
+  }
+}
 .search-menu-container .input-field {
   flex: 1;
   padding: 15px;
@@ -14925,6 +14951,21 @@ html {
   background: #333333;
   color: #ffffff;
   transition: border-color 0.3s;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .search-menu-container .input-field {
+    padding: 10px 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .search-menu-container .input-field {
+    padding: 10px 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .search-menu-container .input-field {
+    padding: 10px 15px;
+  }
 }
 .search-menu-container .input-field:focus {
   border-bottom: 2px solid #ffffff;
@@ -14939,6 +14980,16 @@ html {
   cursor: pointer;
   transition: color 0.3s;
 }
+@media only screen and (max-width: 575px) {
+  .search-menu-container .submit-btn {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .search-menu-container .submit-btn {
+    font-size: 18px;
+  }
+}
 .search-menu-container .submit-btn:hover {
   color: #EDBC5A;
 }
@@ -14952,6 +15003,16 @@ html {
   border-radius: 4px;
   cursor: pointer;
   transition: color 0.3s;
+}
+@media only screen and (max-width: 575px) {
+  .search-menu-container .close-btn {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .search-menu-container .close-btn {
+    font-size: 26px;
+  }
 }
 .search-menu-container .close-btn:hover {
   color: #EDBC5A;
@@ -19322,6 +19383,10 @@ html {
   }
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 @media (min-width: 1600px) {
   .container-custom {
     max-width: 1600px !important;
@@ -19370,11 +19435,6 @@ html {
 }
 .header-area {
   width: 100%;
-}
-@media only screen and (max-width: 767px) {
-  .header-area {
-    height: 100px;
-  }
 }
 @media (min-width: 1400px) {
   .header-area.home-2 .container {
@@ -19509,19 +19569,6 @@ html {
   margin-left: 5px;
   font-weight: 900;
 }
-.header-area-menu.style-2 .main-menu ul {
-  margin-left: 50px;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .header-area-menu.style-2 .main-menu ul {
-    margin-left: 25px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-area-menu.style-2 .main-menu ul {
-    margin-left: 25px;
-  }
-}
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
   .header-area-menu.style-2 .main-menu ul li {
     margin-left: 30px;
@@ -19613,18 +19660,11 @@ html {
 .header-area #toggle-button {
   display: none;
   visibility: hidden;
-  margin-right: 50px;
 }
 @media (max-width: 991px) {
   .header-area #toggle-button {
     display: block;
     visibility: visible;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .header-area #toggle-button {
-    margin-right: 30px;
-    margin-top: 4px;
   }
 }
 .header-area #toggle-button button {
@@ -19670,6 +19710,11 @@ html {
     font-size: 14px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-area-menu-icon a {
+    display: none;
+  }
+}
 .header-area-menu-icon a:hover span::before {
   color: #EDBC5A;
   transition: all 0.5s ease-out;
@@ -19708,6 +19753,17 @@ html {
   .header-right {
     gap: 25px;
   }
+}
+@media only screen and (max-width: 767px) {
+  .header-right {
+    gap: 25px;
+  }
+}
+.header-right .header-area-touch-btn {
+  z-index: 11;
+}
+.header-right .header-area-menu-icon {
+  z-index: 11;
 }
 
 .blog-area-card {
