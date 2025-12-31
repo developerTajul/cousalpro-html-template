@@ -33,6 +33,11 @@
         border-radius: 381px;
     }
     &-image{
+        min-height: 490px;
+        background: linear-gradient(45deg, black, transparent);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 0;
         text-align: center;
         img{
             border-radius: 15px;

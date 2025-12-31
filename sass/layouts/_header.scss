@@ -110,9 +110,19 @@ body{
 
   .logo-wrapper{
     .logo{
+
+      padding: 36px 0;
+      @include md{
+        padding: 0;
+      }
+      @include sm{
+        padding: 0;
+      }
+
       .sticky-logo{
         display: none;
       }
+      
     }
   }
 

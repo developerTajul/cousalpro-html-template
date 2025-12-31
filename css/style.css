@@ -14278,6 +14278,11 @@ html {
   border-radius: 381px;
 }
 .pages-heading-image {
+  min-height: 490px;
+  background: linear-gradient(45deg, black, transparent);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;
   text-align: center;
 }
 .pages-heading-image img {
@@ -19476,6 +19481,19 @@ body {
     padding: 25px 0;
   }
 }
+.header-area .logo-wrapper .logo {
+  padding: 36px 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-area .logo-wrapper .logo {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header-area .logo-wrapper .logo {
+    padding: 0;
+  }
+}
 .header-area .logo-wrapper .logo .sticky-logo {
   display: none;
 }
@@ -20978,7 +20996,7 @@ body {
 }
 .sidebar {
   padding: 25px;
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgba(236, 236, 236, 0.2);
   border-radius: 6px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -21004,7 +21022,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgba(236, 236, 236, 0.2);
 }
 .sidebar .side-section-heading .section-title {
   font-size: 24px;
@@ -21039,7 +21057,7 @@ body {
   color: #000000;
 }
 .sidebar .popular-post .post-item {
-  border-bottom: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgba(236, 236, 236, 0.2);
   padding-bottom: 20px;
   margin-top: 30px;
 }
@@ -21067,6 +21085,7 @@ body {
 .sidebar .popular-post .post-item .post-title a {
   font-size: 18px;
   color: #ffffff;
+  opacity: 0.8;
 }
 .sidebar .popular-post .post-item .post-title:hover a {
   color: #EDBC5A;
@@ -21078,7 +21097,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgba(236, 236, 236, 0.2);
   padding-bottom: 10px;
 }
 .sidebar .card-item .section-heading .section-title {
@@ -21087,7 +21106,7 @@ body {
 }
 .sidebar .card-item .catagory-wrap .catagory-item {
   background: transparent;
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgba(236, 236, 236, 0.2);
   padding: 10px 30px;
   border-radius: 20px;
   display: flex;
@@ -21096,6 +21115,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
+  opacity: 0.8;
 }
 .sidebar .card-item .catagory-wrap .catagory-item:hover {
   color: #EDBC5A !important;
@@ -21115,6 +21135,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   transition: all 0.3s;
+  opacity: 0.8;
 }
 .sidebar .popular-tags .tags-cloud a:hover {
   background: #EDBC5A;
@@ -21732,7 +21753,7 @@ body {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-comments .wp-block-comment-template li .wp-block-columns {
   padding: 50px;
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgba(236, 236, 236, 0.2);
   margin-bottom: 40px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-avatar {
@@ -22105,7 +22126,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5px 15px;
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgba(236, 236, 236, 0.2);
   border-radius: 50px;
   color: #ffffff;
   font-size: 15px;
@@ -22153,7 +22174,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5px 15px;
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgba(236, 236, 236, 0.2);
   border-radius: 50px;
   color: #ffffff;
   font-size: 15px;
@@ -22347,7 +22368,7 @@ body {
 }
 .blog-area .blog-details-wrapper .author-info {
   background-color: transparent;
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgba(236, 236, 236, 0.2);
   border-radius: 20px;
   padding: 40px;
   position: relative;
@@ -24352,7 +24373,7 @@ img.emoji {
  Block Unit Test Widget
 ============================*/
 .wp-block-search__input {
-  border: 1px solid rgb(236, 236, 236) !important;
+  border: 1px solid rgba(236, 236, 236, 0.2) !important;
 }
 
 .wp-block-search__button {
@@ -24485,7 +24506,7 @@ blockquote footer {
 
 .wp-block-archives select,
 .wp-block-categories select {
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgba(236, 236, 236, 0.2);
   padding: 0 10px;
   margin-bottom: 10px;
 }
@@ -24538,7 +24559,7 @@ nav.wp-calendar-nav a:hover {
 
 .blog-search-content .search-form input {
   width: 50%;
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgba(236, 236, 236, 0.2);
 }
 
 /* Search Widget */

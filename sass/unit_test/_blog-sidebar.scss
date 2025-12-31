@@ -1,4 +1,4 @@
-$border-color: rgb(236, 236, 236);
+$border-color: rgb(236, 236, 236, 0.2);
 
 // blog and blog details page sidebar
 
@@ -89,6 +89,7 @@ $border-color: rgb(236, 236, 236);
           a{
             font-size: 18px;
             color: $white;
+            opacity: 0.8;
           }
 
           &:hover{
@@ -125,6 +126,7 @@ $border-color: rgb(236, 236, 236);
           font-size: 18px;
           font-weight: 400;
           color: $white;
+          opacity: 0.8;
           &:hover {
             color: $primary-color !important;
           }
@@ -147,6 +149,7 @@ $border-color: rgb(236, 236, 236);
           font-size: 14px;
           font-weight: 400;
          transition: all 0.3s;
+         opacity: 0.8;
           &:hover {
             background: $primary-color;
             color: $white;
