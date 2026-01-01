@@ -50,13 +50,32 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+
+        .breadcrumb-list{
+            ul{
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+
+                li{
+                    position: relative;
+
+                    &::after{
+                        content: "/";
+                        position: absolute;
+                        right: -15px;
+                        color: $white;
+                    }
+                }
+            }
+        }
         &.style-2{
             span{
                 @include sm{
                     font-size: 9px;
                 }
             }
-            h2{
+            .page-title{
                 @include sm{
                     font-size: 10px;
                 }
@@ -67,7 +86,7 @@
                 font-size: 14px;
             }
         }
-        h2{
+        .page-title{
             text-transform: uppercase;
             @include xl{
                 font-size: 36px;
