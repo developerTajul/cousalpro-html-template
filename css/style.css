@@ -22952,7 +22952,7 @@ ul.children {
 
 /* Widget */
 .widget {
-  background-color: #f7f1fc;
+  background-color: transparent;
   padding: 10px 15px;
   margin-bottom: 30px;
   border-radius: 6px;
@@ -23009,7 +23009,7 @@ ul.children {
   margin-bottom: 12px;
   padding-bottom: 12px;
   border-bottom: 1px solid #0e3440;
-  color: #000000;
+  color: #ffffff;
   position: relative;
 }
 .widget .wp-block-social-links .wp-social-link {
@@ -23037,7 +23037,7 @@ ul.children {
 .widget .wp-block-latest-posts li .wp-block-latest-posts__post-title {
   line-height: 28px;
   font-weight: 600;
-  color: #0e3440;
+  color: rgba(255, 255, 255, 0.8);
 }
 .widget .wp-block-latest-comments li .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date,
 .widget .wp-block-latest-comments li .wp-block-latest-posts__post-title .wp-block-latest-comments__comment-date,
@@ -23264,7 +23264,7 @@ ul.children {
 }
 .widget ul li a,
 .widget ol li a {
-  color: #0e3440;
+  color: rgba(255, 255, 255, 0.8);
   position: relative;
   display: inline-block;
   text-transform: capitalize;
