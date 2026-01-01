@@ -20232,6 +20232,9 @@ body {
   line-height: normal;
   display: inline-block;
 }
+.footer-area .copyright-text {
+  padding: 20px 0;
+}
 
 .footer-top {
   padding: 32px 0;

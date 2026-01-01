@@ -247,7 +247,8 @@
             }
         }
     }
-    .footer-copy-right-info{
+    .footer-copy-right-info,
+    .copyright-text{
        padding: 20px 0;
         span{
             color: var(--White, #FFF);
@@ -267,6 +268,9 @@
                 display: inline-block;
             }
         }
+    }
+    {
+        padding: 20px 0;
     }
 }
 
