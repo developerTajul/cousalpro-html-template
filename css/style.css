@@ -14300,7 +14300,7 @@ html {
 .pages-heading-text .breadcrumb-list ul {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 25px;
 }
 .pages-heading-text .breadcrumb-list ul li {
   position: relative;
@@ -14331,6 +14331,8 @@ html {
 }
 .pages-heading-text .page-title {
   text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 10px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .pages-heading-text .page-title {

@@ -55,7 +55,7 @@
             ul{
                 display: flex;
                 justify-content: center;
-                gap: 30px;
+                gap: 25px;
 
                 li{
                     position: relative;
@@ -92,6 +92,9 @@
         }
         .page-title{
             text-transform: uppercase;
+            font-size: 40px;
+            margin-top: 10px;
+            
             @include xl{
                 font-size: 36px;
             }
