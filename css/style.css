@@ -14297,13 +14297,30 @@ html {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.pages-heading-text .breadcrumb-list ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.pages-heading-text .breadcrumb-list ul li {
+  position: relative;
+}
+.pages-heading-text .breadcrumb-list ul li::after {
+  content: "/";
+  position: absolute;
+  right: -15px;
+  color: #ffffff;
+}
+.pages-heading-text .breadcrumb-list ul li:last-child::after {
+  content: "";
+}
 @media only screen and (max-width: 767px) {
   .pages-heading-text.style-2 span {
     font-size: 9px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .pages-heading-text.style-2 h2 {
+  .pages-heading-text.style-2 .page-title {
     font-size: 10px;
   }
 }
@@ -14312,31 +14329,31 @@ html {
     font-size: 14px;
   }
 }
-.pages-heading-text h2 {
+.pages-heading-text .page-title {
   text-transform: uppercase;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .pages-heading-text h2 {
+  .pages-heading-text .page-title {
     font-size: 36px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .pages-heading-text h2 {
+  .pages-heading-text .page-title {
     font-size: 28px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .pages-heading-text h2 {
+  .pages-heading-text .page-title {
     font-size: 24px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .pages-heading-text h2 {
+  .pages-heading-text .page-title {
     font-size: 22px;
   }
 }
 @media (max-width: 480px) {
-  .pages-heading-text h2 {
+  .pages-heading-text .page-title {
     font-size: 18px;
   }
 }
@@ -20211,10 +20228,12 @@ body {
 .footer-area-sand-messege a:hover span {
   color: #ffffff;
 }
-.footer-area .footer-copy-right-info {
+.footer-area .footer-copy-right-info,
+.footer-area .copyright-text {
   padding: 20px 0;
 }
-.footer-area .footer-copy-right-info span {
+.footer-area .footer-copy-right-info span,
+.footer-area .copyright-text span {
   color: var(--White, #FFF);
   text-align: center;
   font-family: Gilroy-Regular;
@@ -20223,7 +20242,8 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.footer-area .footer-copy-right-info span a {
+.footer-area .footer-copy-right-info span a,
+.footer-area .copyright-text span a {
   color: #EDBC5A;
   font-family: Gilroy-SemiBold;
   font-size: 14px;
@@ -20231,9 +20251,6 @@ body {
   font-weight: 400;
   line-height: normal;
   display: inline-block;
-}
-.footer-area .copyright-text {
-  padding: 20px 0;
 }
 
 .footer-top {

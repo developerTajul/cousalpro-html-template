@@ -66,6 +66,10 @@
                         right: -15px;
                         color: $white;
                     }
+
+                    &:last-child::after{
+                        content: "";
+                    }
                 }
             }
         }
