@@ -23059,7 +23059,7 @@ ul.children {
 }
 .widget .wp-block-latest-comments li a,
 .widget .wp-block-latest-posts li a {
-  color: #0e3440;
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 700;
 }
 .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-author, .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-link,
