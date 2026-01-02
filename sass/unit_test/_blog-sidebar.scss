@@ -20,6 +20,11 @@ $border-color: rgb(236, 236, 236, 0.2);
       margin-top: 52px;
       padding: 20px;
     }
+
+    .widget.widget_block.widget_search{
+      padding-top: 0;
+    }
+    
     .side-section-heading {
       display: flex;
       justify-content: space-between;

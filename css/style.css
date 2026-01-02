@@ -21039,6 +21039,9 @@ body {
     padding: 20px;
   }
 }
+.sidebar .widget.widget_block.widget_search {
+  padding-top: 0;
+}
 .sidebar .side-section-heading {
   display: flex;
   justify-content: space-between;
