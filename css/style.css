@@ -23037,6 +23037,9 @@ ul.children {
   color: #ffffff;
   position: relative;
 }
+.widget .widget .wp-block-search__label {
+  line-height: 1;
+}
 .widget .wp-block-social-links .wp-social-link {
   padding: 0;
   margin: 0;
