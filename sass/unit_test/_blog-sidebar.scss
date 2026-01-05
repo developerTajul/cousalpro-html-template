@@ -10,15 +10,15 @@ $border-color: rgb(236, 236, 236, 0.2);
   
     @include md {
       margin-top: 80px;
-      padding: 40px;
+      padding: 0px;
     }
     @include sm {
       margin-top: 70px; 
-      padding: 40px;
+      padding: 0px;
     }
     @include xs {
       margin-top: 52px;
-      padding: 20px;
+      padding: 0px;
     }
 
     .widget.widget_block.widget_search{

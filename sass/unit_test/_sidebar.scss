@@ -68,6 +68,13 @@
   padding: 10px 15px;
   margin-bottom: 30px;
   border-radius: 6px;
+
+  @include md{
+    padding: 10px 0;
+  }
+  @include sm{
+    padding: 10px 0;
+  }
  
   &:last-child {
     margin-bottom: 0;

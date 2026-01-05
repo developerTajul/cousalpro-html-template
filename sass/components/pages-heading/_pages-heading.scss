@@ -56,6 +56,8 @@
                 display: flex;
                 justify-content: center;
                 gap: 25px;
+                flex-wrap: wrap;
+                row-gap: 3px;
 
                 li{
                     position: relative;

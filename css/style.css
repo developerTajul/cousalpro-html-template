@@ -14301,6 +14301,8 @@ html {
   display: flex;
   justify-content: center;
   gap: 25px;
+  flex-wrap: wrap;
+  row-gap: 3px;
 }
 .pages-heading-text .breadcrumb-list ul li {
   position: relative;
@@ -21024,19 +21026,19 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .sidebar {
     margin-top: 80px;
-    padding: 40px;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 767px) {
   .sidebar {
     margin-top: 70px;
-    padding: 40px;
+    padding: 0px;
   }
 }
 @media only screen and (max-width: 575px) {
   .sidebar {
     margin-top: 52px;
-    padding: 20px;
+    padding: 0px;
   }
 }
 .sidebar .widget.widget_block.widget_search {
@@ -22989,6 +22991,16 @@ ul.children {
   /* Login Widget */
   /* Tagcloud Widget */
   /* Default Widget */
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .widget {
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .widget {
+    padding: 10px 0;
+  }
 }
 .widget:last-child {
   margin-bottom: 0;
