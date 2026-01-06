@@ -14306,6 +14306,7 @@ html {
 }
 .pages-heading-text .breadcrumb-list ul li {
   position: relative;
+  overflow-wrap: anywhere;
 }
 .pages-heading-text .breadcrumb-list ul li::after {
   content: "/";
