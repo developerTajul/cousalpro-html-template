@@ -24958,7 +24958,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) td {
-  color: #000;
+  color: #000 !important;
 }
 
 .page-area {
