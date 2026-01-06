@@ -24511,6 +24511,9 @@ blockquote footer {
   width: calc(100% + 20px);
   max-width: calc(100% + 20px);
 }
+.post-content > .alignwide.is-provider-twitter {
+  width: 100%;
+}
 
 .post-content h2.has-small-font-size {
   line-height: 24px;

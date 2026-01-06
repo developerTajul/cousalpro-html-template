@@ -411,6 +411,10 @@ blockquote {
   margin-right: 0;
   width: calc(100% + 20px);
   max-width: calc(100% + 20px);
+
+  &.is-provider-twitter{
+    width: 100%;
+  }
 }
 .post-content {
   h2.has-small-font-size {
