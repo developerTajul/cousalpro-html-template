@@ -24957,6 +24957,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 20px;
 }
 
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) td {
+  color: #000;
+}
+
 .page-area {
   padding-top: 115px;
   padding-bottom: 100px;
