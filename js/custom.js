@@ -359,6 +359,38 @@
     $(window).resize(function () {
       handleHoverEffect();
     });
+
+    /*
+      Related Portfolio Slider
+      ============================*/
+    $(".portfolio-slider-wrapper").slick({
+        slidesToShow: 3,
+        autoplay: true,
+        draggable: true,
+        arrows: true,
+        slidesToScroll: 1,
+        loop: true,
+        dots: false,
+        speed: 1500,
+        prevArrow:
+            "<button type='button' class='portfolio-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
+        nextArrow:
+            "<button type='button' class='portfolio-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
+        responsive: [
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                },
+            },
+        ],
+    });
  
     
       /*pricing Hover Card
