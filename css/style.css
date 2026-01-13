@@ -19078,16 +19078,22 @@ html {
 
 .widget_service_categories ul li {
   border: 0;
-  padding-bottom: 10px !important;
+  padding-bottom: 13px !important;
 }
 
 .widget_service_categories ul li:hover a {
   background: #EDBC5A;
   color: #ffffff;
 }
+.widget_service_categories ul li:hover a i {
+  color: #ffffff;
+}
 
 .widget_service_categories ul li.active a {
   background: #EDBC5A;
+  color: #ffffff;
+}
+.widget_service_categories ul li.active a i {
   color: #ffffff;
 }
 
@@ -19105,11 +19111,26 @@ html {
   font-weight: 500;
   width: 100%;
 }
+.widget_service_categories ul li a i {
+  font-size: 26px;
+  color: #EDBC5A;
+}
 
 .icon-card {
   display: flex;
   margin-bottom: 36px;
   flex-direction: column;
+}
+
+.icon-card.style-five .icon-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.icon-card.style-five .icon-wrapper .icon i {
+  font-size: 36px;
+  color: #EDBC5A;
+  margin-top: 4px;
 }
 
 .list-item ul {
@@ -19393,6 +19414,7 @@ html {
   height: 100%;
   transform: scale(1);
   transition: all 0.5s ease-out;
+  max-height: 640px;
 }
 
 .project-gallery-image:hover img {

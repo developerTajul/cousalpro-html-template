@@ -523,15 +523,23 @@
 }
 .widget_service_categories ul li {
     border: 0;
-    padding-bottom: 10px !important;
+    padding-bottom: 13px !important;
 }
 .widget_service_categories ul li:hover a {
     background: #EDBC5A;
     color: #ffffff;
+
+    i{
+        color: #ffffff;
+    }
 }
 .widget_service_categories ul li.active a {
     background: #EDBC5A;
     color: #ffffff;
+
+    i{
+        color: #ffffff;
+    }
 }
 .widget_service_categories ul li a {
     background: #ebf4f8;
@@ -551,11 +559,28 @@
     font-size: 18px;
     font-weight: 500;
     width: 100%;
+
+    i{
+        font-size: 26px;
+        color: #EDBC5A;
+    }
 }
 .icon-card {   
     display: flex;
     margin-bottom: 36px;
     flex-direction: column;
+}
+
+.icon-card.style-five .icon-wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    .icon i{
+        font-size: 36px;
+        color: #EDBC5A;
+        margin-top: 4px;
+    }
 }
 .list-item ul {
     padding-left: 0;
